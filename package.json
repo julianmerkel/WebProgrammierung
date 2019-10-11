@@ -1,0 +1,19 @@
+{
+  "name": "webprogrammierung",
+  "version": "1.0.0",
+  "description": "push",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianmerkel/WebProgrammierung.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianmerkel/WebProgrammierung/issues"
+  },
+  "homepage": "https://github.com/julianmerkel/WebProgrammierung#readme"
+}
