@@ -1,7 +1,7 @@
 {
-  "name": "webprogrammierung",
+  "name": "shwebpro",
   "version": "1.0.0",
-  "description": "push",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "clean": "node scripts/clean.js",
@@ -11,15 +11,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/julianmerkel/WebProgrammierung.git"
+    "url": "git+https://github.com/buermarc/shwebpro.git"
   },
-  "author": "",
+  "author": "mulc",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/julianmerkel/WebProgrammierung/issues"
+    "url": "https://github.com/buermarc/shwebpro/issues"
   },
-  "homepage": "https://github.com/julianmerkel/WebProgrammierung#readme",
+  "homepage": "https://github.com/buermarc/shwebpro#readme",
   "devDependencies": {
+    "parcel-bundler": "^1.12.4",
     "shelljs": "^0.8.3"
   }
 }
