@@ -1,7 +1,7 @@
 {
-  "name": "shwebpro",
+  "name": "test-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "das ist ein test",
   "main": "index.js",
   "scripts": {
     "clean": "node scripts/clean.js",
@@ -11,16 +11,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/buermarc/shwebpro.git"
+    "url": "git+https://github.com/jannisschalk-dhbw/test-project.git"
   },
-  "author": "mulc",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/buermarc/shwebpro/issues"
+    "url": "https://github.com/jannisschalk-dhbw/test-project/issues"
   },
-  "homepage": "https://github.com/buermarc/shwebpro#readme",
+  "homepage": "https://github.com/jannisschalk-dhbw/test-project#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4",
-    "shelljs": "^0.8.3"
+    "navigo": "^7.1.2",
+    "parcel-bundler": "^1.12.4"
   }
 }
