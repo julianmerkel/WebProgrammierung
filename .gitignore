@@ -3,3 +3,7 @@
 
 # Ada Library Information
 *.ali
+
+.cache/**
+/dist/**
+/node_modules/**
