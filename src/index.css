@@ -11,15 +11,20 @@
 
 html, body {
     margin: 0;
+    
 }
 
-body {
+ body {
     font-family: 'Roboto', sans-serif;
     font-size: 12pt;
-
-    background-color: rgb(212, 227, 237);
-}
-
-.hidden {
-    display: none;
-}
+    color: seashell;
+    
+    
+    background: url("../img/ibackground.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    
+   
+} 
