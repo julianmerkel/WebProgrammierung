@@ -5,6 +5,10 @@ import stylesheet from "./app.css";
 import Navigo from "navigo/lib/navigo.js";
 import Overview from "./overview/overview.js";
 import Detail from "./detail/detail.js";
+import Quiz from "./quiz/quiz.js";
+import Genre from "./genre/genre.js";
+import Favorite from "./favorite/favorite.js";
+import Watchlist from "./watchlist/watchlist.js";
     /**
      * Hauptklasse der Anwendung. Kümmert sich darum, die Anwendung auszuführen
      * und die angeforderten Bildschirmseiten anzuzeigen.
@@ -23,7 +27,10 @@ import Detail from "./detail/detail.js";
         this._router.on({
             "detail/display/:id":   params => this.showDetail(params.id, "display"),
             "detail/new":           () => this.showDetail("", "new"),
-            "overview":            () => this.showOverview(),
+            "quiz":                 () => this.showQuiz(),
+            "favorite":             () => this.showFavorite(),
+            "watchlist":            () => this.showWatchlist(),
+            "genre":                () => this.showGenre(),
             "*":                    () => this.showOverview(),
         });
 
@@ -85,6 +92,26 @@ import Detail from "./detail/detail.js";
 
     showDetail(id, mode){
         let view = new Detail(this, id, mode);
+        this._switchVisibleView(view);
+    }
+
+    showFavorite() {
+        let view = new Favorite(this);
+        this._switchVisibleView(view);
+    }
+
+    showGenre() {
+        let view = new Genre(this);
+        this._switchVisibleView(view);
+    }
+
+    showWatchlist() {
+        let view = new Watchlist(this);
+        this._switchVisibleView(view);
+    }
+
+    showQuiz() {
+        let view = new Quiz(this);
         this._switchVisibleView(view);
     }
     }
