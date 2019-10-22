@@ -1,6 +1,6 @@
 "use strict";
 
-import stylesheet from "./app.css";
+import stylesheet from "./app.css"; 
 
 import Navigo from "navigo/lib/navigo.js";
 import Overview from "./overview/overview.js";
