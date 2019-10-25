@@ -4,6 +4,8 @@ import stylesheet from "./app.css";
 
 import Navigo from "navigo/lib/navigo.js";
 import Overview from "./overview/overview.js";
+import Start from "./start/start.js";
+import Watchlist from "./watchlist/watchlist.js"
 import Detail from "./detail/detail.js";
     /**
      * Hauptklasse der Anwendung. Kümmert sich darum, die Anwendung auszuführen
@@ -24,7 +26,9 @@ import Detail from "./detail/detail.js";
             "detail/display/:id":   params => this.showDetail(params.id, "display"),
             "detail/new":           () => this.showDetail("", "new"),
             "overview":            () => this.showOverview(),
-            "*":                    () => this.showOverview(),
+            "watchlist":            () => this.showWatchlist(),
+            "start":            () => this.showStart(),
+            "*":                    () => this.showStart(),
         });
 
         this._router.hooks({
@@ -82,6 +86,16 @@ import Detail from "./detail/detail.js";
         let view = new Overview(this);
         this._switchVisibleView(view);
     }
+
+        showStart() {
+            let view = new Start(this);
+            this._switchVisibleView(view);
+        }
+
+    showWatchlist() {
+            let view = new Watchlist(this);
+            this._switchVisibleView(view);
+        }
 
     showDetail(id, mode){
         let view = new Detail(this, id, mode);
