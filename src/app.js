@@ -5,6 +5,12 @@ import stylesheet from "./app.css";
 import Navigo from "navigo/lib/navigo.js";
 import Overview from "./overview/overview.js";
 import Detail from "./detail/detail.js";
+import Start from "./start/start.js";
+import Watchlist from "./watchlist/watchlist.js";
+import Quiz from "./quiz/quiz.js";
+import Favorites from "./favorites/favorites.js";
+import Genre from "./genre/genre.js";
+
     /**
      * Hauptklasse der Anwendung. Kümmert sich darum, die Anwendung auszuführen
      * und die angeforderten Bildschirmseiten anzuzeigen.
@@ -24,7 +30,12 @@ import Detail from "./detail/detail.js";
             "detail/display/:id":   params => this.showDetail(params.id, "display"),
             "detail/new":           () => this.showDetail("", "new"),
             "overview":            () => this.showOverview(),
-            "*":                    () => this.showOverview(),
+            "start":                () => this.showStart(),
+            "watchlist":            () => this.showWatchlist(),
+            "quiz":              () => this.showQuiz(),
+            "favorites":              () => this.showFavorites(),
+            "genre":              () => this.showGenre(),
+            "*":                    () => this.showStart(),
         });
 
         this._router.hooks({
@@ -82,7 +93,31 @@ import Detail from "./detail/detail.js";
         let view = new Overview(this);
         this._switchVisibleView(view);
     }
+        showStart() {
+            let view = new Start(this);
+            this._switchVisibleView(view);
+        }
 
+        showGenre() {
+            let view = new Genre(this);
+            this._switchVisibleView(view);
+        }
+
+
+        showFavorites() {
+            let view = new Favorites(this);
+            this._switchVisibleView(view);
+        }
+
+        showWatchlist() {
+            let view = new Watchlist(this);
+            this._switchVisibleView(view);
+        }
+
+        showQuiz() {
+            let view = new Quiz(this);
+            this._switchVisibleView(view);
+        }
     showDetail(id, mode){
         let view = new Detail(this, id, mode);
         this._switchVisibleView(view);
