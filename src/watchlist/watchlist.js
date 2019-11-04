@@ -49,7 +49,6 @@ class Watchlist {
 
                  this.buildData(data2);
 
-
          });
 
 
@@ -73,11 +72,11 @@ class Watchlist {
 
     buildData(data) {
 
-            this._watchlist.innerHTML = this._watchlist.innerHTML+`
-            <div>
+        let div =  document.createElement("div");
+        div.innerHTML=div.innerHTML+`
                 <h1>`+data+ `</h1><br/>
-            </div>
             `;
+        this._watchlist.appendChild(div);
 
 
     }
