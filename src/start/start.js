@@ -16,6 +16,10 @@ class Start {
 
         // Anzuzeigende HTML-Elemente ermitteln
         let section = container.querySelector("#start").cloneNode(true);
+
+
+
+
         let content = {
             className: "start",
             main: section.querySelectorAll("main > *"),
@@ -28,6 +32,8 @@ class Start {
     get title() {
         return "Übersicht";
     }
+
 }
+
 
 export default Start;
