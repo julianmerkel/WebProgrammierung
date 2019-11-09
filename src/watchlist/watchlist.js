@@ -32,10 +32,14 @@ class Watchlist {
         let section = container.querySelector("#watchlist").cloneNode(true);
         this._watchlist = section.querySelector("#watchlist > main > div");
 
+        let divcontainer = document.createElement("div");
+        divcontainer.setAttribute("class","container");
+        this._watchlist.appendChild(divcontainer);
+
         let searchForm = document.createElement("div");
         searchForm.setAttribute("class","input-group");
         searchForm.setAttribute("style","width: 100%");
-        this._watchlist.appendChild(searchForm);
+        divcontainer.appendChild(searchForm);
 
         let searchField = document.createElement("input");
         searchField.setAttribute("type","text");
