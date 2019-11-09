@@ -2,16 +2,29 @@
   {
     "id":"1",
     "title":"Avengers Endgame",
+    "genre": "",
+    "availability": "",
     "img": "../....."
   },
   {
     "id":"2",
     "title":"Men in Black 2",
+    "genre": "",
+    "availability": "",
     "img": "../....."
   },
   {
     "id":"3",
     "title":"Captain Marvel",
+    "genre": "",
+    "availability": "",
+    "img": "../....."
+  },
+  {
+    "id":"4",
+    "title":"Rogue One A Star Wars Story",
+    "genre": "",
+    "availability": "",
     "img": "../....."
   }
 ]
