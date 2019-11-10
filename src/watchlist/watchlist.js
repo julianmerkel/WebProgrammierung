@@ -78,28 +78,39 @@ class Watchlist {
         searchForm.appendChild(searchButton);
 
         //result
-        let resultDiv = document.createElement("div");
-        resultDiv.setAttribute("class","container");
-        resultDiv.setAttribute("style","background: rgba(105,105,105, 0.5)");
-        this._watchlist.appendChild(resultDiv);
+        let resultContainer = document.createElement("div");
+        resultContainer.setAttribute("class","container");
+        resultContainer.setAttribute("style","background: rgba(105,105,105, 0.5)");
+        this._watchlist.appendChild(resultContainer);
+
+
 
 
         searchButton.addEventListener("click",()=>{
             console.log(searchField.value);
             var resultMovie = searchField.value;
 
-            resultDiv.innerHTML="";
+            resultContainer.innerHTML="";
 
             let resultHeader = document.createElement("h3");
             resultHeader.innerHTML="Result";
-            resultDiv.appendChild(resultHeader);
+            resultContainer.appendChild(resultHeader);
+
+            let resultRow = document.createElement("div");
+            resultRow.setAttribute("class","row");
+            resultContainer.appendChild(resultRow);
+
+
 
             var foundMovie="";
 
 
+            var foundone=false;
              var resultList=[];
             for (var i =0; i<movies.length; i++){
-                if(movies[i].title.includes(resultMovie)){
+                if(movies[i].title.includes(resultMovie)&&resultMovie!=""){
+                    foundone=true;
+                    console.log("if");
                     console.log("icludes!");
                     //arrayWatchlist.push(movies[i].id);
                     //localStorage.setItem("items2",JSON.stringify(arrayWatchlist));
@@ -111,10 +122,14 @@ class Watchlist {
 
 
 
+                    let resCol= document.createElement("div");
+                    resCol.setAttribute("class","col");
+                    resultRow.appendChild(resCol);
+
                     let resCard = document.createElement("div");
                     resCard.setAttribute("class","card");
                     resCard.setAttribute("style","width: 15rem; background: rgba(0,0,0, 0.5)");
-                    resultDiv.appendChild(resCard);
+                    resCol.appendChild(resCard);
                     var resCardBody = document.createElement("div");
                     resCardBody.setAttribute("class","card-body");
                     resCard.appendChild(resCardBody);
@@ -146,6 +161,38 @@ class Watchlist {
                             }
                         }
                         //this.buildData(contentdiv,arrayWatchlist[arrayWatchlist.length-1]);
+                        let contentCol = document.createElement("div");
+                        contentCol.setAttribute("class","col");
+                        contentRow.appendChild(contentCol);
+                        console.log("lappen???")
+
+
+                        let contentCard = document.createElement("div");
+                        contentCard.setAttribute("class","card");
+                        contentCard.setAttribute("style","width: 15rem; background: rgba(0,0,0, 0.5)");
+                        contentCol.appendChild(contentCard);
+                        var contentCardBody = document.createElement("div");
+                        contentCardBody.setAttribute("class","card-body");
+                        contentCard.appendChild(contentCardBody);
+                        let contentTitle = document.createElement("h5");
+                        contentTitle.innerHTML=arrayWatchlist[arrayWatchlist.length-1];
+                        contentCardBody.appendChild(contentTitle);
+                        var deleteButton = document.createElement("button");
+                        deleteButton.setAttribute("id","b"+foundMovie);
+                        deleteButton.setAttribute("name",foundMovie);
+                        deleteButton.setAttribute("class","btn btn-danger");
+                        deleteButton.innerHTML="Delete";
+
+
+                        contentCardBody.appendChild(deleteButton);
+
+
+
+
+
+                        //-----------
+
+                        /*
                         let div =  document.createElement("div");
                         div.setAttribute("id",arrayWatchlist[arrayWatchlist.length-1]);
                         let movieView = document.createElement("h3");
@@ -153,7 +200,7 @@ class Watchlist {
                         div.appendChild(movieView);
                         let br = document.createElement("br");
                         div.appendChild(br);
-                        contentdiv.appendChild(div);
+                        contentContainer.appendChild(div);*/
 
                     }
 
@@ -172,13 +219,22 @@ class Watchlist {
 
             }*/
 
+            if(foundone==false){
+                    console.log("else");
+                    let noResultText = document.createElement("h5");
+                    noResultText.innerHTML="No movies found...";
+                    resultRow.appendChild(noResultText);
+                }
+
+
+
             let closeButton = document.createElement("button");
             closeButton.setAttribute("class","btn btn-secondary");
             closeButton.innerHTML="Close";
             closeButton.addEventListener("click",()=>{
-                resultDiv.innerHTML="";
+                resultContainer.innerHTML="";
             })
-            resultDiv.appendChild(closeButton);
+            resultContainer.appendChild(closeButton);
 
 
 
@@ -193,13 +249,17 @@ class Watchlist {
 
 
         //content
-        let contentdiv = document.createElement("div");
-        contentdiv.setAttribute("class","container");
-        contentdiv.setAttribute("style","background: rgba(105,105,105, 0.5)");
-        this._watchlist.appendChild(contentdiv);
+        let contentContainer = document.createElement("div");
+        contentContainer.setAttribute("class","container");
+        contentContainer.setAttribute("style","background: rgba(105,105,105, 0.5)");
+        this._watchlist.appendChild(contentContainer);
+
+        let contentRow = document.createElement("div");
+        contentRow.setAttribute("class","row");
+        contentContainer.appendChild(contentRow);
 
         let br4=document.createElement("br");
-        contentdiv.appendChild(br4);
+        contentContainer.appendChild(br4);
 
         //ANFANG content
 
@@ -229,7 +289,7 @@ class Watchlist {
             var arrayWatchlist =JSON.parse(localStorage.getItem("items2"));
             console.log(arrayWatchlist);
             for (var i = 0; i<arrayWatchlist.length;i++){
-                this.buildData(contentdiv,arrayWatchlist[i]);
+                this.buildData(contentContainer,arrayWatchlist[i]);
             }
 
         }
@@ -247,7 +307,7 @@ class Watchlist {
 
              console.log(data2);
 
-             this.buildData(contentdiv,arrayWatchlist[arrayWatchlist.length-1]);
+             this.buildData(contentContainer,arrayWatchlist[arrayWatchlist.length-1]);
 
          });
 
