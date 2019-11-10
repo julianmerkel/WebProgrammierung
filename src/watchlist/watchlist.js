@@ -13,17 +13,21 @@ class Watchlist {
 
         onShow() {
 
-       function logg(){
-             var res;
-             for (var i =0; i<movies.length; i++){
-                 if(movies[i].id=="2"){
-                     res=movies[i].title;
-                     return res;
-                 }
-             }
-         }
+       /*let test=[
+           {
+               "id":"1",
+               "name":"Name"
+           },
+           {
+               "id":"2",
+               "name":"namee"
+           }
+       ]
 
-         console.log(logg());
+            var str = JSON.stringify(test);
+            console.log("stringified: "+str);
+            var parsed=JSON.parse(str);
+            console.log("parsed: "+parsed[1].id);*/
 
         let container = document.createElement("div");
         container.innerHTML = watchlist.trim();
@@ -106,7 +110,7 @@ class Watchlist {
 
 
             var foundone=false;
-             var resultList=[];
+             //var resultList=[];
             for (var i =0; i<movies.length; i++){
                 if(movies[i].title.includes(resultMovie)&&resultMovie!=""){
                     foundone=true;
@@ -117,7 +121,7 @@ class Watchlist {
                     //console.log(arrayWatchlist);
 
                     foundMovie = movies[i].id;
-                    resultList.push(foundMovie);
+                    //resultList.push(foundMovie);
                     console.log("found: "+foundMovie);
 
 
@@ -154,12 +158,14 @@ class Watchlist {
                         var movieId = e.target.name;
                         for (var i =0; i<movies.length;i++){
                             if(movies[i].id==movieId){
-                                arrayWatchlist.push(movies[i].title);
+                                arrayWatchlist.push(movies[i]);//§ hier ohne title
                                 localStorage.setItem("items2",JSON.stringify(arrayWatchlist));
                                 console.log(arrayWatchlist);
 
                             }
                         }
+
+                        resultContainer.innerHTML="";
                         //this.buildData(contentdiv,arrayWatchlist[arrayWatchlist.length-1]);
                         let contentCol = document.createElement("div");
                         contentCol.setAttribute("class","col");
@@ -175,11 +181,11 @@ class Watchlist {
                         contentCardBody.setAttribute("class","card-body");
                         contentCard.appendChild(contentCardBody);
                         let contentTitle = document.createElement("h5");
-                        contentTitle.innerHTML=arrayWatchlist[arrayWatchlist.length-1];
+                        contentTitle.innerHTML=arrayWatchlist[arrayWatchlist.length-1].title;//§ .title
                         contentCardBody.appendChild(contentTitle);
                         var deleteButton = document.createElement("button");
-                        deleteButton.setAttribute("id","b"+foundMovie);
-                        deleteButton.setAttribute("name",foundMovie);
+                        deleteButton.setAttribute("id","bb"+arrayWatchlist[arrayWatchlist.length-1].id);
+                        deleteButton.setAttribute("name",arrayWatchlist[arrayWatchlist.length-1].id);
                         deleteButton.setAttribute("class","btn btn-danger");
                         deleteButton.innerHTML="Delete";
 
@@ -188,6 +194,36 @@ class Watchlist {
 
 
 
+
+                        console.log("kuck mal hier: "+arrayWatchlist[arrayWatchlist.length-1].id);
+                        var currentDelB= document.querySelector("#bb"+arrayWatchlist[arrayWatchlist.length-1].id);
+                        console.log(currentDelB);
+                        currentDelB.onclick=function (e) {
+                            console.log(e.target.name);
+                            var movieId = e.target.name;
+                            for (var i = 0; i < movies.length; i++) {
+                                if (movies[i].id == movieId) {
+                                    //arrayWatchlist.push(movies[i].title);//§ hier ohne title
+                                    //localStorage.setItem("items2", JSON.stringify(arrayWatchlist));
+                                    //console.log(arrayWatchlist);
+                                    console.log("delete: "+movies[i].title);
+                                    console.log("deleteELEMENT: "+currentDelB.parentNode);
+                                    contentRow.removeChild(e.target.parentNode.parentNode.parentNode);
+                                    for (var i=0; i<arrayWatchlist.length;i++){
+                                        if (e.target.name==arrayWatchlist[i].id){
+                                            console.log("eigentlich klappts")
+                                            arrayWatchlist.splice(i,1);
+                                            localStorage.setItem("items2",JSON.stringify(arrayWatchlist));
+
+                                        }
+                                    }
+                                    break;
+
+
+
+                                }
+                            }
+                        }
 
 
                         //-----------
@@ -289,7 +325,78 @@ class Watchlist {
             var arrayWatchlist =JSON.parse(localStorage.getItem("items2"));
             console.log(arrayWatchlist);
             for (var i = 0; i<arrayWatchlist.length;i++){
-                this.buildData(contentContainer,arrayWatchlist[i]);
+                //this.buildData(contentContainer,arrayWatchlist[i]);
+                let contentCol = document.createElement("div");
+                contentCol.setAttribute("class","col");
+                contentRow.appendChild(contentCol);
+                console.log("lappen???")
+
+
+                let contentCard = document.createElement("div");
+                contentCard.setAttribute("class","card");
+                contentCard.setAttribute("style","width: 15rem; background: rgba(0,0,0, 0.5)");
+                contentCol.appendChild(contentCard);
+                var contentCardBody = document.createElement("div");
+                contentCardBody.setAttribute("class","card-body");
+                contentCard.appendChild(contentCardBody);
+                let contentTitle = document.createElement("h5");
+                contentTitle.innerHTML=arrayWatchlist[i].title;//§ .title
+                contentCardBody.appendChild(contentTitle);
+                var deleteButton = document.createElement("button");
+                deleteButton.setAttribute("id","bb"+arrayWatchlist[i].id);
+                deleteButton.setAttribute("name",arrayWatchlist[i].id);
+                deleteButton.setAttribute("class","btn btn-danger");
+                deleteButton.innerHTML="Delete";
+
+
+                contentCardBody.appendChild(deleteButton);
+
+
+
+
+                console.log("kuck mal hier: "+arrayWatchlist[i].id);
+                var currentDelB= this._watchlist.querySelector("#bb"+arrayWatchlist[i].id);
+                console.log(currentDelB);
+                currentDelB.onclick=function (e) {
+                    console.log(e.target.name);
+                    var movieId = e.target.name;
+                    for (var i = 0; i < movies.length; i++) {
+                        if (movies[i].id == movieId) {
+                            console.log(i);
+                            //arrayWatchlist.push(movies[i].title);//§ hier ohne title
+                            //localStorage.setItem("items2", JSON.stringify(arrayWatchlist));
+                            //console.log(arrayWatchlist);
+                            //console.log("delete: "+movies[i].title);
+                            //console.log("deleteELEMENT: "+currentDelB.parentNode.parentNode.parentNode);
+                            console.log("e.target.name= "+e.target.name);
+                            console.log("arrayWatchlist[i].id= "+arrayWatchlist);
+
+                            console.log("kakakakaakaakak");
+                            contentRow.removeChild(e.target.parentNode.parentNode.parentNode);
+
+                            for (var i=0; i<arrayWatchlist.length;i++){
+                                if (e.target.name==arrayWatchlist[i].id){
+                                    console.log("eigentlich klappts")
+                                    arrayWatchlist.splice(i,1);
+                                    console.log(arrayWatchlist);
+                                    localStorage.setItem("items2",JSON.stringify(arrayWatchlist));
+
+                                }
+                            }
+
+                            break;
+                            //console.log(e.target.parentElement.parentElement.parentElement.getAttribute("class"));
+
+                        }
+                    }
+
+                }
+
+
+                //aslkdjaslökdja
+
+
+
             }
 
         }
