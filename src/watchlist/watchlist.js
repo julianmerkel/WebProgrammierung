@@ -306,14 +306,14 @@ class Watchlist {
         /////////////ENDE content
 
 
-
+/*
          let button =  document.createElement("BUTTON");
          button.innerHTML="Plus";
          this._watchlist.appendChild(button);
 
          let button2 =  document.createElement("BUTTON");
          button2.innerHTML="Minus";
-         this._watchlist.appendChild(button2);
+         this._watchlist.appendChild(button2);*/
 
         //damits beim ersten start nicht kracht
         if(JSON.parse(localStorage.getItem("items2"))==null){
@@ -404,7 +404,7 @@ class Watchlist {
 
          //Button
 
-
+/*
          button.addEventListener('click', () => {
 
              arrayWatchlist.push("Lappen");
@@ -428,7 +428,7 @@ class Watchlist {
 
 
          });
-
+*/
 
 
 
