@@ -110,18 +110,16 @@ class Watchlist {
 
 
             var foundone=false;
-             //var resultList=[];
+
             for (var i =0; i<movies.length; i++){
                 if(movies[i].title.includes(resultMovie)&&resultMovie!=""){
                     foundone=true;
                     console.log("if");
                     console.log("icludes!");
-                    //arrayWatchlist.push(movies[i].id);
-                    //localStorage.setItem("items2",JSON.stringify(arrayWatchlist));
-                    //console.log(arrayWatchlist);
+
 
                     foundMovie = movies[i].id;
-                    //resultList.push(foundMovie);
+
                     console.log("found: "+foundMovie);
 
 
@@ -166,7 +164,7 @@ class Watchlist {
                         }
 
                         resultContainer.innerHTML="";
-                        //this.buildData(contentdiv,arrayWatchlist[arrayWatchlist.length-1]);
+
                         let contentCol = document.createElement("div");
                         contentCol.setAttribute("class","col");
                         contentRow.appendChild(contentCol);
@@ -225,35 +223,13 @@ class Watchlist {
                             }
                         }
 
-
-                        //-----------
-
-                        /*
-                        let div =  document.createElement("div");
-                        div.setAttribute("id",arrayWatchlist[arrayWatchlist.length-1]);
-                        let movieView = document.createElement("h3");
-                        movieView.innerHTML=arrayWatchlist[arrayWatchlist.length-1];
-                        div.appendChild(movieView);
-                        let br = document.createElement("br");
-                        div.appendChild(br);
-                        contentContainer.appendChild(div);*/
-
                     }
 
 
 
                 }
             }
-/*
-            console.log(resultList);
-            for (var i=0;i<resultList.length;i++){
-                console.log("ähmmm: "+this._watchlist.querySelector("#b"+resultList[i]));
-                var currentB= this._watchlist.querySelector("#b"+resultList[i]);
-                currentB.addEventListener("click",()=>{
-                    console.log(currentB.getAttribute("id"));
-                })
 
-            }*/
 
             if(foundone==false){
                     console.log("else");
@@ -297,25 +273,7 @@ class Watchlist {
         let br4=document.createElement("br");
         contentContainer.appendChild(br4);
 
-        //ANFANG content
 
-
-
-
-
-        /////////////ENDE content
-
-
-/*
-         let button =  document.createElement("BUTTON");
-         button.innerHTML="Plus";
-         this._watchlist.appendChild(button);
-
-         let button2 =  document.createElement("BUTTON");
-         button2.innerHTML="Minus";
-         this._watchlist.appendChild(button2);*/
-
-        //damits beim ersten start nicht kracht
         if(JSON.parse(localStorage.getItem("items2"))==null){
             var arrayWatchlist=[];
             localStorage.setItem("items2",JSON.stringify(arrayWatchlist));
@@ -325,7 +283,7 @@ class Watchlist {
             var arrayWatchlist =JSON.parse(localStorage.getItem("items2"));
             console.log(arrayWatchlist);
             for (var i = 0; i<arrayWatchlist.length;i++){
-                //this.buildData(contentContainer,arrayWatchlist[i]);
+
                 let contentCol = document.createElement("div");
                 contentCol.setAttribute("class","col");
                 contentRow.appendChild(contentCol);
@@ -385,15 +343,12 @@ class Watchlist {
                             }
 
                             break;
-                            //console.log(e.target.parentElement.parentElement.parentElement.getAttribute("class"));
+
 
                         }
                     }
 
                 }
-
-
-                //aslkdjaslökdja
 
 
 
@@ -402,33 +357,7 @@ class Watchlist {
         }
 
 
-         //Button
 
-/*
-         button.addEventListener('click', () => {
-
-             arrayWatchlist.push("Lappen");
-
-             localStorage.setItem("items2",JSON.stringify(arrayWatchlist));
-             let data2 =JSON.parse(localStorage.getItem("items2"));
-
-             console.log(data2);
-
-             this.buildData(contentContainer,arrayWatchlist[arrayWatchlist.length-1]);
-
-         });
-
-         button2.addEventListener('click', () => {
-
-             arrayWatchlist.pop()
-
-             localStorage.setItem("items2",JSON.stringify(arrayWatchlist));
-             let data2 =JSON.parse(localStorage.getItem("items2"));
-             location.reload();
-
-
-         });
-*/
 
 
 
