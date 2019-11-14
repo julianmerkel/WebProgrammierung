@@ -56,7 +56,7 @@
  /* color:blueviolet; background: rgba(0, 0, 0,0.7);*/
 }
 
-.card-body {
+#card-body {
   color: black;
   background: rgba(105,105,105, 0.1);
 }
