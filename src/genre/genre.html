@@ -1,10 +1,221 @@
 <section id="genre" >
     <main>
+     
+      <!-- TODO
+      JUMbotrton wieder rein mit genre auswählen, dann bordeer mit radius drum! -->
+       <!--Navbar-->
+       <nav id="nav" class="navbar navbar-expand-md navbar-light sticky-top">
+          <div class="container-fluid">
+              <div class="navbar-brand">Genre</div>
+          
+              <!--Burger-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+              data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+              </button>   
+
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#/start">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#/favorites">Favorites</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#/watchlist">Watchlist</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#/quiz">Quiz</a>
+                </li>
+              </ul>
+          </div>
+          </div>
+          </nav>
+
+
         <div class="genre">
-            <h2>genre</h2>
-            <p>
-                lappen
-            </p>
+            <h3 id="lead">Wählen Sie ein Genre aus 
+             </h3>
         </div>
+
+        <div id="grid">
+        </div>
+        <div class="accordion" id="accordion">
+            <div id="card" class="card">
+                <div class="card-header" id="headingAbenteuer">
+                    <h5 class="mb-0">
+                    <button id="button" class="btn" data-toggle="collapse" data-target="#collapseAbenteuer" aria-expanded="false" aria-controls="collapseAbenteuer">
+                    Abenteuer
+                    </button>
+                    </h5>
+                    <div id="collapseAbenteuer" class="collapse show" aria-labelledby="headingAbenteuer" data-parent="#accordion">
+                        <div class="card-body">
+                        <div id="row" class="row">
+                          <!-- hier kommen die Filme rein -->
+                          </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="accordion" id="accordion">
+            <div id="card" class="card">
+                <div class="card-header" id="headingAction">
+                    <h5 class="mb-0">
+                    <button id="button" class="btn" data-toggle="collapse" data-target="#collapseAction" aria-expanded="false" aria-controls="collapseAction">
+                    Action
+                    </button>
+                    </h5>
+                    <div id="collapseAction" class="collapse" aria-labelledby="headingAction" data-parent="#accordion">
+                        <div class="card-body">
+                        <div id="row" class="row">
+                          </div>
+                        </div>
+                    </div>
+              </div>
+              </div>
+        </div>
+
+        <div class="accordion" id="accordion">
+            <div id="card" class="card">
+                <div class="card-header" id="headingDrama">
+                    <h5 class="mb-0">
+                    <button id="button" class="btn" data-toggle="collapse" data-target="#collapseDrama" aria-expanded="false" aria-controls="collapseDrama">
+                    Drama
+                    </button>
+                    </h5>
+                    <div id="collapseDrama" class="collapse" aria-labelledby="headingDrama" data-parent="#accordion">
+                        <div class="card-body">
+                        <div id="row" class="row">
+                          </div>
+                        </div>
+                    </div>
+              </div>
+              </div>
+        </div>
+        <div class="accordion" id="accordion">
+            <div id="card" class="card">
+                <div class="card-header" id="headingHorror">
+                    <h5 class="mb-0">
+                    <button id="button" class="btn" data-toggle="collapse" data-target="#collapseHorror" aria-expanded="false" aria-controls="collapseHorror">
+                    Horror
+                    </button>
+                    </h5>
+                    <div id="collapseHorror" class="collapse" aria-labelledby="headingHorror" data-parent="#accordion">
+                        <div class="card-body">
+                        <div id="row" class="row">
+                          </div>
+                        </div>
+                    </div>
+              </div>
+              </div>
+        </div>
+        <div class="accordion" id="accordion">
+            <div id="card" class="card">
+                <div class="card-header" id="headingFamilie">
+                    <h5 class="mb-0">
+                    <button id="button" class="btn" data-toggle="collapse" data-target="#collapseFamilie" aria-expanded="false" aria-controls="collapseFamilie">
+                     Familienfilme
+                    </button>
+                    </h5>
+                    <div id="collapseFamilie" class="collapse" aria-labelledby="headingFamilie" data-parent="#accordion">
+                        <div class="card-body">
+                        <div id="row" class="row">
+                          </div>
+                        </div>
+                    </div>
+              </div>
+              </div>
+        </div>
+
+        <div class="accordion" id="accordion">
+            <div id="card" class="card">
+                <div class="card-header" id="headingKomödien">
+                    <h5 class="mb-0">
+                    <button id="button" class="btn" data-toggle="collapse" data-target="#collapseKomödien" aria-expanded="false" aria-controls="collapseKomödien">
+                    Komödien
+                    </button>
+                    </h5>
+                    <div id="collapseKomödien" class="collapse" aria-labelledby="headingKomödien" data-parent="#accordion">
+                        <div class="card-body">
+                        <div id="row" class="row">
+                          </div>
+                        </div>
+                    </div>
+              </div>
+              </div>
+        </div>
+
+        <div class="accordion" id="accordion">
+            <div id="card" class="card">
+                <div class="card-header" id="headingKrimis">
+                    <h5 class="mb-0">
+                    <button id="button" class="btn" data-toggle="collapse" data-target="#collapseKrimis" aria-expanded="false" aria-controls="collapseKrimis">
+                     Kriminalfilme
+                    </button>
+                    </h5>
+                    <div id="collapseKrimis" class="collapse" aria-labelledby="headingKrimis" data-parent="#accordion">
+                        <div class="card-body">
+                        <div id="row" class="row">
+                          </div>
+                        </div>
+                    </div>
+              </div>
+              </div>
+        </div>
+
+        <div class="accordion" id="accordion">
+            <div id="card" class="card">
+                <div class="card-header" id="headingSciFi">
+                    <h5 class="mb-0">
+                    <button id="button" class="btn" data-toggle="collapse" data-target="#collapseSciFi" aria-expanded="false" aria-controls="collapseSciFi">
+                     Sci-Fi & Horror
+                    </button>
+                    </h5>
+                    <div id="collapseSciFi" class="collapse" aria-labelledby="headingSciFi" data-parent="#accordion">
+                        <div class="card-body">
+                        <div id="row" class="row">
+                          </div>
+                        </div>
+                    </div>
+              </div>
+              </div>
+        </div>
+
+        <div class="accordion" id="accordion">
+            <div id="card" class="card">
+                <div class="card-header" id="headingThriller">
+                    <h5 class="mb-0">
+                    <button id="button" class="btn" data-toggle="collapse" data-target="#collapseThriller" aria-expanded="false" aria-controls="collapseThriller">
+                    Thriller
+                    </button>
+                    </h5>
+                    <div id="collapseThriller" class="collapse" aria-labelledby="headingThriller" data-parent="#accordion">
+                        <div class="card-body">
+                        <div id="row" class="row">
+                          </div>
+                        </div>
+                    </div>
+              </div>
+              </div>
+        </div>
+        <!-- <br /> <br /> <br /> -->
+
+        <footer>
+            <ul class="nav justify-content-center" style="background: rgba(105,105,105, 0.5)">
+                <li class="nav-item">
+                    <a class="nav-link" href="">Impressum</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Kontakt</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="">nach oben</a>
+                </li>
+            </ul>
+        
+    </footer>  
     </main>
 </section>
