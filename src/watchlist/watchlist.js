@@ -46,8 +46,10 @@ class Watchlist {
         divcontainerHeader.appendChild(br);
 
         let header = document.createElement("h3");
+        header.setAttribute("id", "watchlistHeader");
         header.innerHTML="Watchlist";
         divcontainerHeader.appendChild(header);
+        console.log(header.value);
 
         let br2=document.createElement("br");
         divcontainerHeader.appendChild(br2);
@@ -84,6 +86,7 @@ class Watchlist {
         //result
         let resultContainer = document.createElement("div");
         resultContainer.setAttribute("class","container");
+        resultContainer.setAttribute("id", "resContainer");
         resultContainer.setAttribute("style","background: rgba(105,105,105, 0.5)");
         this._watchlist.appendChild(resultContainer);
 
@@ -132,6 +135,16 @@ class Watchlist {
                     resCard.setAttribute("class","card");
                     resCard.setAttribute("style","width: 15rem; background: rgba(0,0,0, 0.5)");
                     resCol.appendChild(resCard);
+
+                    let resCardImage = document.createElement("img");
+                    resCardImage.setAttribute("class", "card-img-top");
+                    resCardImage.setAttribute("width", "100%");
+                    resCardImage.setAttribute("height", "130vw");
+                    resCardImage.setAttribute("object-fit", "cover");
+                    resCardImage.setAttribute("src", movies[i].img);
+                    resCardImage.setAttribute("alt", "Card image cap");
+                    resCard.appendChild(resCardImage);
+
                     var resCardBody = document.createElement("div");
                     resCardBody.setAttribute("class","card-body");
                     resCard.appendChild(resCardBody);
@@ -175,6 +188,16 @@ class Watchlist {
                         contentCard.setAttribute("class","card");
                         contentCard.setAttribute("style","width: 15rem; background: rgba(0,0,0, 0.5)");
                         contentCol.appendChild(contentCard);
+
+                        let contentCardImage = document.createElement("img");
+                        contentCardImage.setAttribute("class", "card-img-top");
+                        contentCardImage.setAttribute("width", "100%");
+                        contentCardImage.setAttribute("height", "130vw");
+                        contentCardImage.setAttribute("object-fit", "cover");
+                        contentCardImage.setAttribute("src", arrayWatchlist[arrayWatchlist.length-1].img);
+                        contentCardImage.setAttribute("alt", "Card image cap");
+                        contentCard.appendChild(contentCardImage);
+
                         var contentCardBody = document.createElement("div");
                         contentCardBody.setAttribute("class","card-body");
                         contentCard.appendChild(contentCardBody);
@@ -184,7 +207,7 @@ class Watchlist {
                         var deleteButton = document.createElement("button");
                         deleteButton.setAttribute("id","bb"+arrayWatchlist[arrayWatchlist.length-1].id);
                         deleteButton.setAttribute("name",arrayWatchlist[arrayWatchlist.length-1].id);
-                        deleteButton.setAttribute("class","btn btn-danger");
+                        deleteButton.setAttribute("class","btn btn-outline-danger");
                         deleteButton.innerHTML="Delete";
 
 
@@ -262,6 +285,7 @@ class Watchlist {
 
         //content
         let contentContainer = document.createElement("div");
+        contentContainer.setAttribute("id","contentContainer");
         contentContainer.setAttribute("class","container");
         contentContainer.setAttribute("style","background: rgba(105,105,105, 0.5)");
         this._watchlist.appendChild(contentContainer);
@@ -294,6 +318,16 @@ class Watchlist {
                 contentCard.setAttribute("class","card");
                 contentCard.setAttribute("style","width: 15rem; background: rgba(0,0,0, 0.5)");
                 contentCol.appendChild(contentCard);
+
+                let contentCardImage = document.createElement("img");
+                contentCardImage.setAttribute("class", "card-img-top");
+                contentCardImage.setAttribute("src", arrayWatchlist[i].img);
+                contentCardImage.setAttribute("alt", "Card image cap");
+                contentCardImage.setAttribute("width", "100%");
+                contentCardImage.setAttribute("height", "130vw");
+                contentCardImage.setAttribute("object-fit", "cover");
+                contentCard.appendChild(contentCardImage);
+
                 var contentCardBody = document.createElement("div");
                 contentCardBody.setAttribute("class","card-body");
                 contentCard.appendChild(contentCardBody);
@@ -303,7 +337,7 @@ class Watchlist {
                 var deleteButton = document.createElement("button");
                 deleteButton.setAttribute("id","bb"+arrayWatchlist[i].id);
                 deleteButton.setAttribute("name",arrayWatchlist[i].id);
-                deleteButton.setAttribute("class","btn btn-danger");
+                deleteButton.setAttribute("class","btn btn-outline-danger");
                 deleteButton.innerHTML="Delete";
 
 

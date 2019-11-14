@@ -1,0 +1,114 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Welcher dieser Filme gewann die meisten Oscar-Auszeichnungen?",
+      "answers": [
+        "Der Pate (1972)",
+        "Slumdog Millionaire (2008)",
+        "Pulp Fiction (1994)",
+        "Ben Hur (1959)"
+      ],
+      "r_answer": "Die richtige Antowrt ist: Ben Hur mit 11 Oscar-Auszeichnungen"
+    },
+    {
+      "id": 2,
+      "question": "Welcher dieser Filme hat das höchste Einspielergebnis erzielt?",
+      "answers": [
+        "Star Wars - Das Erwachen der Macht",
+        "Titanic",
+        "Avengers: Endgame",
+        "Avatar"
+      ],
+      "r_answer": "Avengers: Endgame hat mit 2,789 Milliarden US-Dollar das höchste Einspielergebnis erzielt"
+    },
+    {
+      "id": 3,
+      "question": "Welcher Schauspieler ist der bestbezahlteste Schauspieler 2019",
+      "answers": [
+        "Robert Downey Jr.",
+        "Dwayne Johnson",
+        "Bradley Cooper",
+        "Jackie Chan "
+      ],
+      "r_answer": "Mit 89,4 Millionen Dollar ist Dwayne Johnson der bestbezalteste Schauspieler in 2019"
+    },
+    {
+      "id": 4,
+      "question": "Wieviele Filme umfasst das MCU (Marvel Cinematic Universe)? Stand: 2019",
+      "answers": [
+        "20",
+        "22",
+        "24",
+        "26"
+      ],
+      "r_answer": "Aktuell umfasst das MCU 24 Filme"
+    },
+    {
+      "id": 5,
+      "question": "Welcher Film ist laut IMDb der bestbewertetste Film aller Zeiten?",
+      "answers": [
+        "Der Pate",
+        "Fight Club",
+        "Die Verurteilten",
+        "Forrest Gump"
+      ],
+      "r_answer": "Die Verurteilten ist laut iMDb der bestbewertetste Film aller Zeiten"
+    },
+    {
+      "id": 6,
+      "question": "Welcher Bond-Schauspieler hatte die meisten Hauptrollen in einem Film der Bond-Reihe",
+      "answers": [
+        "Daniel Craig",
+        "Roger Moore",
+        "Pierce Brosnan",
+        "Sean Connery"
+      ],
+      "r_answer": "Roger Moore verkörperte die Hauptrolle in der Bond-Reihe insgesamt sieben mal"
+    },
+    {
+      "id": 7,
+      "question": "Welches Netflix Original wurde bisher am häufigsten gestreamt?",
+      "answers": [
+        "Murder Mystery",
+        "Bright",
+        "Bird Box",
+        "XOXO"
+      ],
+      "r_answer": "Bird Box ist mit 80 Millionen Aufrufen die erfolgreichste Netflix Eigenproduktion"
+    },
+    {
+      "id": 8,
+      "question": "Wer gilt als Schöpfer der Star-Wars Reihe?",
+      "answers": [
+        "George Lucas",
+        "Joanne K. Rowling",
+        "Steven Spielberg",
+        "Veronica Roth"
+      ],
+      "r_answer": "Der Schöpfer der Star-Wars Reihe ist George Lucas"
+    },
+    {
+      "id": 9,
+      "question": "Ich bin der König der Welt! - Aus welchem Film stammt dieses Zitat?",
+      "answers": [
+        "Der König der Löwen",
+        "Die Truman Show",
+        "300",
+        "Titanic"
+      ],
+      "r_answer": "Dieses Zitat stammt natürlich aus Titanic"
+    },
+    {
+      "id": 10,
+      "question": "Welcher Schauspieler/in spielte bisher noch in keinem Fast and Furious Teil mit?",
+      "answers": [
+        "Jared Leto",
+        "Paul Walker",
+        "Nathalie Emmanuel",
+        "Ludacris"
+      ],
+      "r_answer": "Bisher hat man Jared Leto noch nie in einem Fast and Furious Teil gesehen"
+    }
+  ]
+}
