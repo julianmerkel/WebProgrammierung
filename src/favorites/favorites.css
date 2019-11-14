@@ -1,11 +1,34 @@
-#favorites > main > #favoritesContainer > #contentContainer > #contentRow >.col-3 >.card >.card-body {
+ .favorites .container {
+    background: rgba(105,105,105, 0.5);
+ }
+
+ .favorites .input-group {
+    width: 100%;   
+ }
+
+ .favorites .form-control {
+    color:aliceblue; 
+    background: rgba(255, 255, 255, 0.3);
+ }
+
+ .favorites .btn-search {
+    color:blueviolet; 
+    background: rgba(0, 0, 0,0.7);
+ }
+
+ .favorites .card {
+     background: rgba(0,0,0, 0.5);
+     width: 15rem;
+ }
+
+ .favorites .card-body {
     width: 100%;
     height: 8vw;
 }
 
-#favorites > main > #favoritesContainer > #contentContainer > #contentRow >.col-3 >.card >.card-img-top {
+.favorites .card-img-top {
     width: 100%;
     height: 12vw;
     object-fit: cover;
+    alt: "Test 123";
 }
-
