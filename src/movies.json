@@ -126,7 +126,7 @@
     "genre": "Thriller",
     "availability": "",
     "img": "https://img.maximummedia.ie/joe_ie/eyJkYXRhIjoie1widXJsXCI6XCJodHRwOlxcXC9cXFwvbWVkaWEtam9lLm1heGltdW1tZWRpYS5pZS5zMy5hbWF6b25hd3MuY29tXFxcL3dwLWNvbnRlbnRcXFwvdXBsb2Fkc1xcXC8yMDE5XFxcLzA4XFxcLzI5MTUxOTU1XFxcL2pva2VyLXJlYWN0aW9uLmpwZ1wiLFwid2lkdGhcIjo3NjcsXCJoZWlnaHRcIjo0MzEsXCJkZWZhdWx0XCI6XCJodHRwczpcXFwvXFxcL3d3dy5qb2UuaWVcXFwvYXNzZXRzXFxcL2ltYWdlc1xcXC9qb2VcXFwvbm8taW1hZ2UucG5nP2lkPTI2NGEyZGJlMzcwZjJjNjc1ZmNkXCIsXCJvcHRpb25zXCI6W119IiwiaGFzaCI6IjA5MjMyNjI5YTQ4MTU4Y2RhOWE2Zjk4MWFlNzg5OGIyNGJkODliNmQifQ==/joker-reaction.jpg",
-    "imgGenre": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+    "imgGenre": "https://i.pinimg.com/564x/a0/5c/79/a05c79426632e5310b203826c91ba6b3.jpg"
   },
   {
     "id":"17",
@@ -174,7 +174,110 @@
     "genre": "Abenteuer",
     "availability": "",
     "img": "https://media.fromthegrapevine.com/assets/images/2016/1/leonardo_dicaprio_the_revenant-HD.jpg.480x0_q71_crop-scale.jpg",
-    "imgGenre": "https://m.media-amazon.com/images/M/MV5BMDE5OWMzM2QtOTU2ZS00NzAyLWI2MDEtOTRlYjIxZGM0OWRjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg"
+    "imgGenre": "https://img.cineplexx.at/media/at/inc/movies_licences/TheRevenant_Plakatfinal.jpg"
+  },
+  {
+    "id":"23",
+    "title":"Der Herr der Ringe - Die Gefährten",
+    "genre": "Abenteuer",
+    "availability": "",
+    "img": "https://assets.cdn.moviepilot.de/files/30a06f13b41377ae5597b3051c9fd514df18e94e4d0c4ce80ed8555fe02d/fill/960/461/herr-der-ringe.jpg",
+    "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/51VKKN0KZEL._SY445_.jpg"
+  },
+  {
+    "id":"24",
+    "title":"Der Herr der Ringe - Die zwei Türme",
+    "genre": "Abenteuer",
+    "availability": "",
+    "img": "https://filmpluskritik.files.wordpress.com/2018/12/twotowers.jpg?w=816",
+    "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/51ZV53S7ZTL._SY445_.jpg"
+  },
+  {
+    "id":"25",
+    "title":"Der Herr der Ringe - Die Rückkehr des Königs",
+    "genre": "Abenteuer",
+    "availability": "",
+    "img": "https://assets.cdn.moviepilot.de/files/8530aa26af68d198c3747b1e5ebc6f554fa573bcdcfaf868122456b54f2a/fill/640/307/der-herr-der-ringe-die-gef%C3%A4hrten-edit.jpg",
+    "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/A1+POlYbo-L._SX300_.jpg"
+  },
+  {
+    "id":"26",
+    "title":"Hangover",
+    "genre": "Komödie",
+    "availability": "",
+    "img": "http://www.media4.hw-static.com/media/2016/12/warnerbros_thehangover_122716_1800x1200-1800x1200.jpg",
+    "imgGenre": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Hangoverposter09.jpg/220px-Hangoverposter09.jpg"
+  },
+  {
+    "id":"27",
+    "title":"Crazy Stupid Love",
+    "genre": "Komödie",
+    "availability": "",
+    "img": "http://static1.squarespace.com/static/56dab9c786db438d71cfecf9/58c0077d20099e45701c73e6/5c62321be5e5f094ed82b8f2/1549985785357/crazy-stupid-love-56770cb7b21e4.jpg?format=1500w",
+    "imgGenre": "https://is3-ssl.mzstatic.com/image/thumb/Video30/v4/b9/bc/a5/b9bca593-7955-14d0-7f73-e355d0111e84/pr_source.lsr/268x0w.png"
+  },
+  {
+    "id":"28",
+    "title":"Ziemlich beste Freunde",
+    "genre": "Komödie",
+    "availability": "",
+    "img": "https://i.ytimg.com/vi/RJGh0p5JRAQ/maxresdefault.jpg",
+    "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/81ztuP02K6L._SL1500_.jpg"
+  },
+  {
+    "id":"29",
+    "title":"Fack Ju Göhte",
+    "genre": "Komödie",
+    "availability": "",
+    "img": "http://de.web.img3.acsta.net/medias/nmedia/18/99/89/35/20623059.jpg",
+    "imgGenre": "https://media1.jpc.de/image/w600/front/0/4011976897385.jpg"
+  },
+  {
+    "id":"30",
+    "title":"Annabelle",
+    "genre": "Horror",
+    "availability": "",
+    "img": "https://hips.hearstapps.com/digitalspyuk.cdnds.net/18/37/1536833157-annabelle-doll-from-the-movie-poster-conjuring-series.jpg?resize=480:*",
+    "imgGenre": "https://upload.wikimedia.org/wikipedia/en/9/90/Annabelle_film_poster.jpg"
+  },
+  {
+    "id":"31",
+    "title":"Titanic",
+    "genre": "Drama",
+    "availability": "",
+    "img": "https://img.theculturetrip.com/768x432/wp-content/uploads/2016/02/titanic-movie-promo-stills-wallpaper-4.jpg",
+    "imgGenre": "https://upload.wikimedia.org/wikipedia/en/1/19/Titanic_%28Official_Film_Poster%29.png"
+  },
+  {
+    "id":"32",
+    "title":"Der König der Löwen",
+    "genre": "Familie",
+    "availability": "",
+    "img": "https://wallpaperstock.net/wallpapers/thumbs1/31390wide.jpg",
+    "imgGenre": "http://de.web.img3.acsta.net/r_1280_720/medias/nmedia/18/85/50/81/19792293.jpg"
+  },
+  {
+    "id":"33",
+    "title":"Baymax",
+    "genre": "Familie",
+    "availability": "",
+    "img": "https://www.film-rezensionen.de/wp-content/uploads/2015/01/Baymax-Frontpage-750x400.jpg",
+    "imgGenre": "http://de.web.img3.acsta.net/c_215_290/pictures/14/10/23/15/39/054836.jpg"
+  },
+  {
+    "id":"34",
+    "title":"Wonder Woman",
+    "genre": "Fantasy",
+    "availability": "",
+    "img": "https://m.media-amazon.com/images/M/MV5BZWVhYzE0NzgtM2U1Yi00OWM1LWJlZTUtZmNkNWZhM2VkMDczXkEyXkFqcGdeQW1yb3NzZXI@._V1_CR46,0,1401,788_AL_UY268_CR15,0,477,268_AL_.jpg",
+    "imgGenre": "https://is1-ssl.mzstatic.com/image/thumb/Video128/v4/b2/83/e5/b283e562-b7c6-ae86-1871-014952535459/pr_source.lsr/268x0w.png"
+  },
+  {
+    "id":"35",
+    "title":"Pulp Fiction",
+    "genre": "Krimi",
+    "availability": "",
+    "img": "https://images.vice.com/vice/images/articles/meta/2015/09/15/quentin-tarantinos-doch-etwas-seltsame-pulp-fiction-wunschbesetzung-ist-geleakt-worden-462-1442319639.jpg?crop=1xw%3A1xh%3Bcenter%2Ccenter&resize=2000%3A*",
+    "imgGenre": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY268_CR1,0,182,268_AL_.jpg"
   }
-
 ]

@@ -51,157 +51,173 @@ class Genre {
         className: "genre",
         main: section.querySelectorAll("main > *"),
     };
-
         // Ergebnis zurückliefern
         return content;
     }
-
 
     get title() {
         return "Übersicht";
     }
 
-addAbenteuer(data){
-    for(var i = 0; i < data.length; i++){
-        if(data[i].genre == "Abenteuer")
-        this._accordionElementAbenteuer.innerHTML +=`
-            
-                <div class="gallery">
-                    <a target="_blank" href="#">
-                    <img src="`+ data[i].imgGenre +`" alt="`+ data[i].title + `" width="150" height="200">
-                    </a>
-                    <div class="desc">`+ data[i].title + `</div>
-        </div>
-        `
+        // Abenteuerfilme hinzufügen
+    addAbenteuer(data){
+        for(var i = 0; i < data.length; i++){
+            if(data[i].genre == "Abenteuer")
+            this._accordionElementAbenteuer.innerHTML +=`
+                
+                    <div class="gallery">
+                        <a target="_blank" href="#">
+                        <img src="`+ data[i].imgGenre +`" alt="`+ data[i].title + `" width="150" height="200">
+                        </a>
+                        <div class="desc">`+ data[i].title + `</div>
+            </div>
+            `
+        }
     }
-}
 
-addAction(data){
-    for(var i = 0; i < data.length; i++){
-        if(data[i].genre == "Action")
-        this._accordionElementAction.innerHTML +=`
-            
-                <div class="gallery">
-                    <a target="_blank" href="#">
-                      <img src="`+ data[i].imgGenre +`" alt="#" width="200" height="250">
-                    </a>
-                    <div class="desc">`+ data[i].title + `</div>
-        </div>
-        `
+        //Actionfilme hinzufügen
+    addAction(data){
+        for(var i = 0; i < data.length; i++){
+            if(data[i].genre == "Action")
+            this._accordionElementAction.innerHTML +=`
+                
+                    <div class="gallery">
+                        <a target="_blank" href="#">
+                        <img src="`+ data[i].imgGenre +`" alt="#" width="200" height="250">
+                        </a>
+                        <div class="desc">`+ data[i].title + `</div>
+            </div>
+            `
+        }
     }
-}
-addDrama(data){
-    for(var i = 0; i < data.length; i++){
-        if(data[i].genre == "Drama")
-        this._accordionElementDrama.innerHTML +=`
-            
-                <div class="gallery">
-                    <a target="_blank" href="#">
-                      <img src="`+ data[i].imgGenre + `" alt="#" width="200" height="250">
-                    </a>
-                    <div class="desc">`+ data[i].title + `</div>
-        </div>
-        `
+
+        //Dramafilme hinzufügen
+    addDrama(data){
+        for(var i = 0; i < data.length; i++){
+            if(data[i].genre == "Drama")
+            this._accordionElementDrama.innerHTML +=`
+                
+                    <div class="gallery">
+                        <a target="_blank" href="#">
+                        <img src="`+ data[i].imgGenre + `" alt="#" width="200" height="250">
+                        </a>
+                        <div class="desc">`+ data[i].title + `</div>
+            </div>
+            `
+        }
     }
-}
-addHorror(data){
-    for(var i = 0; i < data.length; i++){
-        if(data[i].genre == "Horror")
-        this._accordionElementHorror.innerHTML +=`
-            
-                <div class="gallery">
-                    <a target="_blank" href="#">
-                      <img src="`+ data[i].imgGenre + `" alt="#" width="200" height="250">
-                    </a>
-                    <div class="desc">`+ data[i].title + `</div>
-        </div>
-        `
+
+        //Horrorfilme hinzufügen
+    addHorror(data){
+        for(var i = 0; i < data.length; i++){
+            if(data[i].genre == "Horror")
+            this._accordionElementHorror.innerHTML +=`
+                
+                    <div class="gallery">
+                        <a target="_blank" href="#">
+                        <img src="`+ data[i].imgGenre + `" alt="#" width="200" height="250">
+                        </a>
+                        <div class="desc">`+ data[i].title + `</div>
+            </div>
+            `
+        }
     }
-}
-addFamilie(data){
-    for(var i = 0; i < data.length; i++){
-        if(data[i].genre == "Familie")
-        this._accordionElementFamilie.innerHTML +=`
-            
-                <div class="gallery">
-                    <a target="_blank" href="#">
-                      <img src="`+ data[i].imgGenre + `" alt="#" width="200" height="250">
-                    </a>
-                    <div class="desc">`+ data[i].title + `</div>
-        </div>
-        `
+
+        //Familienfilme hinzufügen
+    addFamilie(data){
+        for(var i = 0; i < data.length; i++){
+            if(data[i].genre == "Familie")
+            this._accordionElementFamilie.innerHTML +=`
+                
+                    <div class="gallery">
+                        <a target="_blank" href="#">
+                        <img src="`+ data[i].imgGenre + `" alt="#" width="200" height="250">
+                        </a>
+                        <div class="desc">`+ data[i].title + `</div>
+            </div>
+            `
+        }
     }
-}
-addFantasy(data){
-    for(var i = 0; i < data.length; i++){
-        if(data[i].genre == "Fantasy")
-        this._accordionElementFantasy.innerHTML +=`
-            
-                <div class="gallery">
-                    <a target="_blank" href="#">
-                      <img src="`+ data[i].imgGenre + `" alt="#" width="200" height="250">
-                    </a>
-                    <div class="desc">`+ data[i].title + `</div>
-        </div>
-        `
+
+        //Fantasyfilme hinzufügen
+    addFantasy(data){
+        for(var i = 0; i < data.length; i++){
+            if(data[i].genre == "Fantasy")
+            this._accordionElementFantasy.innerHTML +=`
+                
+                    <div class="gallery">
+                        <a target="_blank" href="#">
+                        <img src="`+ data[i].imgGenre + `" alt="#" width="200" height="250">
+                        </a>
+                        <div class="desc">`+ data[i].title + `</div>
+            </div>
+            `
+        }
     }
-}
-addKomödien(data){
-    for(var i = 0; i < data.length; i++){
-        if(data[i].genre == "Komödie")
-        this._accordionElementKomödien.innerHTML +=`
-            
-                <div class="gallery">
-                    <a target="_blank" href="#">
-                      <img src="`+ data[i].imgGenre + `" alt="#" width="200" height="250">
-                    </a>
-                    <div class="desc">`+ data[i].title + `</div>
-        </div>
-        `
+
+        //Komödien hinzufügen
+    addKomödien(data){
+        for(var i = 0; i < data.length; i++){
+            if(data[i].genre == "Komödie")
+            this._accordionElementKomödien.innerHTML +=`
+                
+                    <div class="gallery">
+                        <a target="_blank" href="#">
+                        <img src="`+ data[i].imgGenre + `" alt="#" width="200" height="250">
+                        </a>
+                        <div class="desc">`+ data[i].title + `</div>
+            </div>
+            `
+        }
     }
-}
-addKrimis(data){
-    for(var i = 0; i < data.length; i++){
-        if(data[i].genre == "Krimi")
-        this._accordionElementKrimis.innerHTML +=`
-            
-                <div class="gallery">
-                    <a target="_blank" href="#">
-                      <img src="`+ data[i].imgGenre + `" alt="#" width="200" height="250">
-                    </a>
-                    <div class="desc">`+ data[i].title + `</div>
-        </div>
-        `
+
+        //Kriminalfilme hinzufügen
+    addKrimis(data){
+        for(var i = 0; i < data.length; i++){
+            if(data[i].genre == "Krimi")
+            this._accordionElementKrimis.innerHTML +=`
+                
+                    <div class="gallery">
+                        <a target="_blank" href="#">
+                        <img src="`+ data[i].imgGenre + `" alt="#" width="200" height="250">
+                        </a>
+                        <div class="desc">`+ data[i].title + `</div>
+            </div>
+            `
+        }
     }
-}
-addSciFi(data){
-    for(var i = 0; i < data.length; i++){
-        if(data[i].genre == "Sci-Fi")
-        this._accordionElementSciFi.innerHTML +=`
-            
-                <div class="gallery">
-                    <a target="_blank" href="#">
-                      <img src="`+ data[i].imgGenre + `" alt="#" width="200" height="250">
-                    </a>
-                    <div class="desc">`+ data[i].title + `</div>
-        </div>
-        `
+
+        //Science Fiction hinzufügen
+    addSciFi(data){
+        for(var i = 0; i < data.length; i++){
+            if(data[i].genre == "Sci-Fi")
+            this._accordionElementSciFi.innerHTML +=`
+                
+                    <div class="gallery">
+                        <a target="_blank" href="#">
+                        <img src="`+ data[i].imgGenre + `" alt="#" width="200" height="250">
+                        </a>
+                        <div class="desc">`+ data[i].title + `</div>
+            </div>
+            `
+        }
     }
-}
-addThriller(data){
-    for(var i = 0; i < data.length; i++){
-        if(data[i].genre == "Thriller")
-        this._accordionElementThriller.innerHTML +=`
-            
-                <div class="gallery">
-                    <a target="_blank" href="#">
-                      <img src="`+ data[i].imgGenre + `" alt="#" width="200" height="250">
-                    </a>
-                    <div class="desc">`+ data[i].title + `</div>
-        </div>
-        `
+
+        //Thriller hinzufügen
+    addThriller(data){
+        for(var i = 0; i < data.length; i++){
+            if(data[i].genre == "Thriller")
+            this._accordionElementThriller.innerHTML +=`
+                
+                    <div class="gallery">
+                        <a target="_blank" href="#">
+                        <img src="`+ data[i].imgGenre + `" alt="#" width="200" height="250">
+                        </a>
+                        <div class="desc">`+ data[i].title + `</div>
+            </div>
+            `
+        }
     }
-}
 }
 
 
