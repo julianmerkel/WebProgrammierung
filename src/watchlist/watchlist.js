@@ -46,8 +46,10 @@ class Watchlist {
         divcontainerHeader.appendChild(br);
 
         let header = document.createElement("h3");
+        header.setAttribute("id", "watchlistHeader");
         header.innerHTML="Watchlist";
         divcontainerHeader.appendChild(header);
+        console.log(header.value);
 
         let br2=document.createElement("br");
         divcontainerHeader.appendChild(br2);
@@ -84,6 +86,7 @@ class Watchlist {
         //result
         let resultContainer = document.createElement("div");
         resultContainer.setAttribute("class","container");
+        resultContainer.setAttribute("id", "resContainer");
         resultContainer.setAttribute("style","background: rgba(105,105,105, 0.5)");
         this._watchlist.appendChild(resultContainer);
 
@@ -262,6 +265,7 @@ class Watchlist {
 
         //content
         let contentContainer = document.createElement("div");
+        contentContainer.setAttribute("id","contentContainer");
         contentContainer.setAttribute("class","container");
         contentContainer.setAttribute("style","background: rgba(105,105,105, 0.5)");
         this._watchlist.appendChild(contentContainer);
