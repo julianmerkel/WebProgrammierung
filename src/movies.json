@@ -279,5 +279,46 @@
     "availability": "",
     "img": "https://images.vice.com/vice/images/articles/meta/2015/09/15/quentin-tarantinos-doch-etwas-seltsame-pulp-fiction-wunschbesetzung-ist-geleakt-worden-462-1442319639.jpg?crop=1xw%3A1xh%3Bcenter%2Ccenter&resize=2000%3A*",
     "imgGenre": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY268_CR1,0,182,268_AL_.jpg"
+  },
+  {
+    "id":"36",
+    "title":"Sherlock Holmes",
+    "genre": "Krimi",
+    "availability": "",
+    "img": "https://upload.wikimedia.org/wikipedia/en/5/53/Sherlock_Holmes2Poster.jpg",
+    "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/A1kYWlaMrXL._SY445_.jpg"
+  },
+  {
+    "id":"37",
+    "title":"Mord im Orient Express",
+    "genre": "Krimi",
+    "availability": "",
+    "img": "https://i.computer-bild.de/imgs/1/1/1/5/8/8/7/3/Mord-im-orient-Express-mit-Sky-Ticket-streamen-658x370-b8e6ee65ac8f5150.jpg",
+    "imgGenre": "http://de.web.img3.acsta.net/c_215_290/pictures/17/10/20/09/37/3826187.jpg"
+  },
+  {
+    "id":"38",
+    "title":"Der Pate",
+    "genre": "Krimi",
+    "availability": "",
+    "img": "https://image.tmdb.org/t/p/w500_and_h282_face/6xKCYgH16UuwEGAyroLU6p8HLIn.jpg",
+    "imgGenre": "https://media1.jpc.de/image/w600/front/0/4010884537970.jpg"
+  },
+  {
+    "id":"39",
+    "title":"The Green Mile",
+    "genre": "Krimi",
+    "availability": "",
+    "img": "https://img.srgcdn.com/e//QmZlcEFDZ0F1RGttM3RlU25hOWYuanBn.jpg",
+    "imgGenre": "https://www.dvd-forum.at/img/imagecache/200x291_imagesCAEQQFM4.jpg"
+  },
+  {
+    "id":"40",
+    "title":"Sieben",
+    "genre": "Krimi",
+    "availability": "",
+    "img": "https://image.tmdb.org/t/p/w500_and_h282_face/A0WKbRIojF9DUWG4XLCmg5JK6I5.jpg",
+    "imgGenre": "http://static.kino.de/wp-content/uploads/2015/08/sieben-1995-filmplakat.jpg"
   }
+
 ]

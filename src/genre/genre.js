@@ -66,9 +66,7 @@ class Genre {
             this._accordionElementAbenteuer.innerHTML +=`
                 
                     <div class="gallery">
-                        <a target="_blank" href="#">
-                        <img src="`+ data[i].imgGenre +`" alt="`+ data[i].title + `" width="150" height="200">
-                        </a>
+                        <img src="`+ data[i].imgGenre +`" alt="`+ data[i].title + `" width="200" height="250">
                         <div class="desc">`+ data[i].title + `</div>
             </div>
             `
@@ -82,9 +80,7 @@ class Genre {
             this._accordionElementAction.innerHTML +=`
                 
                     <div class="gallery">
-                        <a target="_blank" href="#">
-                        <img src="`+ data[i].imgGenre +`" alt="#" width="200" height="250">
-                        </a>
+                        <img src="`+ data[i].imgGenre +`" alt="`+ data[i].title + `" width="200" height="250">
                         <div class="desc">`+ data[i].title + `</div>
             </div>
             `
@@ -98,9 +94,7 @@ class Genre {
             this._accordionElementDrama.innerHTML +=`
                 
                     <div class="gallery">
-                        <a target="_blank" href="#">
-                        <img src="`+ data[i].imgGenre + `" alt="#" width="200" height="250">
-                        </a>
+                        <img src="`+ data[i].imgGenre + `" alt="`+ data[i].title + `" width="200" height="250">
                         <div class="desc">`+ data[i].title + `</div>
             </div>
             `
@@ -114,9 +108,7 @@ class Genre {
             this._accordionElementHorror.innerHTML +=`
                 
                     <div class="gallery">
-                        <a target="_blank" href="#">
-                        <img src="`+ data[i].imgGenre + `" alt="#" width="200" height="250">
-                        </a>
+                        <img src="`+ data[i].imgGenre + `" alt="`+ data[i].title + `" width="200" height="250">
                         <div class="desc">`+ data[i].title + `</div>
             </div>
             `
@@ -130,9 +122,7 @@ class Genre {
             this._accordionElementFamilie.innerHTML +=`
                 
                     <div class="gallery">
-                        <a target="_blank" href="#">
-                        <img src="`+ data[i].imgGenre + `" alt="#" width="200" height="250">
-                        </a>
+                        <img src="`+ data[i].imgGenre + `" alt="`+ data[i].title + `" width="200" height="250">
                         <div class="desc">`+ data[i].title + `</div>
             </div>
             `
@@ -146,9 +136,7 @@ class Genre {
             this._accordionElementFantasy.innerHTML +=`
                 
                     <div class="gallery">
-                        <a target="_blank" href="#">
-                        <img src="`+ data[i].imgGenre + `" alt="#" width="200" height="250">
-                        </a>
+                        <img src="`+ data[i].imgGenre + `" alt="`+ data[i].title + `" width="200" height="250">
                         <div class="desc">`+ data[i].title + `</div>
             </div>
             `
@@ -162,9 +150,7 @@ class Genre {
             this._accordionElementKomödien.innerHTML +=`
                 
                     <div class="gallery">
-                        <a target="_blank" href="#">
-                        <img src="`+ data[i].imgGenre + `" alt="#" width="200" height="250">
-                        </a>
+                        <img src="`+ data[i].imgGenre + `" alt="`+ data[i].title + `" width="200" height="250">
                         <div class="desc">`+ data[i].title + `</div>
             </div>
             `
@@ -178,9 +164,7 @@ class Genre {
             this._accordionElementKrimis.innerHTML +=`
                 
                     <div class="gallery">
-                        <a target="_blank" href="#">
-                        <img src="`+ data[i].imgGenre + `" alt="#" width="200" height="250">
-                        </a>
+                        <img src="`+ data[i].imgGenre + `" alt="`+ data[i].title + `" width="200" height="250">
                         <div class="desc">`+ data[i].title + `</div>
             </div>
             `
@@ -194,9 +178,7 @@ class Genre {
             this._accordionElementSciFi.innerHTML +=`
                 
                     <div class="gallery">
-                        <a target="_blank" href="#">
-                        <img src="`+ data[i].imgGenre + `" alt="#" width="200" height="250">
-                        </a>
+                        <img src="`+ data[i].imgGenre + `" alt="`+ data[i].title + `" width="200" height="250">
                         <div class="desc">`+ data[i].title + `</div>
             </div>
             `
@@ -210,9 +192,7 @@ class Genre {
             this._accordionElementThriller.innerHTML +=`
                 
                     <div class="gallery">
-                        <a target="_blank" href="#">
-                        <img src="`+ data[i].imgGenre + `" alt="#" width="200" height="250">
-                        </a>
+                        <img src="`+ data[i].imgGenre + `" alt="`+ data[i].title + `" width="200" height="250">
                         <div class="desc">`+ data[i].title + `</div>
             </div>
             `
