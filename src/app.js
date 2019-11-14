@@ -57,6 +57,7 @@ import Genre from "./genre/genre.js";
 
         _switchVisibleView(view) {
             // Alles klar, aktuelle View nun wechseln
+
             document.title = `${this._title} – ${view.title}`;
 
             this._currentView = view;
