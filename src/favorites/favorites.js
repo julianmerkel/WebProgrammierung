@@ -24,7 +24,7 @@ class Favorites {
         
 
  
-         //Watchlist Header
+         //Favorites Header
          let divcontainerHeader = document.createElement("div");
          divcontainerHeader.setAttribute("class","p-2 rounded container");
          divcontainerHeader.setAttribute("style","background: rgba(105,105,105, 0.5)");

@@ -38,7 +38,7 @@ class Watchlist {
 
         //Watchlist Header
         let divcontainerHeader = document.createElement("div");
-        divcontainerHeader.setAttribute("class","container");
+        divcontainerHeader.setAttribute("class","p-2 rounded container");
         divcontainerHeader.setAttribute("style","background: rgba(105,105,105, 0.5)");
         this._watchlist.appendChild(divcontainerHeader);
 
@@ -47,6 +47,7 @@ class Watchlist {
 
         let header = document.createElement("h3");
         header.setAttribute("id", "watchlistHeader");
+        header.setAttribute("class", "text-center");
         header.innerHTML="Watchlist";
         divcontainerHeader.appendChild(header);
         console.log(header.value);
@@ -62,7 +63,7 @@ class Watchlist {
 
         //Search
         let divcontainerSearch = document.createElement("div");
-        divcontainerSearch.setAttribute("class","container");
+        divcontainerSearch.setAttribute("class","p-2 rounded container");
         this._watchlist.appendChild(divcontainerSearch);
 
         let searchForm = document.createElement("div");
@@ -85,7 +86,7 @@ class Watchlist {
 
         //result
         let resultContainer = document.createElement("div");
-        resultContainer.setAttribute("class","container");
+        resultContainer.setAttribute("class","rounded container");
         resultContainer.setAttribute("id", "resContainer");
         resultContainer.setAttribute("style","background: rgba(105,105,105, 0.5)");
         this._watchlist.appendChild(resultContainer);
@@ -286,7 +287,7 @@ class Watchlist {
         //content
         let contentContainer = document.createElement("div");
         contentContainer.setAttribute("id","contentContainer");
-        contentContainer.setAttribute("class","container");
+        contentContainer.setAttribute("class","pt-4 rounded container");
         contentContainer.setAttribute("style","background: rgba(105,105,105, 0.5)");
         this._watchlist.appendChild(contentContainer);
 
