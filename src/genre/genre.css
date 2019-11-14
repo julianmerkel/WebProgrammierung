@@ -94,10 +94,6 @@ div.desc {
   color: #C0C0C0;*
 }
 
-.genre > footer {
-  width: 100%;
-  font-weight: bold;
-}
 
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
