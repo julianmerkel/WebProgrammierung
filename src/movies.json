@@ -2,36 +2,179 @@
   {
     "id":"1",
     "title":"Avengers Endgame",
-    "genre": "",
+    "genre": "Action",
     "availability": "",
-    "img": "https://ze.tt/wp-content/uploads/2019/04/avengers-endgame-filmkritik-e1556111236535-940x528.jpg"
+    "img": "https://ze.tt/wp-content/uploads/2019/04/avengers-endgame-filmkritik-e1556111236535-940x528.jpg",
+    "imgGenre": "https://bilder.bild.de/fotos-skaliert/viel-los-auf-dem-plakat--alle-helden-wollen-ihren-platz-im-finale-201113173-61440680/8,w=468,c=0.bild.jpg"
   },
   {
     "id":"2",
     "title":"Men in Black 2",
-    "genre": "",
+    "genre": "Sci-Fi",
     "availability": "",
-    "img": "https://www.dvd-forum.at/img/uploaded/monsters-squad-cinema-fantastique-science-fiction-horreur-men-in-black-barry-sonnenfeld-thumb.jpg"
+    "img": "http://www.klangundkleid.ch/img/plakate/film/740560_MEN-IN-BLACK-II--with-Will-Smith-CHF24.jpg",
+    "imgGenre": "https://img.reelgood.com/content/movie/ed254ed2-a502-48d1-8221-5511644de7aa/poster-780.jpg"
+    
   },
   {
     "id":"3",
     "title":"Captain Marvel",
-    "genre": "",
+    "genre": "Sci-Fi",
     "availability": "",
-    "img": "https://www.playcentral.de/uploads/news/newspic-77429.jpg"
+    "img": "https://www.playcentral.de/uploads/news/newspic-77429.jpg",
+    "imgGenre": "https://media.services.cinergy.ch/media/box1600/7ff00589a6ac72d438fff3fe550a0b81159159ad.jpg"
   },
   {
     "id":"4",
     "title":"Rogue One A Star Wars Story",
-    "genre": "",
+    "genre": "Sci-Fi",
     "availability": "",
-    "img": "https://images.justwatch.com/backdrop/3671650/s1440/Rogue-One-A-Star-Wars-Story"
+    "img": "https://images.justwatch.com/backdrop/3671650/s1440/Rogue-One-A-Star-Wars-Story",
+    "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/719kCsFLrYL._SY741_.jpg"
   },
   {
     "id":"5",
-    "title":"Harry Potter und der Halbblutprinz",
-    "genre": "",
+    "title":"The Dark Knight",
+    "genre": "Action",
     "availability": "",
-    "img": "https://www.wuv.de/var/wuv/storage/images/werben_verkaufen/marketing/pandora_macht_jetzt_harry_potter_schmuck/9601855-5-ger-DE/pandora_macht_jetzt_harry_potter_schmuck7_gross.jpg"
+    "img": "https://images2.minutemediacdn.com/image/upload/c_crop,h_730,w_1300,x_0,y_10/f_auto,q_auto,w_1100/v1554919442/shape/mentalfloss/dark_knight_hed.png",
+    "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/91KkWf50SoL._SL1500_.jpg"
+  },
+  {
+    "id":"6",
+    "title":"Harry Potter und der Stein der Weisen",
+    "genre": "Fantasy",
+    "availability": "",
+    "img": "https://www.muenchenevent.de/medien/Harry_Potter_und_der_Stein_der_Weisen_-_in_Concert-9094.jpg",
+    "imgGenre": "https://images.booklooker.de/s/013187/Chris-Columbus+Harry-Potter-und-der-Stein-der-Weisen.jpg"
+  },
+  {
+    "id":"7",
+    "title":"Harry Potter und die Kammer des Schreckens",
+    "genre": "Fantasy",
+    "availability": "",
+    "img": "https://static.tvno.nu/798769?forceFit=0&height=760&quality=50&width=1350",
+    "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/51JGTT9492L._SY445_.jpg"
+  },
+  {
+    "id":"8",
+    "title":"Harry Potter und der Gefangene von Askaban",
+    "genre": "Fantasy",
+    "availability": "",
+    "img": "https://i.ytimg.com/vi/96W4e_pZJmw/maxresdefault.jpg",
+    "imgGenre": "https://is4-ssl.mzstatic.com/image/thumb/Video118/v4/e9/ce/40/e9ce4088-8e57-fe60-2de0-033b1391ba8e/pr_source.lsr/268x0w.png"
+  },
+  {
+    "id":"9",
+    "title":"Harry Potter und der Feuerkelch",
+    "genre": "Fantasy",
+    "availability": "",
+    "img": "https://www.pointer.de/bilder/teaser_top/1228harry_potter.jpg",
+    "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/914h1Q6vNVL._SL1500_.jpg"
+  },
+  {
+    "id":"10",
+    "title":"Harry Potter und der Orden des Phönix",
+    "genre": "Fantasy",
+    "availability": "",
+    "img": "https://static.geo.de/bilder/13/f5/4879/article_image_big/330214901fdfdacc8957be0038b28e07.jpg",
+    "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/91yYKadwVQL._SY445_.jpg"
+  },
+  {
+  "id":"11",
+    "title":"Harry Potter und der Halbblutprinz",
+    "genre": "Fantasy",
+    "availability": "",
+    "img": "https://www.wuv.de/var/wuv/storage/images/werben_verkaufen/marketing/pandora_macht_jetzt_harry_potter_schmuck/9601855-5-ger-DE/pandora_macht_jetzt_harry_potter_schmuck7_gross.jpg",
+    "imgGenre": "https://www.itunes-4k-filme.de/cover/harry-potter-und-der-halbblutprinz-500.jpg"
+  },
+  {
+    "id":"12",
+    "title":"Das Schweigen der Lämmer",
+    "genre": "Horror",
+    "availability": "",
+    "img": "https://i.ytimg.com/vi/NoGQ05q-J9g/maxresdefault.jpg",
+    "imgGenre": "https://vignette.wikia.nocookie.net/hannibal/images/7/78/Das_Schweigen_der_L%C3%A4mmer.jpg/revision/latest?cb=20131028173027&path-prefix=de"
+  },
+  {
+    "id":"13",
+    "title":"Zurück in die Zukunft",
+    "genre": "Abenteuer",
+    "availability": "",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT56wWmBA4A8lwbSBIGbynDAlScniHvVoXD6wsSIJN_rEJ9Wwys&s",
+    "imgGenre": "https://www.cineplexx.at/media/at/inc/movies_licences/ZurueckindieZukunft2_Plakat.jpg"
+  },
+  {
+    "id":"14",
+    "title":"Moonlight",
+    "genre": "Drama",
+    "availability": "",
+    "img": "https://the-hollywood-gossip-res.cloudinary.com/iu/s--yT34gBrB--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1485268449/moonlight-movie-poster.jpg",
+    "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/71rNJQ2g-EL._SL1178_.jpg"
+  },
+  {
+    "id":"15",
+    "title":"Inception",
+    "genre": "Action",
+    "availability": "",
+    "img": "http://de.web.img3.acsta.net/r_640_360/newsv7/19/08/09/19/16/2096534.jpg",
+    "imgGenre": "https://cdn.shopify.com/s/files/1/1416/8662/products/inception_2010_advance_original_film_art_dc7d7689-1e66-41d6-b228-48da4e7b52e4_2000x.jpg?v=1564717627"
+  },
+  {
+    "id":"16",
+    "title":"Joker",
+    "genre": "Thriller",
+    "availability": "",
+    "img": "https://img.maximummedia.ie/joe_ie/eyJkYXRhIjoie1widXJsXCI6XCJodHRwOlxcXC9cXFwvbWVkaWEtam9lLm1heGltdW1tZWRpYS5pZS5zMy5hbWF6b25hd3MuY29tXFxcL3dwLWNvbnRlbnRcXFwvdXBsb2Fkc1xcXC8yMDE5XFxcLzA4XFxcLzI5MTUxOTU1XFxcL2pva2VyLXJlYWN0aW9uLmpwZ1wiLFwid2lkdGhcIjo3NjcsXCJoZWlnaHRcIjo0MzEsXCJkZWZhdWx0XCI6XCJodHRwczpcXFwvXFxcL3d3dy5qb2UuaWVcXFwvYXNzZXRzXFxcL2ltYWdlc1xcXC9qb2VcXFwvbm8taW1hZ2UucG5nP2lkPTI2NGEyZGJlMzcwZjJjNjc1ZmNkXCIsXCJvcHRpb25zXCI6W119IiwiaGFzaCI6IjA5MjMyNjI5YTQ4MTU4Y2RhOWE2Zjk4MWFlNzg5OGIyNGJkODliNmQifQ==/joker-reaction.jpg",
+    "imgGenre": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+  },
+  {
+    "id":"17",
+    "title":"Kevin allein zu Haus",
+    "genre": "Familie",
+    "availability": "",
+    "img": "https://i.ytimg.com/vi/dzdpqRGA1qc/maxresdefault.jpg",
+    "imgGenre": "https://i.pinimg.com/originals/de/68/e2/de68e2a11dfe2b1e614192e86fd39b84.jpg"
+  },
+  {
+    "id":"18",
+    "title":"Die Eiskönigin",
+    "genre": "Familie",
+    "availability": "",
+    "img": "https://i.ytimg.com/vi/vSKlICmmi98/maxresdefault.jpg",
+    "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/71z-S33Wf7L._SY606_.jpg"
+  },
+  {
+    "id":"19",
+    "title":"Conjuring",
+    "genre": "Horror",
+    "availability": "",
+    "img": "https://i1.wp.com/www.horrorhomeroom.com/wp-content/uploads/2015/05/3221453-the_conjuring_movie-wide.jpg?resize=1000%2C668",
+    "imgGenre": "https://m.media-amazon.com/images/M/MV5BMTM3NjA1NDMyMV5BMl5BanBnXkFtZTcwMDQzNDMzOQ@@._V1_.jpg"
+  },
+  {
+    "id":"20",
+    "title":"Conjuring 2",
+    "genre": "Horror",
+    "availability": "",
+    "img": "https://i3-img.prosieben.de/pis/ezone/0e53qgELB38wdEB-ZftIYFPQSp-HxjRVj8ghGONpO6WKv8aoTns8zbue2ZFudqxI-5poJKIiLoHWwfPjjP34-QCU8EpVHGRifwqjCog72Q/profile:mag-996x562",
+    "imgGenre": "https://i0.wp.com/wessels-filmkritik.com/wp-content/uploads/2016/06/153642_poster_1.jpg?ssl=1"
+  },
+  {
+    "id":"21",
+    "title":"La Llorona",
+    "genre": "Horror",
+    "availability": "",
+    "img": "https://c.nau.ch/i/BX1lQ/680/conjuring-reihe-la-llorona.jpg",
+    "imgGenre": "https://media.outnow.ch/Movies/Bilder/2019/CurseOfLaLlorona/011.jpg"
+  },
+  {
+    "id":"22",
+    "title":"The Revenant",
+    "genre": "Abenteuer",
+    "availability": "",
+    "img": "https://media.fromthegrapevine.com/assets/images/2016/1/leonardo_dicaprio_the_revenant-HD.jpg.480x0_q71_crop-scale.jpg",
+    "imgGenre": "https://m.media-amazon.com/images/M/MV5BMDE5OWMzM2QtOTU2ZS00NzAyLWI2MDEtOTRlYjIxZGM0OWRjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg"
   }
+
 ]
