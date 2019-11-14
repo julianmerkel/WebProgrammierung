@@ -54,8 +54,8 @@ class Quiz {
       answer4.setAttribute('class', 'button4');
       var r_answer = document.createElement("TextArea");
       r_answer.setAttribute('class', 'answer');
-      var back = document.createElement("Button");
-      back.setAttribute('class', 'buttonBack');
+      //var back = document.createElement("Button");
+      //back.setAttribute('class', 'buttonBack');
       var finish = document.createElement("Button");
       finish.setAttribute('class', 'finish');
 
@@ -68,7 +68,7 @@ class Quiz {
       answer3.innerHTML = data.questions[frage].answers[2];
       answer4.innerHTML = data.questions[frage].answers[3];
       r_answer.innerHTML = "Herzlich Willkommen zu unserem allgemeinen Filme-Quiz!";
-      back.innerHTML = "Zurück zur Startseite";
+      //back.innerHTML = "Zurück zur Startseite";
 
       this.quiz.appendChild(bild);
       this.quiz.appendChild(r_answer);
@@ -77,7 +77,7 @@ class Quiz {
       this.quiz.appendChild(answer2);
       this.quiz.appendChild(answer3);
       this.quiz.appendChild(answer4);
-      this.quiz.appendChild(back);
+      //this.quiz.appendChild(back);
       
       answer1.addEventListener('click', () => {
         switch (frage){
@@ -274,9 +274,10 @@ class Quiz {
         answer4.innerHTML = data.questions[frage].answers[3];
         r_answer.innerHTML = data.questions[frage - 1].r_answer;
       })
+      /*
       back.addEventListener('click', () => {
         window.open("#index", "_self");
-      })
+      })*/
   }
 
     get title() {
