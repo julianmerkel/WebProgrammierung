@@ -18,6 +18,7 @@ class Favorites {
          // Anzuzeigende HTML-Elemente ermitteln
          let section = container.querySelector("#favorites").cloneNode(true);
          this._favorites = section.querySelector("#favorites > main > div");
+         this._favorites.setAttribute("id", "favoritesContainer");
 
          // Test
         
@@ -25,7 +26,7 @@ class Favorites {
  
          //Watchlist Header
          let divcontainerHeader = document.createElement("div");
-         divcontainerHeader.setAttribute("class","container");
+         divcontainerHeader.setAttribute("class","p-2 rounded container");
          divcontainerHeader.setAttribute("style","background: rgba(105,105,105, 0.5)");
          this._favorites.appendChild(divcontainerHeader);
  
@@ -33,7 +34,8 @@ class Favorites {
          divcontainerHeader.appendChild(br);
  
          let header = document.createElement("h3");
-         header.innerHTML = "Favorites";
+         header.setAttribute("class", "text-center");
+         header.innerHTML = "Deine Favorite Movies";
          divcontainerHeader.appendChild(header);
  
          let br2 = document.createElement("br");
@@ -47,7 +49,7 @@ class Favorites {
  
          //Search
          let divcontainerSearch = document.createElement("div");
-         divcontainerSearch.setAttribute("class","container");
+         divcontainerSearch.setAttribute("class","p-2 rounded container");
          this._favorites.appendChild(divcontainerSearch);
  
          let searchForm = document.createElement("div");
@@ -70,7 +72,8 @@ class Favorites {
  
          //result
          let resultContainer = document.createElement("div");
-         resultContainer.setAttribute("class","container");
+         resultContainer.setAttribute("class","rounded container");
+         resultContainer.setAttribute("id","resContainer");
          resultContainer.setAttribute("style","background: rgba(105,105,105, 0.5)");
          this._favorites.appendChild(resultContainer);
  
@@ -84,11 +87,12 @@ class Favorites {
              resultContainer.innerHTML="";
  
              let resultHeader = document.createElement("h3");
+             resultHeader.setAttribute("class", "p-3");
              resultHeader.innerHTML="Result";
              resultContainer.appendChild(resultHeader);
  
              let resultRow = document.createElement("div");
-             resultRow.setAttribute("class","row");
+             resultRow.setAttribute("class","row justify-content-start");
              resultContainer.appendChild(resultRow);
  
  
@@ -112,7 +116,7 @@ class Favorites {
  
  
                      let resCol= document.createElement("div");
-                     resCol.setAttribute("class","col");
+                     resCol.setAttribute("class","col-3");
                      resultRow.appendChild(resCol);
  
                      let resCard = document.createElement("div");
@@ -122,12 +126,17 @@ class Favorites {
 
                      let resCardImage = document.createElement("img");
                      resCardImage.setAttribute("class", "card-img-top");
+                     resCardImage.setAttribute("width", "100%");
+                     resCardImage.setAttribute("height", "130vw");
+                     resCardImage.setAttribute("object-fit", "cover");
                      resCardImage.setAttribute("src", movies[i].img);
                      resCardImage.setAttribute("alt", "Card image cap");
                      resCard.appendChild(resCardImage);
 
                      var resCardBody = document.createElement("div");
                      resCardBody.setAttribute("class","card-body");
+                     resCardBody.setAttribute("width", "100%");
+                     resCardBody.setAttribute("height", "100vw");
                      resCard.appendChild(resCardBody);
                      let resultTitle = document.createElement("h5");
                      resultTitle.innerHTML=movies[i].title;
@@ -151,7 +160,7 @@ class Favorites {
                          for (var i =0; i<movies.length;i++){
                              if(movies[i].id==movieId){
                                  arrayFavorites.push(movies[i]);//§ hier ohne title
-                                 localStorage.setItem("items2",JSON.stringify(arrayFavorites));
+                                 localStorage.setItem("favoriteMovies",JSON.stringify(arrayFavorites));
                                  console.log(arrayFavorites);
  
                              }
@@ -160,7 +169,7 @@ class Favorites {
                          resultContainer.innerHTML="";
  
                          let contentCol = document.createElement("div");
-                         contentCol.setAttribute("class","col");
+                         contentCol.setAttribute("class","col-3");
                          contentRow.appendChild(contentCol);
                          console.log("lappen???")
  
@@ -172,6 +181,9 @@ class Favorites {
 
                          let contentCardImage = document.createElement("img");
                          contentCardImage.setAttribute("class", "card-img-top");
+                         contentCardImage.setAttribute("width", "100%");
+                         contentCardImage.setAttribute("height", "130vw");
+                         contentCardImage.setAttribute("object-fit", "cover");
                          contentCardImage.setAttribute("src", arrayFavorites[arrayFavorites.length-1].img);
                          contentCardImage.setAttribute("alt", "Card image cap");
                          contentCard.appendChild(contentCardImage);
@@ -185,49 +197,31 @@ class Favorites {
                          var deleteButton = document.createElement("button");
                          deleteButton.setAttribute("id","bb"+arrayFavorites[arrayFavorites.length-1].id);
                          deleteButton.setAttribute("name",arrayFavorites[arrayFavorites.length-1].id);
-                         deleteButton.setAttribute("class","btn btn-danger");
+                         deleteButton.setAttribute("class","btn btn-outline-danger");
                          deleteButton.innerHTML="Delete";
  
  
                          contentCardBody.appendChild(deleteButton);
  
- 
- 
- 
-                         console.log("kuck mal hier: "+arrayFavorites[arrayFavorites.length-1].id);
                          var currentDelB= document.querySelector("#bb"+arrayFavorites[arrayFavorites.length-1].id);
-                         console.log(currentDelB);
                          currentDelB.onclick=function (e) {
-                             console.log(e.target.name);
                              var movieId = e.target.name;
                              for (var i = 0; i < movies.length; i++) {
                                  if (movies[i].id == movieId) {
-                                     //arrayFavorites.push(movies[i].title);//§ hier ohne title
-                                     //localStorage.setItem("items2", JSON.stringify(arrayFavorites));
-                                     //console.log(arrayFavorites);
-                                     console.log("delete: "+movies[i].title);
-                                     console.log("deleteELEMENT: "+currentDelB.parentNode);
                                      contentRow.removeChild(e.target.parentNode.parentNode.parentNode);
                                      for (var i=0; i<arrayFavorites.length;i++){
                                          if (e.target.name==arrayFavorites[i].id){
                                              console.log("eigentlich klappts")
                                              arrayFavorites.splice(i,1);
-                                             localStorage.setItem("items2",JSON.stringify(arrayFavorites));
- 
+                                             localStorage.setItem("favoriteMovies",JSON.stringify(arrayFavorites));
                                          }
                                      }
                                      break;
- 
- 
- 
                                  }
                              }
                          }
  
                      }
- 
- 
- 
                  }
              }
  
@@ -235,14 +229,15 @@ class Favorites {
              if(foundone==false){
                      console.log("else");
                      let noResultText = document.createElement("h5");
-                     noResultText.innerHTML="No movies found...";
+                     noResultText.setAttribute("class", "p-4 text-center");
+                     noResultText.innerHTML="Es wurden keine passenden Filme gefunden. Versuche es erneut!";
                      resultRow.appendChild(noResultText);
                  }
  
  
  
              let closeButton = document.createElement("button");
-             closeButton.setAttribute("class","btn btn-secondary");
+             closeButton.setAttribute("class","m-3 btn btn-secondary");
              closeButton.innerHTML="Close";
              closeButton.addEventListener("click",()=>{
                  resultContainer.innerHTML="";
@@ -263,30 +258,29 @@ class Favorites {
  
          //content
          let contentContainer = document.createElement("div");
-         contentContainer.setAttribute("class","container");
+         contentContainer.setAttribute("class","pt-4 rounded container");
+         contentContainer.setAttribute("id","contentContainer");
          contentContainer.setAttribute("style","background: rgba(105,105,105, 0.5)");
          this._favorites.appendChild(contentContainer);
  
          let contentRow = document.createElement("div");
-         contentRow.setAttribute("class","row");
+         contentRow.setAttribute("id", "contentRow");
+         contentRow.setAttribute("class","row justify-content-start");
          contentContainer.appendChild(contentRow);
  
          let br4=document.createElement("br");
          contentContainer.appendChild(br4);
- 
- 
-         if(JSON.parse(localStorage.getItem("items2"))==null){
-             var arrayFavorites=[];
-             localStorage.setItem("items2",JSON.stringify(arrayFavorites));
- 
- 
-         }else{
-             var arrayFavorites =JSON.parse(localStorage.getItem("items2"));
+         
+         if(JSON.parse(localStorage.getItem("favoriteMovies"))==null){
+            var arrayFavorites=[];
+            localStorage.setItem("favoriteMovies",JSON.stringify(arrayFavorites));
+        }else{
+             var arrayFavorites =JSON.parse(localStorage.getItem("favoriteMovies"));
              console.log(arrayFavorites);
              for (var i = 0; i<arrayFavorites.length;i++){
  
                  let contentCol = document.createElement("div");
-                 contentCol.setAttribute("class","col");
+                 contentCol.setAttribute("class","col-3");
                  contentRow.appendChild(contentCol);
                  console.log("lappen???")
  
@@ -298,12 +292,17 @@ class Favorites {
 
                  let contentCardImage = document.createElement("img");
                  contentCardImage.setAttribute("class", "card-img-top");
-                 contentCardImage.setAttribute("src", arrayFavorites[arrayFavorites.length-1].img);
+                 contentCardImage.setAttribute("src", arrayFavorites[i].img);
                  contentCardImage.setAttribute("alt", "Card image cap");
+                 contentCardImage.setAttribute("width", "100%");
+                 contentCardImage.setAttribute("height", "130vw");
+                 contentCardImage.setAttribute("object-fit", "cover");
                  contentCard.appendChild(contentCardImage);
 
                  var contentCardBody = document.createElement("div");
                  contentCardBody.setAttribute("class","card-body");
+                 contentCardBody.setAttribute("width", "100%");
+                 contentCardBody.setAttribute("height", "100vw");
                  contentCard.appendChild(contentCardBody);
                  let contentTitle = document.createElement("h5");
                  contentTitle.innerHTML=arrayFavorites[i].title;//§ .title
@@ -311,7 +310,7 @@ class Favorites {
                  var deleteButton = document.createElement("button");
                  deleteButton.setAttribute("id","bb"+arrayFavorites[i].id);
                  deleteButton.setAttribute("name",arrayFavorites[i].id);
-                 deleteButton.setAttribute("class","btn btn-danger");
+                 deleteButton.setAttribute("class","btn btn-outline-danger");
                  deleteButton.innerHTML="Delete";
  
  
@@ -329,30 +328,21 @@ class Favorites {
                      for (var i = 0; i < movies.length; i++) {
                          if (movies[i].id == movieId) {
                              console.log(i);
-                             //arrayFavorites.push(movies[i].title);//§ hier ohne title
-                             //localStorage.setItem("items2", JSON.stringify(arrayFavorites));
-                             //console.log(arrayFavorites);
-                             //console.log("delete: "+movies[i].title);
-                             //console.log("deleteELEMENT: "+currentDelB.parentNode.parentNode.parentNode);
                              console.log("e.target.name= "+e.target.name);
                              console.log("arrayFavorites[i].id= "+arrayFavorites);
  
                              console.log("kakakakaakaakak");
                              contentRow.removeChild(e.target.parentNode.parentNode.parentNode);
- 
                              for (var i=0; i<arrayFavorites.length;i++){
-                                 if (e.target.name==arrayFavorites[i].id){
-                                     console.log("eigentlich klappts")
-                                     arrayFavorites.splice(i,1);
-                                     console.log(arrayFavorites);
-                                     localStorage.setItem("items2",JSON.stringify(arrayFavorites));
- 
-                                 }
-                             }
- 
+                                if (e.target.name==arrayFavorites[i].id){
+                                    console.log("eigentlich klappts")
+                                    arrayFavorites.splice(i,1);
+                                    console.log(arrayFavorites);
+                                    localStorage.setItem("favoriteMovies",JSON.stringify(arrayFavorites));
+
+                                }
+                            }   
                              break;
- 
- 
                          }
                      }
  
