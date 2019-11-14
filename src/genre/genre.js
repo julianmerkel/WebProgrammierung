@@ -30,7 +30,7 @@ class Genre {
         this._accordionElementThriller = section.querySelector("#genre > main > #accordion > #card > #headingThriller > #collapseThriller >.card-body > #row");
       
         
-        // Anzuzeigende HTML-Elemente ermitteln
+       
 
         let json = {
             "name" : "filmlliste",
@@ -114,8 +114,7 @@ class Genre {
         localStorage.setItem("items", JSON.stringify(json));
         const data = JSON.parse(localStorage.getItem("items"));
 
-        
-        // this.buildTable(data);   
+          
         this.addAbenteuer(data);  
         this.addAction(data);  
         this.addDrama(data);  
@@ -125,44 +124,6 @@ class Genre {
         this.addKrimis(data);  
         this.addSciFi(data);  
         this.addThriller(data);  
-       // this.karusellTest(data);
-          
-
-     /*
-        let btn = document.createElement("BUTTON");   
-        btn.innerHTML = "CLICK ME";                   
-        this._listElement.appendChild(btn); 
-        btn.addEventListener('click', () => {
-                
-        
-            var array = []
-            for(var i = 0; i < data.filme.length; i++){
-                array.push(data.filme[i]);
-            }
-            
-            for(var i = 0; i < data.filme.length; i++){
-                console.log("Test: " + i);
-                if(data.filme[i].name === "lulu")
-                    console.log(data.filme[i].dauer);
-            }
-            console.log(array);
-            array[0].name = "lulu";
-            for(var i = 0; i < data.filme.length; i++){
-                console.log("Test: " + i);
-                if(data.filme[i].name === "lulu")
-                    console.log(data.filme[i].dauer);
-            }
-            
-
-        let content = {
-            className: "genre",
-            main: section.querySelectorAll("main > *"),
-        };
-    }) */
-
-
-
-
 
         
     let content = {
@@ -179,16 +140,6 @@ class Genre {
         return "Übersicht";
     }
 
-    buildTable(data) {
-        for(var i = 0; i < data.filme.length; i++){
-            this._listElement.innerHTML +=`
-            <div class="test">
-                <h1 style="color:blue;">` + "Film: " + data.filme[i].name + `</h1>
-                <h2>` + "Spieldauer: " + data.filme[i].dauer + `</h2><br />
-            </div>
-            `;
-        }
-}
 addAbenteuer(data){
     for(var i = 0; i < data.filme.length; i++){
         if(data.filme[i].genre == "Abenteuer")
