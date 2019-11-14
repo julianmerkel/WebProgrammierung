@@ -184,7 +184,7 @@ class Watchlist {
                         var deleteButton = document.createElement("button");
                         deleteButton.setAttribute("id","bb"+arrayWatchlist[arrayWatchlist.length-1].id);
                         deleteButton.setAttribute("name",arrayWatchlist[arrayWatchlist.length-1].id);
-                        deleteButton.setAttribute("class","btn btn-danger");
+                        deleteButton.setAttribute("class","btn btn-outline-danger");
                         deleteButton.innerHTML="Delete";
 
 
@@ -303,7 +303,7 @@ class Watchlist {
                 var deleteButton = document.createElement("button");
                 deleteButton.setAttribute("id","bb"+arrayWatchlist[i].id);
                 deleteButton.setAttribute("name",arrayWatchlist[i].id);
-                deleteButton.setAttribute("class","btn btn-danger");
+                deleteButton.setAttribute("class","btn btn-outline-danger");
                 deleteButton.innerHTML="Delete";
 
 
