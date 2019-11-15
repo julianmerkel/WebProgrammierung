@@ -106,8 +106,13 @@ class Favorites {
                      var addButton = document.createElement("button");
                      addButton.setAttribute("id","b"+foundMovie);
                      addButton.setAttribute("name",foundMovie);
+<<<<<<< HEAD
                      addButton.setAttribute("class","btn btn-primary mt-auto");
                      addButton.innerHTML="Hinzufügen";
+=======
+                     addButton.setAttribute("class","btn purple-btn");
+                     addButton.innerHTML="Add";
+>>>>>>> 9457c5f4f041af84a6111c298505ab95e4043543
  
                      resCardBody.appendChild(addButton);
  
