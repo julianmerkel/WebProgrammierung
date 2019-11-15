@@ -59,5 +59,10 @@ html, body {
  .footer {
    width: 100%;
   font-weight: bold;
-} 
+}
+
+ .purple-btn{
+     color:rgba(0, 0, 0, 1);
+     background: blueviolet;
+ }
 
