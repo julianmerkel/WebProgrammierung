@@ -20,21 +20,6 @@ class Favorites {
          this._favorites = section.querySelector("#favorites > main > div");
          this._favorites.setAttribute("id", "favoritesContainer");
  
-         //Favorites Header
-         let divcontainerHeader = document.createElement("div");
-         divcontainerHeader.setAttribute("class","p-2 rounded container");
-         this._favorites.appendChild(divcontainerHeader);
- 
-         let br = document.createElement("br");
-         divcontainerHeader.appendChild(br);
- 
-         let header = document.createElement("h3");
-         header.setAttribute("class", "text-center");
-         header.innerHTML = "Deine Favorite Movies";
-         divcontainerHeader.appendChild(header);
- 
-         let br2 = document.createElement("br");
-         divcontainerHeader.appendChild(br2);
  
  
          //Platzhalter
@@ -75,11 +60,20 @@ class Favorites {
              var resultMovie = searchField.value;
  
              resultContainer.innerHTML="";
+
+             let closeButton = document.createElement("button");
+             closeButton.setAttribute("class","m-3 btn btn-secondary");
+             closeButton.innerHTML="&times;";
+             closeButton.addEventListener("click",()=>{
+                 resultContainer.innerHTML="";
+             })
+             resultContainer.appendChild(closeButton);
  
              let resultHeader = document.createElement("h3");
              resultHeader.setAttribute("class", "p-3");
              resultHeader.innerHTML="Result";
              resultContainer.appendChild(resultHeader);
+
  
              let resultRow = document.createElement("div");
              resultRow.setAttribute("class","row justify-content-start");
@@ -92,14 +86,10 @@ class Favorites {
                  if(movies[i].title.includes(resultMovie)&&resultMovie!=""){
                      foundone=true;
                      foundMovie = movies[i].id;
-
-                     let resCol= document.createElement("div");
-                     resCol.setAttribute("class","col-3");
-                     resultRow.appendChild(resCol);
  
                      let resCard = document.createElement("div");
                      resCard.setAttribute("class","card");
-                     resCol.appendChild(resCard);
+                     resultRow.appendChild(resCard);
 
                      let resCardImage = document.createElement("img");
                      resCardImage.setAttribute("class", "card-img-top");
@@ -107,16 +97,17 @@ class Favorites {
                      resCard.appendChild(resCardImage);
 
                      var resCardBody = document.createElement("div");
-                     resCardBody.setAttribute("class","card-body");
+                     resCardBody.setAttribute("class","card-body d-flex flex-column");
                      resCard.appendChild(resCardBody);
-                     let resultTitle = document.createElement("h5");
+                     let resultTitle = document.createElement("p");
+                     resultTitle.setAttribute("class", "card-text");
                      resultTitle.innerHTML=movies[i].title;
                      resCardBody.appendChild(resultTitle);
                      var addButton = document.createElement("button");
                      addButton.setAttribute("id","b"+foundMovie);
                      addButton.setAttribute("name",foundMovie);
-                     addButton.setAttribute("class","btn purple-btn");
-                     addButton.innerHTML="Add";
+                     addButton.setAttribute("class","btn btn-primary mt-auto");
+                     addButton.innerHTML="Hinzufügen";
  
                      resCardBody.appendChild(addButton);
  
@@ -155,15 +146,10 @@ class Favorites {
                                  localStorage.setItem("favoriteMovies",JSON.stringify(arrayFavorites));
                                  console.log(arrayFavorites);
                                  resultContainer.innerHTML="";
- 
-                                 let contentCol = document.createElement("div");
-                                 contentCol.setAttribute("class","col-3");
-                                 contentRow.appendChild(contentCol);
-                                 console.log("lappen???")
         
                                  let contentCard = document.createElement("div");
                                  contentCard.setAttribute("class","card");
-                                 contentCol.appendChild(contentCard);
+                                 contentRow.appendChild(contentCard);
         
                                  let contentCardImage = document.createElement("img");
                                  contentCardImage.setAttribute("class", "card-img-top");
@@ -171,15 +157,16 @@ class Favorites {
                                  contentCard.appendChild(contentCardImage);
         
                                  var contentCardBody = document.createElement("div");
-                                 contentCardBody.setAttribute("class","card-body");
+                                 contentCardBody.setAttribute("class","card-body d-flex flex-column");
                                  contentCard.appendChild(contentCardBody);
-                                 let contentTitle = document.createElement("h5");
+                                 let contentTitle = document.createElement("p");
+                                 contentTitle.setAttribute("class", "card-body");
                                  contentTitle.innerHTML=arrayFavorites[arrayFavorites.length-1].title;//§ .title
                                  contentCardBody.appendChild(contentTitle);
                                  var deleteButton = document.createElement("button");
                                  deleteButton.setAttribute("id","bb"+arrayFavorites[arrayFavorites.length-1].id);
                                  deleteButton.setAttribute("name",arrayFavorites[arrayFavorites.length-1].id);
-                                 deleteButton.setAttribute("class","btn btn-outline-danger");
+                                 deleteButton.setAttribute("class","mt-auto btn btn-outline-danger");
                                  deleteButton.innerHTML="Delete";
          
                                  contentCardBody.appendChild(deleteButton);
@@ -189,7 +176,7 @@ class Favorites {
                                      var movieId = e.target.name;
                                      for (var i = 0; i < movies.length; i++) {
                                          if (movies[i].id == movieId) {
-                                             contentRow.removeChild(e.target.parentNode.parentNode.parentNode);
+                                             contentRow.removeChild(e.target.parentNode.parentNode);
                                              for (var i=0; i<arrayFavorites.length;i++){
                                                  if (e.target.name==arrayFavorites[i].id){
                                                      console.log("eigentlich klappts")
@@ -220,19 +207,27 @@ class Favorites {
                  }
  
  
- 
-             let closeButton = document.createElement("button");
-             closeButton.setAttribute("class","m-3 btn btn-secondary");
-             closeButton.innerHTML="Close";
-             closeButton.addEventListener("click",()=>{
-                 resultContainer.innerHTML="";
-             })
-             resultContainer.appendChild(closeButton);
- 
          })
  
           let br33=document.createElement("br");
           this._favorites.appendChild(br33);
+
+          
+         //Favorites Header
+         let divcontainerHeader = document.createElement("div");
+         divcontainerHeader.setAttribute("class","p-2 rounded container");
+         this._favorites.appendChild(divcontainerHeader);
+ 
+         let br = document.createElement("br");
+         divcontainerHeader.appendChild(br);
+ 
+         let header = document.createElement("h3");
+         header.setAttribute("class", "text-center");
+         header.innerHTML = "Deine Favorite Movies";
+         divcontainerHeader.appendChild(header);
+ 
+         let br2 = document.createElement("br");
+         divcontainerHeader.appendChild(br2);
  
  
          //Container für den Inhalt der Favorites erzeugen
@@ -257,14 +252,10 @@ class Favorites {
              console.log(arrayFavorites);
              for (var i = 0; i<arrayFavorites.length;i++){
  
-                 let contentCol = document.createElement("div");
-                 contentCol.setAttribute("class","col-3");
-                 contentRow.appendChild(contentCol);
- 
  
                  let contentCard = document.createElement("div");
                  contentCard.setAttribute("class","card");
-                 contentCol.appendChild(contentCard);
+                 contentRow.appendChild(contentCard);
 
                  let contentCardImage = document.createElement("img");
                  contentCardImage.setAttribute("class", "card-img-top");
@@ -272,15 +263,16 @@ class Favorites {
                  contentCard.appendChild(contentCardImage);
 
                  var contentCardBody = document.createElement("div");
-                 contentCardBody.setAttribute("class","card-body");
+                 contentCardBody.setAttribute("class","card-body d-flex flex-column");
                  contentCard.appendChild(contentCardBody);
-                 let contentTitle = document.createElement("h5");
+                 let contentTitle = document.createElement("p");
+                 contentTitle.setAttribute("class", "card-text");
                  contentTitle.innerHTML=arrayFavorites[i].title;//§ .title
                  contentCardBody.appendChild(contentTitle);
                  var deleteButton = document.createElement("button");
                  deleteButton.setAttribute("id","bb"+arrayFavorites[i].id);
                  deleteButton.setAttribute("name",arrayFavorites[i].id);
-                 deleteButton.setAttribute("class","btn btn-outline-danger");
+                 deleteButton.setAttribute("class","btn btn-outline-danger mt-auto");
                  deleteButton.innerHTML="Delete";
  
                  contentCardBody.appendChild(deleteButton);
@@ -293,7 +285,7 @@ class Favorites {
                      var movieId = e.target.name;
                      for (var i = 0; i < movies.length; i++) {
                          if (movies[i].id == movieId) {
-                             contentRow.removeChild(e.target.parentNode.parentNode.parentNode);
+                             contentRow.removeChild(e.target.parentNode.parentNode);
                              for (var i=0; i<arrayFavorites.length;i++){
                                 if (e.target.name==arrayFavorites[i].id){
                                     console.log("eigentlich klappts")
