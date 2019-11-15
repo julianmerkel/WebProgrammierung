@@ -315,10 +315,131 @@
   {
     "id":"40",
     "title":"Sieben",
-    "genre": "Krimi",
+    "genre": "Thriller",
     "availability": "",
     "img": "https://image.tmdb.org/t/p/w500_and_h282_face/A0WKbRIojF9DUWG4XLCmg5JK6I5.jpg",
     "imgGenre": "http://static.kino.de/wp-content/uploads/2015/08/sieben-1995-filmplakat.jpg"
+  },
+  {
+    "id":"41",
+    "title":"The Nun",
+    "genre": "Horror",
+    "availability": "",
+    "img": "https://starcasm.net/wp-content/uploads/2018/09/thenun.jpg",
+    "imgGenre": "https://i.pinimg.com/736x/1c/3b/c3/1c3bc329279d7bf0341b9484d3d439a9.jpg"
+  },
+  {
+    "id":"42",
+    "title":"ES",
+    "genre": "Horror",
+    "availability": "",
+    "img": "https://www.musicmagpie.co.uk/wp-content/uploads/2017/09/IT-movie-poster.jpg",
+    "imgGenre": "http://wieistderfilm.de/wp-content/uploads/2017/09/ES-Plakat-244x345.jpg"
+  },
+  {
+    "id":"43",
+    "title":"Gemini Man",
+    "genre": "krimi",
+    "availability": "",
+    "img": "https://m.odeon.co.uk/_uploads/asset_management/960x410_26885f693a13cee14545950028bc80a3.jpg",
+    "imgGenre": "https://www.cinestar.de/media/cache/web_xl/media//filmbilder/g/gemini-man/gemini-man_basepic.jpg"
+  },
+  {
+    "id":"44",
+    "title":"Glass",
+    "genre": "Krimi",
+    "availability": "",
+    "img": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/1050888051001/291fddaa-ccc9-4571-bdd7-58721f34d239/02406b13-9f6c-4c8c-ba4e-930776ff5a59/1280x720/match/image.jpg",
+    "imgGenre": "http://www.theloquitur.com/wp-content/uploads/2019/01/glass-movie-poster-400x598.jpg"
+  },
+  {
+    "id":"45",
+    "title":"Red Sparrow",
+    "genre": "Krimi",
+    "availability": "",
+    "img": "https://static.kino.de/wp-content/uploads/2018/02/Red_Sparrow_fsk-rct390x300u.jpg",
+    "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/61TalL0VBML._SY606_.jpg"
+  },
+  {
+    "id":"46",
+    "title":"Split",
+    "genre": "Krimi",
+    "availability": "",
+    "img": "https://www.peterspann.film/wp-content/uploads/2017/03/Split-Poster.jpg",
+    "imgGenre": "https://movieposters2.com/images/1480003-b.jpg"
+  },
+  {
+    "id":"47",
+    "title":"Fight Club",
+    "genre": "Thriller",
+    "availability": "",
+    "img": "https://pmcvariety.files.wordpress.com/2013/07/fight-club.jpg?w=1000&h=563&crop=1",
+    "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/51DJ7Bmq6GL.jpg"
+  },
+  {
+    "id":"48",
+    "title":"Psycho",
+    "genre": "Thriller",
+    "availability": "",
+    "img": "http://cinemajam.com/mag/wp-content/uploads/2015/04/320120523p1960w2.png",
+    "imgGenre": "https://a2.tvspielfilm.de/imedia/0784/8950784,+JR00dsvPsznYPy0NUzqFgF9VogZp3zhaLxwQ8WVXVuPM+LKaAY8XpL+Y3a26rZtB7R_Qv1Qyo87SAPhYFH6fA==.jpg"
+  },
+  {
+    "id":"49",
+    "title":"Die Verurteilten",
+    "genre": "Drama",
+    "availability": "",
+    "img": "http://de.web.img3.acsta.net/r_640_360/newsv7/19/09/12/08/52/3752632.jpg",
+    "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/517SDGYY26L._SY445_.jpg"
+  },
+  {
+    "id":"50",
+    "title":"Hooligans",
+    "genre": "Drama",
+    "availability": "",
+    "img": "https://fanart.tv/api/download.php?type=download&image=144640&section=3",
+    "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/51SfFLWdH4L._SY450_.jpg"
+  },
+  {
+    "id":"51",
+    "title":"Gran Torino",
+    "genre": "Drama",
+    "availability": "",
+    "img": "https://cdn.cinematerial.com/p/500x/hqxpaqj6/gran-torino-movie-poster.jpg?v=1456330313",
+    "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/41CIWx2Fd2L.jpg"
+  },
+  {
+    "id":"52",
+    "title":"Ma",
+    "genre": "Thriller",
+    "availability": "",
+    "img": "https://imageproxy.themaven.net/https%3A%2F%2Fimages.saymedia-content.com%2F.image%2FMTY0NDEwMzM3Njk5ODMzNDI5%2Fma.jpg",
+    "imgGenre": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Ma_Official_Movie_Poster.jpg/220px-Ma_Official_Movie_Poster.jpg"
+  },
+  {
+    "id":"53",
+    "title":"Aladdin",
+    "genre": "Abenteuer",
+    "availability": "",
+    "img": "https://cdn3-www.comingsoon.net/assets/uploads/2019/07/Aladdin.jpg",
+    "imgGenre": "https://img04.mgo-images.com/image/thumbnail?id=MMV5210161FFDDD4CD5C544D89E3B35DB2E9&ql=70&sizes=310x465"
+  },
+  {
+    "id":"54",
+    "title":"Jurassic World",
+    "genre": "Abenteuer",
+    "availability": "",
+    "img": "https://i.ytimg.com/vi/YXrYgF2iMw8/maxresdefault.jpg",
+    "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/817O-vUusjL._SY679_.jpg"
+  },
+  {
+    "id":"55",
+    "title":"Bird Box",
+    "genre": "Thriller",
+    "availability": "",
+    "img": "https://imgix.bustle.com/uploads/image/2018/12/11/6b418191-32c5-4426-875e-0264fae7bf7e-24-bird-boxw1200h630.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70",
+    "imgGenre": "http://de.web.img2.acsta.net/pictures/18/10/25/14/07/5095709.jpg"
   }
+
 
 ]
