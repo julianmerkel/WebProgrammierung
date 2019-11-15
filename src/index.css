@@ -29,10 +29,10 @@ html, body {
 }
 #nav {
   padding: .4rem;
-  background-color: rgba(105,105,105,.6);
+  background-color: rgba(105,105,105,.9);
   color: #C0C0C0;
 }
-.navbar-light .navbar-brand {
+.name {
   color: #C0C0C0;
   font-size: 1.8em;
 }
@@ -45,17 +45,19 @@ html, body {
   color: #C0C0C0;
 }
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #007BFF;
+  color:blueviolet; background: rgba(0, 0, 0,0.7);
+  border-radius: 8px;
   
 }
 .nav-link {
   font-size: 1.1em !important;
 }
+/*
 .nav-link:hover{
   color: #d5d5d5;
   border: 2px solid #777;
   border-radius: 8px;
-}
+}*/
  .footer {
    width: 100%;
   font-weight: bold;

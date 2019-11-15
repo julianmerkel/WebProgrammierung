@@ -1,43 +1,48 @@
 
-.jumbotron {
-  padding: 1rem;
-  border-radius: 0;
-}
 
 #lead{
-  margin-top: 5rem;
+  margin-top: 0rem;
   color: #C0C0C0;
   font-style: bold;
   text-align: center;
-  padding: .5rem;
-  margin-left: .5rem;
-  width: 380px;
-  background: rgba(105,105,105, 0.6);
+  padding: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 2rem;
+  background: rgba(105,105,105, 0.5);
+  border-radius: 5px;
+
 }
 
 #card{
-  background: rgba(105,105,105, 0.6);
-  margin: 0.5rem;
+  background: rgba(105,105,105, 0.5);
+  margin-left: 2rem;
+  margin-right: 2rem;
   margin-bottom: 0rem;
   margin-top: 0rem;
+  border-radius: 5px;
 }
 
 #button{
  background: rgba(255,255,255, 0.4);
-  width: 150px;
+ /* width: 150px;*/
+ width: 300px;
  color:blueviolet; background: rgba(0, 0, 0,0.7);
 }
 
+/* Inhalt einer Card */
 #card-body {
   color: black;
   background: rgba(105,105,105, 0.1);
 }
+
+/* Bildergalerie */
 div.gallery {
-  margin: 4px;
-  border: 1px solid #ccc;
+  margin: 6px;
+/*  border: 1px solid #ccc;*/
   border-radius: 8px;
   float: left;
-  width: 175px;
+  width: 185px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background: rgba(105,105,105, 0.1);
 }
@@ -48,11 +53,11 @@ div.gallery:hover {
   transform: scale(1.1);
 }
 
+/* Bilder */
 div.gallery img {
   width: 100%;
-  height: 250px;
+  height: 270px;
   border-radius: 8px;
- /* height: auto;*/
   /*transition: transform .5s ease;*/
   transform-origin: 0 0;
   transition: transform .25s, visibility .25s ease-in;
