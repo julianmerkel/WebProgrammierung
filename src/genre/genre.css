@@ -2,12 +2,11 @@
 
 #lead{
   margin-top: 0rem;
-  color: #C0C0C0;
   font-style: bold;
   text-align: center;
   padding: 2rem;
-  margin-left: 4rem;
-  margin-right: 4rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
   margin-bottom: 2rem;
   background: rgba(105,105,105, 0.5);
   border-radius: 5px;
@@ -25,7 +24,6 @@
 
 #button{
  background: rgba(255,255,255, 0.4);
- /* width: 150px;*/
  width: 300px;
  color:blueviolet; background: rgba(0, 0, 0,0.7);
 }
@@ -39,7 +37,6 @@
 /* Bildergalerie */
 div.gallery {
   margin: 6px;
-/*  border: 1px solid #ccc;*/
   border-radius: 8px;
   float: left;
   width: 185px;
@@ -49,7 +46,6 @@ div.gallery {
 
 div.gallery:hover {
   border: 1px solid #777;
- /* transform: scale(1.1);*/
   transform: scale(1.1);
 }
 
@@ -58,17 +54,15 @@ div.gallery img {
   width: 100%;
   height: 270px;
   border-radius: 8px;
-  /*transition: transform .5s ease;*/
   transform-origin: 0 0;
   transition: transform .25s, visibility .25s ease-in;
- /* transform: 0.5s, box-shadow 0.5s;*/
 }
 
 div.desc {
   padding: 5px;
   text-align: center;
   font-size: 1em;
-  color: #C0C0C0;
+  color: white;
 }
 
 /*--- Bootstrap Padding Fix --*/
