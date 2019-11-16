@@ -27,8 +27,7 @@ import Genre from "./genre/genre.js";
         this._currentUrl = "";
 
         this._router.on({
-            "detail/display/:id":   params => this.showDetail(params.id, "display"),
-            "detail/new":           () => this.showDetail("", "new"),
+            "detail":           () => this.showDetail(),
             "overview":            () => this.showOverview(),
             "start":                () => this.showStart(),
             "watchlist":            () => this.showWatchlist(),
@@ -119,8 +118,8 @@ import Genre from "./genre/genre.js";
             let view = new Quiz(this);
             this._switchVisibleView(view);
         }
-    showDetail(id, mode){
-        let view = new Detail(this, id, mode);
+    showDetail(){
+        let view = new Detail(this);
         this._switchVisibleView(view);
     }
     }
