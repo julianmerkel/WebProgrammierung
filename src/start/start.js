@@ -403,10 +403,10 @@ class Start {
 
 
         this._favorite.innerHTML +=`
-                
+                <a href="#favorites"> 
              <img class="d-block w-100" src="`+iFavorite+`" style="height: 20em; filter:brightness(60%)" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
-            <a href="#favorites">
+           
                    <h3>Schau einen Deiner Lieblingsfilme.</h3>
                  </a>
            
@@ -414,20 +414,20 @@ class Start {
             `;
 
         this._watchlist.innerHTML +=`
-                
+             <a href="#watchlist">   
              <img class="d-block w-100" src="`+iWatchlist+`" style="height: 20em; filter:brightness(60%)" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
-             <a href="#watchlist">
+             
             <h3>Schau einen Film von Deiner Watchlist.</h3>
             </a>
         </div>
             `;
 
         this._quiz.innerHTML +=`
-                
+                <a href="#quiz">
              <img class="d-block w-100" src="`+iQuiz+`" style="height: 20em; filter:brightness(60%)" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
-             <a href="#quiz">
+             
             <h3>Mach ein Quiz.</h3>
             </a>
         </div>
