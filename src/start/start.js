@@ -406,7 +406,10 @@ class Start {
                 
              <img class="d-block w-100" src="`+iFavorite+`" style="height: 20em; filter:brightness(60%)" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
-            <h3>Schau einen Deiner Lieblingsfilme.</h3>
+            <a href="#favorites">
+                   <h3>Schau einen Deiner Lieblingsfilme.</h3>
+                 </a>
+           
         </div>
             `;
 
@@ -414,7 +417,9 @@ class Start {
                 
              <img class="d-block w-100" src="`+iWatchlist+`" style="height: 20em; filter:brightness(60%)" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
+             <a href="#watchlist">
             <h3>Schau einen Film von Deiner Watchlist.</h3>
+            </a>
         </div>
             `;
 
@@ -422,7 +427,9 @@ class Start {
                 
              <img class="d-block w-100" src="`+iQuiz+`" style="height: 20em; filter:brightness(60%)" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
+             <a href="#quiz">
             <h3>Mach ein Quiz.</h3>
+            </a>
         </div>
             `;
 
