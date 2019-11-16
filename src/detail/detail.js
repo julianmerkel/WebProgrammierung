@@ -2,6 +2,7 @@
 
 import detail from "./detail.html";
 import stylesheet from "./detail.css";
+import movies from "../movies";
 
 class Detail {
     constructor(app){
@@ -10,13 +11,12 @@ class Detail {
 
     onShow() {
         // Variablen
-        var arrayFavorites =JSON.parse(localStorage.getItem("favoriteMovies"));
         var detailFilmString = localStorage.getItem("detailFilm");
         var filmObject = {};
 
-        for(var i = 0; i < arrayFavorites.length; i++){
-            if(arrayFavorites[i].title == detailFilmString){
-                filmObject = arrayFavorites[i];
+        for(var i = 0; i < movies.length; i++){
+            if(movies[i].title == detailFilmString){
+                filmObject = movies[i];
             }
         }
 
