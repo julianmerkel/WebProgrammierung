@@ -4,7 +4,7 @@
     "title":"Avengers Endgame",
     "genre": "Action",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Marvel-Studios-Avengers-Endgame-dt/dp/B07QVP7DM4/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3KVCXVMBCNCE&keywords=avengers+endgame&qid=1573936089&sprefix=Avengers+%2Caps%2C164&sr=8-3",
     "img": "https://ze.tt/wp-content/uploads/2019/04/avengers-endgame-filmkritik-e1556111236535-940x528.jpg",
     "imgGenre": "https://bilder.bild.de/fotos-skaliert/viel-los-auf-dem-plakat--alle-helden-wollen-ihren-platz-im-finale-201113173-61440680/8,w=468,c=0.bild.jpg"
   },
@@ -13,7 +13,7 @@
     "title":"Men in Black 2",
     "genre": "Sci-Fi",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Men-Black-II-Linda-Fiorentino/dp/B00EVAX0X4/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=men+in+black+2&qid=1573936262&sr=8-3",
     "img": "http://www.klangundkleid.ch/img/plakate/film/740560_MEN-IN-BLACK-II--with-Will-Smith-CHF24.jpg",
     "imgGenre": "https://img.reelgood.com/content/movie/ed254ed2-a502-48d1-8221-5511644de7aa/poster-780.jpg"
     
@@ -23,7 +23,7 @@
     "title":"Captain Marvel",
     "genre": "Sci-Fi",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Marvel-Studios-Captain-dt-OV/dp/B07PBR6M9B/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=RERHXSQT3BPN&keywords=captain+marvel&qid=1573936333&sprefix=Cap%2Caps%2C173&sr=8-2",
     "img": "https://www.playcentral.de/uploads/news/newspic-77429.jpg",
     "imgGenre": "https://media.services.cinergy.ch/media/box1600/7ff00589a6ac72d438fff3fe550a0b81159159ad.jpg"
   },
@@ -32,7 +32,7 @@
     "title":"Rogue One A Star Wars Story",
     "genre": "Sci-Fi",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Rogue-One-Star-Wars-Story/dp/B01NGTVZMM/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=rogue+one&qid=1573936358&sr=8-1",
     "img": "https://images.justwatch.com/backdrop/3671650/s1440/Rogue-One-A-Star-Wars-Story",
     "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/719kCsFLrYL._SY741_.jpg"
   },
@@ -41,7 +41,7 @@
     "title":"The Dark Knight",
     "genre": "Action",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Dark-Knight-dt-OV/dp/B00G0OFWXA/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3VXHYWHNQQEWV&keywords=the+dark+knight&qid=1573936440&sprefix=The+dark+kn%2Caps%2C186&sr=8-1",
     "img": "https://images2.minutemediacdn.com/image/upload/c_crop,h_730,w_1300,x_0,y_10/f_auto,q_auto,w_1100/v1554919442/shape/mentalfloss/dark_knight_hed.png",
     "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/91KkWf50SoL._SL1500_.jpg"
   },
@@ -50,7 +50,7 @@
     "title":"Harry Potter und der Stein der Weisen",
     "genre": "Fantasy",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Harry-Potter-Stein-Weisen-dt/dp/B00JGV1JW2/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=BI7AL4RJ6VKP&keywords=harry+potter+und+der+stein+der+weisen&qid=1573936795&sprefix=Harry+potter+und+der%2Caps%2C188&sr=8-1",
     "img": "https://www.muenchenevent.de/medien/Harry_Potter_und_der_Stein_der_Weisen_-_in_Concert-9094.jpg",
     "imgGenre": "https://images.booklooker.de/s/013187/Chris-Columbus+Harry-Potter-und-der-Stein-der-Weisen.jpg"
   },
@@ -59,7 +59,7 @@
     "title":"Harry Potter und die Kammer des Schreckens",
     "genre": "Fantasy",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Harry-Potter-die-Kammer-Schreckens/dp/B00HX2J48C/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=C8POHWZEJ2Q2&keywords=harry+potter+und+die+kammer+des+schreckens&qid=1573937168&sprefix=harry+potter+und+die+ka%2Caps%2C175&sr=8-1",
     "img": "https://static.tvno.nu/798769?forceFit=0&height=760&quality=50&width=1350",
     "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/51JGTT9492L._SY445_.jpg"
   },
@@ -68,7 +68,7 @@
     "title":"Harry Potter und der Gefangene von Askaban",
     "genre": "Fantasy",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Harry-Potter-Gefangene-von-Askaban/dp/B00FYUOEPI/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3Q1HLY5LP24VJ&keywords=harry+potter+und+der+gefangene+von+askaban&qid=1573937196&sprefix=harry+potter+und+der+ge%2Caps%2C182&sr=8-3",
     "img": "https://i.ytimg.com/vi/96W4e_pZJmw/maxresdefault.jpg",
     "imgGenre": "https://is4-ssl.mzstatic.com/image/thumb/Video118/v4/e9/ce/40/e9ce4088-8e57-fe60-2de0-033b1391ba8e/pr_source.lsr/268x0w.png"
   },
@@ -77,7 +77,7 @@
     "title":"Harry Potter und der Feuerkelch",
     "genre": "Fantasy",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Harry-Potter-Feuerkelch-dt-OV/dp/B00EVAU29E/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=296WZVSGAZ5EW&keywords=harry+potter+und+der+feuerkelch&qid=1573937226&sprefix=harry+potter+und+der+feuer%2Caps%2C171&sr=8-3",
     "img": "https://www.pointer.de/bilder/teaser_top/1228harry_potter.jpg",
     "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/914h1Q6vNVL._SL1500_.jpg"
   },
@@ -86,7 +86,7 @@
     "title":"Harry Potter und der Orden des Phönix",
     "genre": "Fantasy",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Harry-Potter-Orden-Ph%C3%B6nix-dt/dp/B00RYENTOY/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2PKD5PUD4164M&keywords=harry+potter+und+der+orden+des+ph%C3%B6nix&qid=1573937267&sprefix=harry+potter+und+der+o%2Caps%2C171&sr=8-2",
     "img": "https://static.geo.de/bilder/13/f5/4879/article_image_big/330214901fdfdacc8957be0038b28e07.jpg",
     "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/91yYKadwVQL._SY445_.jpg"
   },
@@ -95,7 +95,7 @@
     "title":"Harry Potter und der Halbblutprinz",
     "genre": "Fantasy",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Harry-Potter-Halbblutprinz-dt-OV/dp/B00FZ29U04/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=10W136B4I2888&keywords=harry+potter+und+der+halbblutprinz&qid=1573937291&sprefix=harry+potter+und+der+hal%2Caps%2C167&sr=8-2",
     "img": "https://www.wuv.de/var/wuv/storage/images/werben_verkaufen/marketing/pandora_macht_jetzt_harry_potter_schmuck/9601855-5-ger-DE/pandora_macht_jetzt_harry_potter_schmuck7_gross.jpg",
     "imgGenre": "https://www.itunes-4k-filme.de/cover/harry-potter-und-der-halbblutprinz-500.jpg"
   },
@@ -103,8 +103,8 @@
     "id":"12",
     "title":"Das Schweigen der Lämmer",
     "genre": "Horror",
-    "netflix": "",
-    "amazon": "",
+    "netflix": "https://www.netflix.com/de/title/14546747",
+    "amazon": "https://www.amazon.de/Das-Schweigen-L%C3%A4mmer-Jodie-Foster/dp/B01BO2GJIE/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1SBZQKPU3Y8CY&keywords=das+schweigen+der+l%C3%A4mmer&qid=1573937330&sprefix=Das+schwei%2Caps%2C186&sr=8-1",
     "img": "https://i.ytimg.com/vi/NoGQ05q-J9g/maxresdefault.jpg",
     "imgGenre": "https://vignette.wikia.nocookie.net/hannibal/images/7/78/Das_Schweigen_der_L%C3%A4mmer.jpg/revision/latest?cb=20131028173027&path-prefix=de"
   },
@@ -112,8 +112,8 @@
     "id":"13",
     "title":"Zurück in die Zukunft",
     "genre": "Abenteuer",
-    "netflix": "",
-    "amazon": "",
+    "netflix": "https://www.netflix.com/de/title/60010110",
+    "amazon": "https://www.amazon.de/Zur%C3%BCck-die-Zukunft-dt-OV/dp/B00FYU986S/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1KGGVLWE87MDH&keywords=zur%C3%BCck+in+die+zukunft&qid=1573937390&sprefix=Zur%C3%BCck+in+die+%2Caps%2C184&sr=8-3",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT56wWmBA4A8lwbSBIGbynDAlScniHvVoXD6wsSIJN_rEJ9Wwys&s",
     "imgGenre": "https://www.cineplexx.at/media/at/inc/movies_licences/ZurueckindieZukunft2_Plakat.jpg"
   },
@@ -121,8 +121,8 @@
     "id":"14",
     "title":"Moonlight",
     "genre": "Drama",
-    "netflix": "",
-    "amazon": "",
+    "netflix": "https://www.netflix.com/de/title/80121348",
+    "amazon": "https://www.amazon.de/Moonlight-dt-OV-Trevante-Rhodes/dp/B074JHP6C2/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=moonlight&qid=1573937436&sr=8-2",
     "img": "https://the-hollywood-gossip-res.cloudinary.com/iu/s--yT34gBrB--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1485268449/moonlight-movie-poster.jpg",
     "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/71rNJQ2g-EL._SL1178_.jpg"
   },
@@ -130,8 +130,8 @@
     "id":"15",
     "title":"Inception",
     "genre": "Action",
-    "netflix": "",
-    "amazon": "",
+    "netflix": "https://www.netflix.com/de/title/70131314",
+    "amazon": "https://www.amazon.de/Inception-Leonardo-Dicaprio/dp/B00FYU6RTY/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=inception&qid=1573937498&sr=8-1",
     "img": "http://de.web.img3.acsta.net/r_640_360/newsv7/19/08/09/19/16/2096534.jpg",
     "imgGenre": "https://cdn.shopify.com/s/files/1/1416/8662/products/inception_2010_advance_original_film_art_dc7d7689-1e66-41d6-b228-48da4e7b52e4_2000x.jpg?v=1564717627"
   },
@@ -149,7 +149,7 @@
     "title":"Kevin allein zu Haus",
     "genre": "Familie",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Kevin-Allein-Haus-dt-OV/dp/B00HFDYJGQ/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=33DHJJ7IXRT0D&keywords=kevin+allein+zu+haus&qid=1573937568&sprefix=kev%2Caps%2C178&sr=8-1",
     "img": "https://i.ytimg.com/vi/dzdpqRGA1qc/maxresdefault.jpg",
     "imgGenre": "https://i.pinimg.com/originals/de/68/e2/de68e2a11dfe2b1e614192e86fd39b84.jpg"
   },
@@ -158,7 +158,7 @@
     "title":"Die Eiskönigin",
     "genre": "Familie",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Die-Eisk%C3%B6nigin-V%C3%B6llig-unverfroren-dt/dp/B00IK64AAW/ref=sr_1_5?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=frozen&qid=1573937726&sr=8-5",
     "img": "https://i.ytimg.com/vi/vSKlICmmi98/maxresdefault.jpg",
     "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/71z-S33Wf7L._SY606_.jpg"
   },
@@ -167,7 +167,7 @@
     "title":"Conjuring",
     "genre": "Horror",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Conjuring-Die-Heimsuchung-dt-OV/dp/B00IK6OGJW/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=conjuring&qid=1573937760&sr=8-1",
     "img": "https://i1.wp.com/www.horrorhomeroom.com/wp-content/uploads/2015/05/3221453-the_conjuring_movie-wide.jpg?resize=1000%2C668",
     "imgGenre": "https://m.media-amazon.com/images/M/MV5BMTM3NjA1NDMyMV5BMl5BanBnXkFtZTcwMDQzNDMzOQ@@._V1_.jpg"
   },
@@ -176,7 +176,7 @@
     "title":"Conjuring 2",
     "genre": "Horror",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Conjuring-dt-OV-Vera-Farmiga/dp/B01H67IIOO/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=conjuring+2&qid=1573937797&sr=8-1",
     "img": "https://i3-img.prosieben.de/pis/ezone/0e53qgELB38wdEB-ZftIYFPQSp-HxjRVj8ghGONpO6WKv8aoTns8zbue2ZFudqxI-5poJKIiLoHWwfPjjP34-QCU8EpVHGRifwqjCog72Q/profile:mag-996x562",
     "imgGenre": "https://i0.wp.com/wessels-filmkritik.com/wp-content/uploads/2016/06/153642_poster_1.jpg?ssl=1"
   },
@@ -185,7 +185,7 @@
     "title":"La Llorona",
     "genre": "Horror",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Lloronas-Fluch-dt-Linda-Cardellini/dp/B07R6R7B55/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2LKVX4DX06MKC&keywords=la+llorona&qid=1573937857&sprefix=la+llo%2Caps%2C218&sr=8-1",
     "img": "https://c.nau.ch/i/BX1lQ/680/conjuring-reihe-la-llorona.jpg",
     "imgGenre": "https://media.outnow.ch/Movies/Bilder/2019/CurseOfLaLlorona/011.jpg"
   },
@@ -193,8 +193,8 @@
     "id":"22",
     "title":"The Revenant",
     "genre": "Abenteuer",
-    "netflix": "",
-    "amazon": "",
+    "netflix": "https://www.netflix.com/de/title/80064516",
+    "amazon": "https://www.amazon.de/Revenant-R%C3%BCckkehrer-dt-OV/dp/B01AN69UP6/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1YSPAK6I366ZD&keywords=the+revenant&qid=1573937899&sprefix=the+reve%2Caps%2C187&sr=8-1",
     "img": "https://media.fromthegrapevine.com/assets/images/2016/1/leonardo_dicaprio_the_revenant-HD.jpg.480x0_q71_crop-scale.jpg",
     "imgGenre": "https://img.cineplexx.at/media/at/inc/movies_licences/TheRevenant_Plakatfinal.jpg"
   },
@@ -203,7 +203,7 @@
     "title":"Der Herr der Ringe - Die Gefährten",
     "genre": "Abenteuer",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Herr-Ringe-Gef%C3%A4hrten-Special-Extended/dp/B00IKVM8BK/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=die+gef%C3%A4hrten&qid=1573937956&sr=8-1",
     "img": "https://assets.cdn.moviepilot.de/files/30a06f13b41377ae5597b3051c9fd514df18e94e4d0c4ce80ed8555fe02d/fill/960/461/herr-der-ringe.jpg",
     "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/51VKKN0KZEL._SY445_.jpg"
   },
@@ -212,7 +212,7 @@
     "title":"Der Herr der Ringe - Die zwei Türme",
     "genre": "Abenteuer",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Herr-Ringe-Zwei-T%C3%BCrme-Extended/dp/B00IL1F2XK/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2E494SEU0E4LY&keywords=die+zwei+t%C3%BCrme&qid=1573938024&sprefix=die+zwei+t%2Caps%2C164&sr=8-1",
     "img": "https://filmpluskritik.files.wordpress.com/2018/12/twotowers.jpg?w=816",
     "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/51ZV53S7ZTL._SY445_.jpg"
   },
@@ -221,7 +221,7 @@
     "title":"Der Herr der Ringe - Die Rückkehr des Königs",
     "genre": "Abenteuer",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Herr-Ringe-R%C3%BCckkehr-Special-Extended/dp/B00JKO68DA/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=151RCSEGPGP64&keywords=die+r%C3%BCckkehr+des+k%C3%B6nigs&qid=1573938055&sprefix=die+R%C3%BCckkehr+des+k%C3%B6%2Caps%2C158&sr=8-2",
     "img": "https://assets.cdn.moviepilot.de/files/8530aa26af68d198c3747b1e5ebc6f554fa573bcdcfaf868122456b54f2a/fill/640/307/der-herr-der-ringe-die-gef%C3%A4hrten-edit.jpg",
     "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/A1+POlYbo-L._SX300_.jpg"
   },
@@ -229,8 +229,8 @@
     "id":"26",
     "title":"Hangover",
     "genre": "Komödie",
-    "netflix": "",
-    "amazon": "",
+    "netflix": "https://www.netflix.com/de/title/70113002",
+    "amazon": "https://www.amazon.de/Hangover-dt-OV-Bradley-Cooper/dp/B00IAVGZWS/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=Hangover&qid=1573938075&sr=8-3",
     "img": "http://www.media4.hw-static.com/media/2016/12/warnerbros_thehangover_122716_1800x1200-1800x1200.jpg",
     "imgGenre": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Hangoverposter09.jpg/220px-Hangoverposter09.jpg"
   },
@@ -238,8 +238,8 @@
     "id":"27",
     "title":"Crazy Stupid Love",
     "genre": "Komödie",
-    "netflix": "",
-    "amazon": "",
+    "netflix": "https://www.netflix.com/de/title/70167068",
+    "amazon": "https://www.amazon.de/Crazy-Stupid-Love-dt-OV/dp/B00ILO976A/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2A4ODYDDLMDB1&keywords=crazy+stupid+love&qid=1573938124&sprefix=crazy+st%2Caps%2C173&sr=8-1",
     "img": "http://static1.squarespace.com/static/56dab9c786db438d71cfecf9/58c0077d20099e45701c73e6/5c62321be5e5f094ed82b8f2/1549985785357/crazy-stupid-love-56770cb7b21e4.jpg?format=1500w",
     "imgGenre": "https://is3-ssl.mzstatic.com/image/thumb/Video30/v4/b9/bc/a5/b9bca593-7955-14d0-7f73-e355d0111e84/pr_source.lsr/268x0w.png"
   },
@@ -248,7 +248,7 @@
     "title":"Ziemlich beste Freunde",
     "genre": "Komödie",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Ziemlich-Beste-Freunde-dt-OV/dp/B00HLV4VSI/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2KXXAPGXWE6UP&keywords=ziemlich+beste+freunde&qid=1573938163&sprefix=ziemlich%2Caps%2C169&sr=8-2",
     "img": "https://i.ytimg.com/vi/RJGh0p5JRAQ/maxresdefault.jpg",
     "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/81ztuP02K6L._SL1500_.jpg"
   },
@@ -256,8 +256,8 @@
     "id":"29",
     "title":"Fack Ju Göhte",
     "genre": "Komödie",
-    "netflix": "",
-    "amazon": "",
+    "netflix": "https://www.netflix.com/de/title/80014999",
+    "amazon": "https://www.amazon.de/Fack-ju-G%C3%B6hte-Elyas-MBarek/dp/B00K4XBZ20/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2TE2EGBOWQJVA&keywords=fack+ju+g%C3%B6hte&qid=1573938212&sprefix=Fack+%2Caps%2C182&sr=8-3",
     "img": "http://de.web.img3.acsta.net/medias/nmedia/18/99/89/35/20623059.jpg",
     "imgGenre": "https://media1.jpc.de/image/w600/front/0/4011976897385.jpg"
   },
@@ -265,8 +265,8 @@
     "id":"30",
     "title":"Annabelle",
     "genre": "Horror",
-    "netflix": "",
-    "amazon": "",
+    "netflix": "https://www.netflix.com/de-en/title/80013775",
+    "amazon": "https://www.amazon.de/Annabelle-dt-OV-Wallis/dp/B00T878EEK/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=annabelle&qid=1573938267&sr=8-1",
     "img": "https://hips.hearstapps.com/digitalspyuk.cdnds.net/18/37/1536833157-annabelle-doll-from-the-movie-poster-conjuring-series.jpg?resize=480:*",
     "imgGenre": "https://upload.wikimedia.org/wikipedia/en/9/90/Annabelle_film_poster.jpg"
   },
@@ -275,7 +275,7 @@
     "title":"Titanic",
     "genre": "Drama",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Titanic-Leonardo-Dicaprio/dp/B00ILNTTB4/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=titanic&qid=1573938402&sr=8-3",
     "img": "https://img.theculturetrip.com/768x432/wp-content/uploads/2016/02/titanic-movie-promo-stills-wallpaper-4.jpg",
     "imgGenre": "https://upload.wikimedia.org/wikipedia/en/1/19/Titanic_%28Official_Film_Poster%29.png"
   },
@@ -284,7 +284,7 @@
     "title":"Der König der Löwen",
     "genre": "Familie",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/K%C3%B6nig-L%C3%B6wen-Leonard-Hohm/dp/B07V8RV2RG/ref=sr_1_4?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2QBF3VAK27YXI&keywords=der+k%C3%B6nig+der+l%C3%B6wen&qid=1573938443&sprefix=der+k%C3%B6nig+der%2Caps%2C179&sr=8-4",
     "img": "https://wallpaperstock.net/wallpapers/thumbs1/31390wide.jpg",
     "imgGenre": "http://de.web.img3.acsta.net/r_1280_720/medias/nmedia/18/85/50/81/19792293.jpg"
   },
@@ -293,7 +293,7 @@
     "title":"Baymax",
     "genre": "Familie",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Baymax-Riesiges-Robowabohu-dt-OV/dp/B00W83O98G/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=baymax&qid=1573938600&sr=8-1",
     "img": "https://www.film-rezensionen.de/wp-content/uploads/2015/01/Baymax-Frontpage-750x400.jpg",
     "imgGenre": "http://de.web.img3.acsta.net/c_215_290/pictures/14/10/23/15/39/054836.jpg"
   },
@@ -301,8 +301,8 @@
     "id":"34",
     "title":"Wonder Woman",
     "genre": "Fantasy",
-    "netflix": "",
-    "amazon": "",
+    "netflix": "https://www.netflix.com/de/title/80157091",
+    "amazon": "https://www.amazon.de/Wonder-Woman-dt-Gal-Gadot/dp/B072PR752H/ref=sr_1_5?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3QBXCZHGINZZT&keywords=wonder+woman&qid=1573938617&sprefix=wonder+wom%2Caps%2C181&sr=8-5",
     "img": "https://m.media-amazon.com/images/M/MV5BZWVhYzE0NzgtM2U1Yi00OWM1LWJlZTUtZmNkNWZhM2VkMDczXkEyXkFqcGdeQW1yb3NzZXI@._V1_CR46,0,1401,788_AL_UY268_CR15,0,477,268_AL_.jpg",
     "imgGenre": "https://is1-ssl.mzstatic.com/image/thumb/Video128/v4/b2/83/e5/b283e562-b7c6-ae86-1871-014952535459/pr_source.lsr/268x0w.png"
   },
@@ -310,8 +310,8 @@
     "id":"35",
     "title":"Pulp Fiction",
     "genre": "Krimi",
-    "netflix": "",
-    "amazon": "",
+    "netflix": "https://www.netflix.com/de/title/880640",
+    "amazon": "https://www.amazon.de/Pulp-Fiction-dt-Tim-Roth/dp/B00IGK6WW6/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2L7ARM9SCC5IV&keywords=pulp+fiction&qid=1573938658&sprefix=pulp+%2Caps%2C397&sr=8-3",
     "img": "https://images.vice.com/vice/images/articles/meta/2015/09/15/quentin-tarantinos-doch-etwas-seltsame-pulp-fiction-wunschbesetzung-ist-geleakt-worden-462-1442319639.jpg?crop=1xw%3A1xh%3Bcenter%2Ccenter&resize=2000%3A*",
     "imgGenre": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY268_CR1,0,182,268_AL_.jpg"
   },
@@ -319,8 +319,8 @@
     "id":"36",
     "title":"Sherlock Holmes",
     "genre": "Krimi",
-    "netflix": "",
-    "amazon": "",
+    "netflix": "https://www.netflix.com/de/title/70110558",
+    "amazon": "https://www.amazon.de/Sherlock-Holmes-dt-Robert-Downey/dp/B00FYWH89K/ref=sr_1_6?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=sherlock+holmes&qid=1573938712&sr=8-6",
     "img": "https://upload.wikimedia.org/wikipedia/en/5/53/Sherlock_Holmes2Poster.jpg",
     "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/A1kYWlaMrXL._SY445_.jpg"
   },
@@ -329,7 +329,7 @@
     "title":"Mord im Orient Express",
     "genre": "Krimi",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Mord-im-Orient-Express-dt-OV/dp/B0771Z3W6Z/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1SV3RLXW27O3Z&keywords=mord+im+orientexpress&qid=1573938776&sprefix=mord+im%2Caps%2C181&sr=8-1",
     "img": "https://i.computer-bild.de/imgs/1/1/1/5/8/8/7/3/Mord-im-orient-Express-mit-Sky-Ticket-streamen-658x370-b8e6ee65ac8f5150.jpg",
     "imgGenre": "http://de.web.img3.acsta.net/c_215_290/pictures/17/10/20/09/37/3826187.jpg"
   },
@@ -338,7 +338,7 @@
     "title":"Der Pate",
     "genre": "Krimi",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Pate-dt-OV-Marlon-Brando/dp/B00FYV67P2/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=der+pate&qid=1573938823&sr=8-1",
     "img": "https://image.tmdb.org/t/p/w500_and_h282_face/6xKCYgH16UuwEGAyroLU6p8HLIn.jpg",
     "imgGenre": "https://media1.jpc.de/image/w600/front/0/4010884537970.jpg"
   },
@@ -347,7 +347,7 @@
     "title":"The Green Mile",
     "genre": "Krimi",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Green-Mile-dt-OV/dp/B00S5FS4EQ/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=the+green+mile&qid=1573938860&sr=8-1",
     "img": "https://img.srgcdn.com/e//QmZlcEFDZ0F1RGttM3RlU25hOWYuanBn.jpg",
     "imgGenre": "https://www.dvd-forum.at/img/imagecache/200x291_imagesCAEQQFM4.jpg"
   },
@@ -355,8 +355,8 @@
     "id":"40",
     "title":"Sieben",
     "genre": "Thriller",
-    "netflix": "",
-    "amazon": "",
+    "netflix": "https://www.netflix.com/de/title/950149",
+    "amazon": "https://www.amazon.de/Sieben-Richard-Roundtree/dp/B00FLRP8UE/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=sieben&qid=1573938894&sr=8-1",
     "img": "https://image.tmdb.org/t/p/w500_and_h282_face/A0WKbRIojF9DUWG4XLCmg5JK6I5.jpg",
     "imgGenre": "http://static.kino.de/wp-content/uploads/2015/08/sieben-1995-filmplakat.jpg"
   },
@@ -365,7 +365,7 @@
     "title":"The Nun",
     "genre": "Horror",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Nun-Corin-Hardy/dp/B07Q7GXH3D/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=the+nun&qid=1573938935&sr=8-1",
     "img": "https://starcasm.net/wp-content/uploads/2018/09/thenun.jpg",
     "imgGenre": "https://i.pinimg.com/736x/1c/3b/c3/1c3bc329279d7bf0341b9484d3d439a9.jpg"
   },
@@ -373,8 +373,8 @@
     "id":"42",
     "title":"ES",
     "genre": "Horror",
-    "netflix": "",
-    "amazon": "",
+    "netflix": "https://www.netflix.com/de/title/80177770",
+    "amazon": "https://www.amazon.de/Stephen-Kings-ES-dt-OV/dp/B0756X56XD/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=es&qid=1573938968&sr=8-1",
     "img": "https://www.musicmagpie.co.uk/wp-content/uploads/2017/09/IT-movie-poster.jpg",
     "imgGenre": "http://wieistderfilm.de/wp-content/uploads/2017/09/ES-Plakat-244x345.jpg"
   },
@@ -383,7 +383,7 @@
     "title":"Gemini Man",
     "genre": "krimi",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Gemini-Man-Will-Smith/dp/B07YK1GN6R/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=9A5FZ2USPX0L&keywords=gemini+man&qid=1573939017&sprefix=gemini%2Caps%2C233&sr=8-2",
     "img": "https://m.odeon.co.uk/_uploads/asset_management/960x410_26885f693a13cee14545950028bc80a3.jpg",
     "imgGenre": "https://www.cinestar.de/media/cache/web_xl/media//filmbilder/g/gemini-man/gemini-man_basepic.jpg"
   },
@@ -392,7 +392,7 @@
     "title":"Glass",
     "genre": "Krimi",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Glass-dt-OV-James-McAvoy/dp/B07MG5N2GH/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=glass&qid=1573939053&sr=8-3",
     "img": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/1050888051001/291fddaa-ccc9-4571-bdd7-58721f34d239/02406b13-9f6c-4c8c-ba4e-930776ff5a59/1280x720/match/image.jpg",
     "imgGenre": "http://www.theloquitur.com/wp-content/uploads/2019/01/glass-movie-poster-400x598.jpg"
   },
@@ -401,7 +401,7 @@
     "title":"Red Sparrow",
     "genre": "Krimi",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Red-Sparrow-dt-Jennifer-Lawrence/dp/B07B41XMTM/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1NFR9G2RVE8HL&keywords=red+sparrow&qid=1573939087&sprefix=red+spa%2Caps%2C167&sr=8-1",
     "img": "https://static.kino.de/wp-content/uploads/2018/02/Red_Sparrow_fsk-rct390x300u.jpg",
     "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/61TalL0VBML._SY606_.jpg"
   },
@@ -410,7 +410,7 @@
     "title":"Split",
     "genre": "Krimi",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Split-dt-OV-James-McAvoy/dp/B01MU9VJIB/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=split&qid=1573939122&sr=8-1",
     "img": "https://www.peterspann.film/wp-content/uploads/2017/03/Split-Poster.jpg",
     "imgGenre": "https://movieposters2.com/images/1480003-b.jpg"
   },
@@ -419,7 +419,7 @@
     "title":"Fight Club",
     "genre": "Thriller",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Fight-Club/dp/B00FYWOPPU/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=fight+club&qid=1573939159&sr=8-1",
     "img": "https://pmcvariety.files.wordpress.com/2013/07/fight-club.jpg?w=1000&h=563&crop=1",
     "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/51DJ7Bmq6GL.jpg"
   },
@@ -428,7 +428,7 @@
     "title":"Psycho",
     "genre": "Thriller",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Psycho-Anthony-Perkins/dp/B00RM2RDWM/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=psycho&qid=1573939184&sr=8-3",
     "img": "http://cinemajam.com/mag/wp-content/uploads/2015/04/320120523p1960w2.png",
     "imgGenre": "https://a2.tvspielfilm.de/imedia/0784/8950784,+JR00dsvPsznYPy0NUzqFgF9VogZp3zhaLxwQ8WVXVuPM+LKaAY8XpL+Y3a26rZtB7R_Qv1Qyo87SAPhYFH6fA==.jpg"
   },
@@ -455,7 +455,7 @@
     "title":"Gran Torino",
     "genre": "Drama",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Gran-Torino-dt-Clint-Eastwood/dp/B00EQZNJC6/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1MSA1MOODLC3D&keywords=gran+torino&qid=1573939348&s=instant-video&sprefix=gran+to%2Cinstant-video%2C164&sr=1-1",
     "img": "https://cdn.cinematerial.com/p/500x/hqxpaqj6/gran-torino-movie-poster.jpg?v=1456330313",
     "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/41CIWx2Fd2L.jpg"
   },
@@ -464,7 +464,7 @@
     "title":"Ma",
     "genre": "Thriller",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Ma-Octavia-Spencer/dp/B07S9878VN/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=ma&qid=1573939380&s=instant-video&sr=1-1",
     "img": "https://imageproxy.themaven.net/https%3A%2F%2Fimages.saymedia-content.com%2F.image%2FMTY0NDEwMzM3Njk5ODMzNDI5%2Fma.jpg",
     "imgGenre": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Ma_Official_Movie_Poster.jpg/220px-Ma_Official_Movie_Poster.jpg"
   },
@@ -473,7 +473,7 @@
     "title":"Aladdin",
     "genre": "Abenteuer",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Aladdin-dt-OV-Will-Smith/dp/B07S2BY1S8/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=FMAD9UFQMIRS&keywords=aladdin&qid=1573939424&s=instant-video&sprefix=aladd%2Cinstant-video%2C173&sr=1-1",
     "img": "https://cdn3-www.comingsoon.net/assets/uploads/2019/07/Aladdin.jpg",
     "imgGenre": "https://img04.mgo-images.com/image/thumbnail?id=MMV5210161FFDDD4CD5C544D89E3B35DB2E9&ql=70&sizes=310x465"
   },
@@ -482,7 +482,7 @@
     "title":"Jurassic World",
     "genre": "Abenteuer",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Jurassic-World-Bryce-Dallas-Howard/dp/B015ZM7U1E/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2PW2D0X5AE6VL&keywords=jurassic+world&qid=1573939499&s=instant-video&sprefix=jurassic+w%2Cinstant-video%2C176&sr=1-1",
     "img": "https://i.ytimg.com/vi/YXrYgF2iMw8/maxresdefault.jpg",
     "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/817O-vUusjL._SY679_.jpg"
   },
@@ -491,7 +491,7 @@
     "title":"Bird Box",
     "genre": "Thriller",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.netflix.com/de/title/80196789",
     "img": "https://imgix.bustle.com/uploads/image/2018/12/11/6b418191-32c5-4426-875e-0264fae7bf7e-24-bird-boxw1200h630.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70",
     "imgGenre": "http://de.web.img2.acsta.net/pictures/18/10/25/14/07/5095709.jpg"
   }
