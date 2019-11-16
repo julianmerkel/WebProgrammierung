@@ -1,7 +1,32 @@
+ a:link {
+     color: white;
+     text-decoration: none;
+ }
+
+ a:visited {
+     color: white;
+     text-decoration: none;
+ }
+
+ a:hover {
+     color: white;
+     font-weight: bold;
+     text-decoration: none;
+ }
+ 
+ a:active {
+     color: white;
+     text-decoration: none;
+ }
+ 
  .favorites .container {
     background: rgba(105,105,105, 0.5);
     padding: 15px;
     padding-left: 60px;
+ }
+
+ .favorites .überschrift {
+    background: rgba(105,105,105, 0.7);
  }
 
  .favorites .alert {
@@ -19,6 +44,14 @@
     color:aliceblue; 
     background: rgba(255, 255, 255, 0.3);
  }
+
+ .favorites .form-control::-webkit-input-placeholder { color: black; }  /* WebKit, Blink, Edge */
+ .favorites .form-control:-moz-placeholder { color: black; }  /* Mozilla Firefox 4 to 18 */
+ .favorites .form-control::-moz-placeholder { color: black; }  /* Mozilla Firefox 19+ */
+ .favorites .form-control:-ms-input-placeholder { color: black; }  /* Internet Explorer 10-11 */
+ .favorites .form-control::-ms-input-placeholder { color: black; }  /* Microsoft Edge */
+
+
 
  .favorites .btn-search {
     color:blueviolet; 

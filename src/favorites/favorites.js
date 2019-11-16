@@ -29,7 +29,7 @@ class Favorites {
  
          //Container für Suche erzeugen
          let divcontainerSearch = document.createElement("div");
-         divcontainerSearch.setAttribute("class","p-2 rounded container");
+         divcontainerSearch.setAttribute("class","p-0 rounded container");
          this._favorites.appendChild(divcontainerSearch);
  
          let searchForm = document.createElement("div");
@@ -38,7 +38,7 @@ class Favorites {
  
          let searchField = document.createElement("input");
          searchField.setAttribute("type","text");
-         searchField.setAttribute("placeholder","search");
+         searchField.setAttribute("placeholder","Suche");
          searchField.setAttribute("class","form-control");
          searchForm.appendChild(searchField);
  
@@ -49,7 +49,7 @@ class Favorites {
  
          //Container für Suchergebnisse erzeugen
          let resultContainer = document.createElement("div");
-         resultContainer.setAttribute("class","rounded container");
+         resultContainer.setAttribute("class","p-0 rounded container");
          this._favorites.appendChild(resultContainer);
  
  
@@ -99,8 +99,10 @@ class Favorites {
                      var resCardBody = document.createElement("div");
                      resCardBody.setAttribute("class","card-body d-flex flex-column");
                      resCard.appendChild(resCardBody);
-                     let resultTitle = document.createElement("p");
-                     resultTitle.setAttribute("class", "card-text");
+                     let resultTitle = document.createElement("a");
+                     resultTitle.setAttribute("class", "card-text stretched-link");
+                     resultTitle.setAttribute("style", "position: relative;");
+                     resultTitle.setAttribute("href", "#");
                      resultTitle.innerHTML=movies[i].title;
                      resCardBody.appendChild(resultTitle);
                      var addButton = document.createElement("button");
@@ -108,9 +110,15 @@ class Favorites {
                      addButton.setAttribute("name",foundMovie);
                      addButton.setAttribute("class","btn btn-primary mt-auto");
                      addButton.innerHTML="Hinzufügen";
- 
                      resCardBody.appendChild(addButton);
+
+                    /* var movieButton = document.createElement("a");
+                     movieButton.setAttribute("class", "btn btn-primary stretched-link mb-auto");
+                     movieButton.setAttribute("href", "#");
+                     movieButton.innerHTML = movies[i].title;
+                     resCardBody.appendChild(movieButton); */
  
+
                      var currentB= this._favorites.querySelector("#b"+foundMovie);
  
                      currentB.onclick=function (e) {
@@ -215,7 +223,7 @@ class Favorites {
           
          //Favorites Header
          let divcontainerHeader = document.createElement("div");
-         divcontainerHeader.setAttribute("class","p-2 rounded container");
+         divcontainerHeader.setAttribute("class","p-0 mb-2 rounded container überschrift");
          this._favorites.appendChild(divcontainerHeader);
  
          let br = document.createElement("br");
