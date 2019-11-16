@@ -1,3 +1,72 @@
-.watchlist > div {
+.watchlist .container {
+    background: rgba(105,105,105, 0.5);
+ }
 
+.watchlist .überschrift {
+    background: rgba(105,105,105, 0.7);
+ }
+
+.watchlist .input-group {
+    width: 100%;   
+ }
+
+.watchlist .form-control {
+    color:aliceblue; 
+    background: rgba(255, 255, 255, 0.3);
+ }
+
+.watchlist .btn-primary {
+    font-size: 12px;
+    background: rgb(138, 43, 226, 0.5);
+    border-color: black;
 }
+
+.watchlist .btn-search {
+    color:blueviolet; 
+    background: rgba(0, 0, 0,0.7);
+ }
+
+
+.watchlist .btn-secondary {
+    background: rgba(105, 0, 0, 0.5);
+    font-size: 18px;
+    width: 5%;
+    font-weight: bold;
+    float: right;
+}
+
+.watchlist .btn-outline-danger {
+    font-size: 10px;
+    width: 30%;
+    float: right;
+}
+
+.watchlist .card {
+    background: rgba(0,0,0, 0.5);
+    width: 15rem;
+    margin: 10px;
+}
+
+.watchlist .card-text {
+    font-size: 16px;
+}
+
+.watchlist .card-img-top {
+    width: 100%;
+    height: 10vw; 
+    object-fit: cover;
+    alt: "Test 123";
+}
+
+.watchlist .alert {
+    background: rgba(105, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    border-color: black;
+}
+
+.watchlist .form-control::-webkit-input-placeholder { color: black; }  /* WebKit, Blink, Edge */
+.watchlist .form-control:-moz-placeholder { color: black; }  /* Mozilla Firefox 4 to 18 */
+.watchlist .form-control::-moz-placeholder { color: black; }  /* Mozilla Firefox 19+ */
+.watchlist .form-control:-ms-input-placeholder { color: black; }  /* Internet Explorer 10-11 */
+.watchlist .form-control::-ms-input-placeholder { color: black; }  /* Microsoft Edge */

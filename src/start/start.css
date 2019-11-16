@@ -41,3 +41,47 @@ footer {
 .nav-link:hover{
     color: #d5d5d5;
 }
+
+.start .abstand {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.start .btn-primary {
+    font-size: 12px;
+    background: rgb(138, 43, 226, 0.5);
+    border-color: black;
+}
+
+
+.start .btn-secondary {
+    background: rgba(105, 0, 0, 0.5);
+    font-size: 18px;
+    width: 5%;
+    font-weight: bold;
+    float: right;
+}
+
+.start .card {
+    background: rgba(0,0,0, 0.5);
+    width: 15rem;
+    margin: 10px;
+}
+
+.start .card-text {
+    font-size: 16px;
+}
+
+.start .card-img-top {
+    width: 100%;
+    height: 10vw; 
+    object-fit: cover;
+    alt: "Test 123";
+}
+
+.start .alert {
+    background: rgba(105, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    border-color: black;
+}

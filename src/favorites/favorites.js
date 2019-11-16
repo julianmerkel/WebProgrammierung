@@ -23,6 +23,22 @@ class Favorites {
          let section = container.querySelector("#favorites").cloneNode(true);
          this._favorites = section.querySelector("#favorites > main > div");
          this._favorites.setAttribute("id", "favoritesContainer");
+
+          //Favorites Header
+          let divcontainerHeader = document.createElement("div");
+          divcontainerHeader.setAttribute("class","p-0 mb-2 rounded container überschrift");
+          this._favorites.appendChild(divcontainerHeader);
+  
+          let br = document.createElement("br");
+          divcontainerHeader.appendChild(br);
+  
+          let header = document.createElement("h3");
+          header.setAttribute("class", "text-center");
+          header.innerHTML = "Deine Favorite Movies";
+          divcontainerHeader.appendChild(header);
+  
+          let br2 = document.createElement("br");
+          divcontainerHeader.appendChild(br2);
  
  
  
@@ -101,13 +117,18 @@ class Favorites {
                      resCard.appendChild(resCardImage);
 
                      var resCardBody = document.createElement("div");
-                     resCardBody.setAttribute("class","card-body d-flex flex-column");
-                     resCard.appendChild(resCardBody);
-                     let resultTitle = document.createElement("a");
-                     resultTitle.setAttribute("class", "card-text stretched-link mb-4");
-                     resultTitle.setAttribute("style", "position: relative;");
-                     resultTitle.setAttribute("href", "#/detail");
-                     resultTitle.innerHTML=movies[i].title;
+                    resCardBody.setAttribute("class","card-body d-flex flex-column");
+                    resCard.appendChild(resCardBody);
+                    let resultTitle = document.createElement("a");
+                    resultTitle.setAttribute("class", "card-text stretched-link mb-4");
+                    resultTitle.setAttribute("style", "position: relative;");
+                    resultTitle.setAttribute("href", "#/detail");
+                    resultTitle.innerHTML=movies[i].title;
+                    resultTitle.setAttribute("name", movies[i].title);
+                    resultTitle.onclick = function (e) {
+                        console.log(e.target.name);
+                        localStorage.setItem("detailFilm", e.target.name);
+                    }
                      resCardBody.appendChild(resultTitle);
                      var addButton = document.createElement("button");
                      addButton.setAttribute("id","b"+foundMovie);
@@ -227,22 +248,6 @@ class Favorites {
           let br33=document.createElement("br");
           this._favorites.appendChild(br33);
 
-          
-         //Favorites Header
-         let divcontainerHeader = document.createElement("div");
-         divcontainerHeader.setAttribute("class","p-0 mb-2 rounded container überschrift");
-         this._favorites.appendChild(divcontainerHeader);
- 
-         let br = document.createElement("br");
-         divcontainerHeader.appendChild(br);
- 
-         let header = document.createElement("h3");
-         header.setAttribute("class", "text-center");
-         header.innerHTML = "Deine Favorite Movies";
-         divcontainerHeader.appendChild(header);
- 
-         let br2 = document.createElement("br");
-         divcontainerHeader.appendChild(br2);
  
  
          //Container für den Inhalt der Favorites erzeugen

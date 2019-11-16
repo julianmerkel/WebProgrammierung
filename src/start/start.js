@@ -185,12 +185,23 @@ class Start {
 
             resultContainer.innerHTML="";
 
+            let closeButton = document.createElement("button");
+             closeButton.setAttribute("class","m-3 btn btn-secondary");
+             closeButton.innerHTML="&times;";
+             closeButton.addEventListener("click",()=>{
+                 resultContainer.innerHTML="";
+             })
+             resultContainer.appendChild(closeButton);
+
+
             let resultHeader = document.createElement("h3");
+            resultHeader.setAttribute("class", "p-3");
             resultHeader.innerHTML="Result";
             resultContainer.appendChild(resultHeader);
 
+
             let resultRow = document.createElement("div");
-            resultRow.setAttribute("class","row");
+            resultRow.setAttribute("class","row justify-content-start");
             resultContainer.appendChild(resultRow);
 
 
@@ -213,14 +224,14 @@ class Start {
 
 
 
-                    let resCol= document.createElement("div");
+                    /* let resCol= document.createElement("div");
                     resCol.setAttribute("class","col");
-                    resultRow.appendChild(resCol);
+                    resultRow.appendChild(resCol); */
 
                     let resCard = document.createElement("div");
                     resCard.setAttribute("class","card");
                     resCard.setAttribute("style","width: 15rem; background: rgba(0,0,0, 0.5)");
-                    resCol.appendChild(resCard);
+                    resultRow.appendChild(resCard);
 
                     let resCardImage = document.createElement("img");
                     resCardImage.setAttribute("class", "card-img-top");
@@ -232,15 +243,24 @@ class Start {
                     resCard.appendChild(resCardImage);
 
                     var resCardBody = document.createElement("div");
-                    resCardBody.setAttribute("class","card-body");
+                    resCardBody.setAttribute("class","card-body d-flex flex-column");
                     resCard.appendChild(resCardBody);
-                    let resultTitle = document.createElement("h5");
+                    let resultTitle = document.createElement("a");
+                    resultTitle.setAttribute("class", "card-text stretched-link mb-4");
+                    resultTitle.setAttribute("style", "position: relative;");
+                    resultTitle.setAttribute("href", "#/detail");
                     resultTitle.innerHTML=movies[i].title;
+                    resultTitle.setAttribute("name", movies[i].title);
+                    resultTitle.onclick = function (e) {
+                        console.log(e.target.name);
+                        localStorage.setItem("detailFilm", e.target.name);
+                    }
+
                     resCardBody.appendChild(resultTitle);
                     var addButton = document.createElement("button");
                     addButton.setAttribute("id","b"+foundMovie);
                     addButton.setAttribute("name",foundMovie);
-                    addButton.setAttribute("class","btn purple-btn");
+                    addButton.setAttribute("class","btn btn-primary mt-auto");
                     //addButton.setAttribute("style","color:rgba(0, 0, 0); background: blueviolet");
                     addButton.innerHTML="Add to Watchlist";
 
@@ -293,7 +313,7 @@ class Start {
                     var addButtonF = document.createElement("button");
                     addButtonF.setAttribute("id","bf"+foundMovie);
                     addButtonF.setAttribute("name",foundMovie);
-                    addButtonF.setAttribute("class","btn purple-btn mt-2");
+                    addButtonF.setAttribute("class","btn btn-primary mt-2");
                     addButtonF.innerHTML="Add to Favorites";
 
 
@@ -351,19 +371,14 @@ class Start {
             if(foundone==false){
                 console.log("else");
                 let noResultText = document.createElement("h5");
-                noResultText.innerHTML="No movies found...";
+                noResultText.setAttribute("class", "p-4 text-center");
+                noResultText.innerHTML="Es wurden keine passenden Filme gefunden. Versuche es erneut!";
                 resultRow.appendChild(noResultText);
             }
 
 
 
-            let closeButton = document.createElement("button");
-            closeButton.setAttribute("class","btn btn-secondary");
-            closeButton.innerHTML="Close";
-            closeButton.addEventListener("click",()=>{
-                resultContainer.innerHTML="";
-            })
-            resultContainer.appendChild(closeButton);
+            
 
 
 
@@ -404,7 +419,7 @@ class Start {
 
         this._favorite.innerHTML +=`
                 <a href="#favorites"> 
-             <img class="d-block w-100" src="`+iFavorite+`" style="height: 20em; filter:brightness(60%)" alt="First slide">
+             <img class="rounded d-block w-100" src="`+iFavorite+`" style="height: 20em; filter:brightness(60%)" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
            
                    <h3>Schau einen Deiner Lieblingsfilme.</h3>
@@ -415,7 +430,7 @@ class Start {
 
         this._watchlist.innerHTML +=`
              <a href="#watchlist">   
-             <img class="d-block w-100" src="`+iWatchlist+`" style="height: 20em; filter:brightness(60%)" alt="First slide">
+             <img class="rounded d-block w-100" src="`+iWatchlist+`" style="height: 20em; filter:brightness(60%)" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
              
             <h3>Schau einen Film von Deiner Watchlist.</h3>
@@ -425,7 +440,7 @@ class Start {
 
         this._quiz.innerHTML +=`
                 <a href="#quiz">
-             <img class="d-block w-100" src="`+iQuiz+`" style="height: 20em; filter:brightness(60%)" alt="First slide">
+             <img class="rounded d-block w-100" src="`+iQuiz+`" style="height: 20em; filter:brightness(60%)" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
              
             <h3>Mach ein Quiz.</h3>

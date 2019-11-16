@@ -38,8 +38,7 @@ class Watchlist {
 
         //Watchlist Header
         let divcontainerHeader = document.createElement("div");
-        divcontainerHeader.setAttribute("class","p-2 rounded container");
-        divcontainerHeader.setAttribute("style","background: rgba(105,105,105, 0.5)");
+        divcontainerHeader.setAttribute("class","p-0 mb-2 rounded container überschrift");
         this._watchlist.appendChild(divcontainerHeader);
 
         let br=document.createElement("br");
@@ -63,24 +62,21 @@ class Watchlist {
 
         //Search
         let divcontainerSearch = document.createElement("div");
-        divcontainerSearch.setAttribute("class","p-2 rounded container");
+        divcontainerSearch.setAttribute("class","p-0 rounded container");
         this._watchlist.appendChild(divcontainerSearch);
 
         let searchForm = document.createElement("div");
         searchForm.setAttribute("class","input-group");
-        searchForm.setAttribute("style","width: 100%");
         divcontainerSearch.appendChild(searchForm);
 
         let searchField = document.createElement("input");
         searchField.setAttribute("type","text");
-        searchField.setAttribute("placeholder","search");
-        searchField.setAttribute("style","color:aliceblue; background: rgba(255, 255, 255, 0.3)");
+        searchField.setAttribute("placeholder","Suche");
         searchField.setAttribute("class","form-control");
         searchForm.appendChild(searchField);
 
         let searchButton = document.createElement("button");
-        searchButton.setAttribute("style","color:blueviolet; background: rgba(0, 0, 0,0.7)");
-        searchButton.setAttribute("class","btn");
+        searchButton.setAttribute("class","btn btn-search");
         searchButton.innerHTML="Search";
         searchForm.appendChild(searchButton);
 
@@ -88,7 +84,6 @@ class Watchlist {
         let resultContainer = document.createElement("div");
         resultContainer.setAttribute("class","rounded container");
         resultContainer.setAttribute("id", "resContainer");
-        resultContainer.setAttribute("style","background: rgba(105,105,105, 0.5)");
         this._watchlist.appendChild(resultContainer);
 
 
@@ -100,9 +95,18 @@ class Watchlist {
 
             resultContainer.innerHTML="";
 
-            let resultHeader = document.createElement("h3");
-            resultHeader.innerHTML="Result";
-            resultContainer.appendChild(resultHeader);
+            let closeButton = document.createElement("button");
+             closeButton.setAttribute("class","m-3 btn btn-secondary");
+             closeButton.innerHTML="&times;";
+             closeButton.addEventListener("click",()=>{
+                 resultContainer.innerHTML="";
+             })
+             resultContainer.appendChild(closeButton);
+
+             let resultHeader = document.createElement("h3");
+             resultHeader.setAttribute("class", "p-3");
+             resultHeader.innerHTML="Result";
+             resultContainer.appendChild(resultHeader);
 
             let resultRow = document.createElement("div");
             resultRow.setAttribute("class","row");
@@ -127,36 +131,35 @@ class Watchlist {
                     console.log("found: "+foundMovie);
 
 
-
-                    let resCol= document.createElement("div");
-                    resCol.setAttribute("class","col");
-                    resultRow.appendChild(resCol);
-
                     let resCard = document.createElement("div");
                     resCard.setAttribute("class","card");
-                    resCard.setAttribute("style","width: 15rem; background: rgba(0,0,0, 0.5)");
-                    resCol.appendChild(resCard);
+                    resultRow.appendChild(resCard);
 
                     let resCardImage = document.createElement("img");
                     resCardImage.setAttribute("class", "card-img-top");
-                    resCardImage.setAttribute("width", "100%");
-                    resCardImage.setAttribute("height", "130vw");
-                    resCardImage.setAttribute("object-fit", "cover");
                     resCardImage.setAttribute("src", movies[i].img);
-                    resCardImage.setAttribute("alt", "Card image cap");
                     resCard.appendChild(resCardImage);
 
                     var resCardBody = document.createElement("div");
-                    resCardBody.setAttribute("class","card-body");
+                    resCardBody.setAttribute("class","card-body d-flex flex-column");
                     resCard.appendChild(resCardBody);
-                    let resultTitle = document.createElement("h5");
+                    let resultTitle = document.createElement("a");
+                    resultTitle.setAttribute("class", "card-text stretched-link mb-4");
+                    resultTitle.setAttribute("style", "position: relative;");
+                    resultTitle.setAttribute("href", "#/detail");
                     resultTitle.innerHTML=movies[i].title;
+                    resultTitle.setAttribute("name", movies[i].title);
+                    resultTitle.onclick = function (e) {
+                        console.log(e.target.name);
+                        localStorage.setItem("detailFilm", e.target.name);
+                    }
                     resCardBody.appendChild(resultTitle);
                     var addButton = document.createElement("button");
-                    addButton.setAttribute("id","b"+foundMovie);
-                    addButton.setAttribute("name",foundMovie);
-                    addButton.setAttribute("class","btn purple-btn");
-                    addButton.innerHTML="Add";
+                     addButton.setAttribute("id","b"+foundMovie);
+                     addButton.setAttribute("name",foundMovie);
+                     addButton.setAttribute("class","btn btn-primary mt-auto");
+                     addButton.innerHTML="Hinzufügen";
+                     resCardBody.appendChild(addButton);
 
 
                     resCardBody.appendChild(addButton);
@@ -198,16 +201,10 @@ class Watchlist {
                                 console.log(arrayWatchlist);
                                 resultContainer.innerHTML="";
 
-                                let contentCol = document.createElement("div");
-                                contentCol.setAttribute("class","col");
-                                contentRow.appendChild(contentCol);
-                                console.log("lappen???")
-
 
                                 let contentCard = document.createElement("div");
                                 contentCard.setAttribute("class","card");
-                                contentCard.setAttribute("style","width: 15rem; background: rgba(0,0,0, 0.5)");
-                                contentCol.appendChild(contentCard);
+                                contentRow.appendChild(contentCard);
 
                                 let contentCardImage = document.createElement("img");
                                 contentCardImage.setAttribute("class", "card-img-top");
@@ -219,10 +216,20 @@ class Watchlist {
                                 contentCard.appendChild(contentCardImage);
 
                                 var contentCardBody = document.createElement("div");
-                                contentCardBody.setAttribute("class","card-body");
+                                contentCardBody.setAttribute("class","card-body d-flex flex-column");
                                 contentCard.appendChild(contentCardBody);
-                                let contentTitle = document.createElement("h5");
+                                let contentTitle = document.createElement("a");
+                                contentTitle.setAttribute("class", "card-text stretched-link mb-4");
+                                contentTitle.setAttribute("style", "position: relative;");
+                                contentTitle.setAttribute("href", "#/detail");
                                 contentTitle.innerHTML=arrayWatchlist[arrayWatchlist.length-1].title;//§ .title
+                                contentTitle.setAttribute("name", arrayWatchlist[arrayWatchlist.length-1].title);
+
+                                contentTitle.onclick = function (e) {
+                                    console.log(e.target.name);
+                                    localStorage.setItem("detailFilm", e.target.name);
+                                }
+
                                 contentCardBody.appendChild(contentTitle);
                                 var deleteButton = document.createElement("button");
                                 deleteButton.setAttribute("id","bb"+arrayWatchlist[arrayWatchlist.length-1].id);
@@ -249,7 +256,7 @@ class Watchlist {
                                             //console.log(arrayWatchlist);
                                             console.log("delete: "+movies[i].title);
                                             console.log("deleteELEMENT: "+currentDelB.parentNode);
-                                            contentRow.removeChild(e.target.parentNode.parentNode.parentNode);
+                                            contentRow.removeChild(e.target.parentNode.parentNode);
                                             for (var i=0; i<arrayWatchlist.length;i++){
                                                 if (e.target.name==arrayWatchlist[i].id){
                                                     console.log("eigentlich klappts")
@@ -288,21 +295,6 @@ class Watchlist {
                 }
 
 
-
-            let closeButton = document.createElement("button");
-            closeButton.setAttribute("class","btn btn-secondary");
-            closeButton.innerHTML="Close";
-            closeButton.addEventListener("click",()=>{
-                resultContainer.innerHTML="";
-            })
-            resultContainer.appendChild(closeButton);
-
-
-
-
-
-
-
         })
 
          let br33=document.createElement("br");
@@ -313,7 +305,6 @@ class Watchlist {
         let contentContainer = document.createElement("div");
         contentContainer.setAttribute("id","contentContainer");
         contentContainer.setAttribute("class","pt-4 rounded container");
-        contentContainer.setAttribute("style","background: rgba(105,105,105, 0.5)");
         this._watchlist.appendChild(contentContainer);
 
         let contentRow = document.createElement("div");
@@ -334,16 +325,9 @@ class Watchlist {
             console.log(arrayWatchlist);
             for (var i = 0; i<arrayWatchlist.length;i++){
 
-                let contentCol = document.createElement("div");
-                contentCol.setAttribute("class","col");
-                contentRow.appendChild(contentCol);
-                console.log("lappen???")
-
-
                 let contentCard = document.createElement("div");
                 contentCard.setAttribute("class","card");
-                contentCard.setAttribute("style","width: 15rem; background: rgba(0,0,0, 0.5)");
-                contentCol.appendChild(contentCard);
+                contentRow.appendChild(contentCard);
 
                 let contentCardImage = document.createElement("img");
                 contentCardImage.setAttribute("class", "card-img-top");
@@ -355,15 +339,25 @@ class Watchlist {
                 contentCard.appendChild(contentCardImage);
 
                 var contentCardBody = document.createElement("div");
-                contentCardBody.setAttribute("class","card-body");
+                contentCardBody.setAttribute("class","card-body d-flex flex-column");
                 contentCard.appendChild(contentCardBody);
-                let contentTitle = document.createElement("h5");
-                contentTitle.innerHTML=arrayWatchlist[i].title;//§ .title
+                let contentTitle = document.createElement("a");
+                contentTitle.setAttribute("class", "card-text stretched-link mb-4");
+                    contentTitle.setAttribute("style", "position: relative;");
+                    contentTitle.setAttribute("href", "#/detail");
+                    contentTitle.innerHTML=arrayWatchlist[i].title;//§ .title
+                    contentTitle.setAttribute("name", arrayWatchlist[i].title);
+
+                    contentTitle.onclick = function (e) {
+                    console.log(e.target.name);
+                    localStorage.setItem("detailFilm", e.target.name);
+                }
+                
                 contentCardBody.appendChild(contentTitle);
                 var deleteButton = document.createElement("button");
                 deleteButton.setAttribute("id","bb"+arrayWatchlist[i].id);
                 deleteButton.setAttribute("name",arrayWatchlist[i].id);
-                deleteButton.setAttribute("class","btn btn-outline-danger");
+                deleteButton.setAttribute("class","btn btn-outline-danger mt-auto");
                 deleteButton.innerHTML="Delete";
 
 
@@ -390,7 +384,7 @@ class Watchlist {
                             console.log("arrayWatchlist[i].id= "+arrayWatchlist);
 
                             console.log("kakakakaakaakak");
-                            contentRow.removeChild(e.target.parentNode.parentNode.parentNode);
+                            contentRow.removeChild(e.target.parentNode.parentNode);
 
                             for (var i=0; i<arrayWatchlist.length;i++){
                                 if (e.target.name==arrayWatchlist[i].id){
