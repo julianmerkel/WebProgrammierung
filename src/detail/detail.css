@@ -1,3 +1,8 @@
+.detail a.disable {
+    pointer-events: none;
+    cursor: default;
+  }
+
 .detail .container {
     background: rgba(105,105,105, 0.5);
 }
