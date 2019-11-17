@@ -490,8 +490,8 @@
     "id":"55",
     "title":"Bird Box",
     "genre": "Thriller",
-    "netflix": "",
-    "amazon": "https://www.netflix.com/de/title/80196789",
+    "netflix": "https://www.netflix.com/de/title/80196789",
+    "amazon": "",
     "img": "https://imgix.bustle.com/uploads/image/2018/12/11/6b418191-32c5-4426-875e-0264fae7bf7e-24-bird-boxw1200h630.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70",
     "imgGenre": "http://de.web.img2.acsta.net/pictures/18/10/25/14/07/5095709.jpg"
   },
@@ -500,7 +500,7 @@
     "title":"300",
     "genre": "Action",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/300-dt-OV-Gerard-Butler/dp/B00EQZLXW4/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=300&qid=1574010668&s=instant-video&sr=1-1",
     "img": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/thumbs/26582/sparta.jpg?crop=1xw:0.6666666666666666xh;center,top&resize=480:*",
     "imgGenre": "https://d3tudoxwnizvk7.cloudfront.net/keyart-jpeg/300_keyart.jpg"
   },
