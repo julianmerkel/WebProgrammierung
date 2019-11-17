@@ -20,7 +20,7 @@ import Genre from "./genre/genre.js";
          * Konstruktor.
          */
         constructor() {
-            this._title = "My App";
+            this._title = "Movietracker";
             this._currentView = null;
 
         this._router = new Navigo(null, true);
