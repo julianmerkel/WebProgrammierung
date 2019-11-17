@@ -91,7 +91,7 @@ class Start {
             var foundone=false;
 
             for (var i =0; i<movies.length; i++){
-                if(movies[i].title.includes(resultMovie)&&resultMovie!=""){
+                if(movies[i].title.toUpperCase().includes(resultMovie.toUpperCase())&&resultMovie!=""){
                     foundone=true;
                     console.log("if");
                     console.log("icludes!");
@@ -141,7 +141,7 @@ class Start {
                     addButton.setAttribute("name",foundMovie);
                     addButton.setAttribute("class","btn btn-primary mt-auto");
                     //addButton.setAttribute("style","color:rgba(0, 0, 0); background: blueviolet");
-                    addButton.innerHTML="Add to Watchlist";
+                    addButton.innerHTML="Zur Watchlist hinzufügen";
 
 
                     resCardBody.appendChild(addButton);
@@ -193,7 +193,7 @@ class Start {
                     addButtonF.setAttribute("id","bf"+foundMovie);
                     addButtonF.setAttribute("name",foundMovie);
                     addButtonF.setAttribute("class","btn btn-primary mt-2");
-                    addButtonF.innerHTML="Add to Favorites";
+                    addButtonF.innerHTML="Zu Favoriten hinzufügen";
 
 
 

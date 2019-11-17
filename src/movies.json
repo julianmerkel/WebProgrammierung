@@ -437,7 +437,7 @@
     "title":"Die Verurteilten",
     "genre": "Drama",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Die-Verurteilten-Tim-Robbins/dp/B017T0C2TK/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1H6OPSGUVGE1D&keywords=die+verurteilten&qid=1574011728&s=instant-video&sprefix=die+ver%2Cinstant-video%2C185&sr=1-1",
     "img": "http://de.web.img3.acsta.net/r_640_360/newsv7/19/09/12/08/52/3752632.jpg",
     "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/517SDGYY26L._SY445_.jpg"
   },
@@ -499,7 +499,7 @@
     "id":"56",
     "title":"300",
     "genre": "Action",
-    "netflix": "",
+    "netflix": "https://www.netflix.com/title/70056440",
     "amazon": "https://www.amazon.de/300-dt-OV-Gerard-Butler/dp/B00EQZLXW4/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=300&qid=1574010668&s=instant-video&sr=1-1",
     "img": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/thumbs/26582/sparta.jpg?crop=1xw:0.6666666666666666xh;center,top&resize=480:*",
     "imgGenre": "https://d3tudoxwnizvk7.cloudfront.net/keyart-jpeg/300_keyart.jpg"
@@ -508,8 +508,8 @@
     "id":"57",
     "title":"Expendables",
     "genre": "Action",
-    "netflix": "",
-    "amazon": "",
+    "netflix": "https://www.netflix.com/watch/70117698?trackId=13752289&tctx=0%2C2%2Ced0ed3ff00612002b417267135325eed06a98971%3A82a4867a9ab0e38182fcf374c8b1a38e5b47403f%2C%2C",
+    "amazon": "https://www.amazon.de/Expendables-Sylvester-Stallone/dp/B00HZMIIKK/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1TDN1XKW2C3Q8&keywords=expendables&qid=1574010947&s=instant-video&sprefix=expe%2Cinstant-video%2C152&sr=1-1",
     "img": "https://watchcharge.s3.amazonaws.com/uploads/2019/07/expendables.jpg",
     "imgGenre": "https://resizing.flixster.com/Y5i6l_7LO8a-cGJO1QbWJa-Elyc=/206x305/v1.bTsxMTE3NDQ4ODtqOzE4MzA5OzEyMDA7ODQwOzEyMDA"
   },
@@ -518,7 +518,7 @@
     "title":"John Wick",
     "genre": "Action",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/John-Wick-dt-Keanu-Reeves/dp/B00XQSJAT0/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=24MM73ATJXRKN&keywords=john+wick&qid=1574010976&s=instant-video&sprefix=john%2Cinstant-video%2C157&sr=1-1",
     "img": "https://media1.fdncms.com/clevescene/imager/u/original/30502117/johnwick.jpg",
     "imgGenre": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/John_Wick_TeaserPoster.jpg/220px-John_Wick_TeaserPoster.jpg"
   },
@@ -527,7 +527,7 @@
     "title":"Spiderman Homecoming",
     "genre": "Action",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Spider-Man-Homecoming-UHD-Michael-Keaton/dp/B0777X6NNB/ref=sr_1_1_sspa?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1DZJ2WC5NAKXP&keywords=spiderman+homecoming&qid=1574011022&s=instant-video&sprefix=spiderman+h%2Cinstant-video%2C152&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExOENYMktXNEdNRE5aJmVuY3J5cHRlZElkPUEwNjQzMzY3MkJOTzJEOFJHVU5DOCZlbmNyeXB0ZWRBZElkPUEwNzc1NTk5VThDREZCR0gzUlVJJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==",
     "img": "https://3.bp.blogspot.com/-iGtJ71YQvhQ/WWE6WVu79kI/AAAAAAAASW0/Kd5hoBLWkCgm5FmGrHkJdW5mVGaWD7I3ACLcBGAs/s1600/Spiderman%2Bhomecoming%2Bmovie%2Bposter.jpg",
     "imgGenre": "http://cdn.shopify.com/s/files/1/1402/3931/products/spidermanhomecoming_001de608-9d83-4ba7-9076-865f4e319cfa_1024x1024.jpg?v=1529625258"
   },
@@ -535,8 +535,8 @@
     "id":"60",
     "title":"American Psycho",
     "genre": "Thriller",
-    "netflix": "",
-    "amazon": "",
+    "netflix": "https://www.netflix.com/watch/60000861?trackId=13752289&tctx=0%2C0%2C8c60f4866c736204cfaf95d81bed9fa9710ecff8%3A39291732ae4760e82b4766598585f94627b21ded%2C%2C",
+    "amazon": "https://www.amazon.de/American-Psycho-dt-Christian-Bale/dp/B00G0NTKTI/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3CXDR506Z7SQI&keywords=american+psycho&qid=1574011067&s=instant-video&sprefix=american+psy%2Cinstant-video%2C152&sr=1-1",
     "img": "https://imgix.bustle.com/uploads/image/2018/10/22/138779d1-0cb7-4159-a31f-e178822fca02-79839-1536048524.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70",
     "imgGenre": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/American_Psycho.png/220px-American_Psycho.png"
   },
@@ -544,8 +544,8 @@
     "id":"61",
     "title":"Shutter Island",
     "genre": "Thriller",
-    "netflix": "",
-    "amazon": "",
+    "netflix": "https://www.netflix.com/watch/70095139?trackId=13752289&tctx=0%2C0%2Cf6327ff156386f5673e8a10431c74b6e2cefdc76%3A5a6a9693f2ad56bc2ae16b2e114ac2dc40c052fb%2C%2C",
+    "amazon": "https://www.amazon.de/Shutter-Island-dt-Leonardo-DiCaprio/dp/B00HDXR2A8/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=198UKI4A7TLUW&keywords=shutter+island&qid=1574011139&s=instant-video&sprefix=shutter%2Cinstant-video%2C330&sr=1-1",
     "img": "http://de.web.img3.acsta.net/r_640_360/newsv7/19/01/30/16/20/0295305.jpg",
     "imgGenre": "https://bryantarchway.com/wp-content/uploads/2019/10/shutter-island.png"
   },
@@ -554,7 +554,7 @@
     "title":"Coraline",
     "genre": "Horror",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Coraline-Luisa-Wietzorek/dp/B00FZ1EANM/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=coraline&qid=1574011167&s=instant-video&sr=1-1",
     "img": "https://www.indiewire.com/wp-content/uploads/2017/11/coraline.jpg?w=780",
     "imgGenre": "https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher_170w/public/product-images/csm-movie/coraline-poster.jpg?itok=VjZf7wJx"
   },
@@ -563,7 +563,7 @@
     "title":"Life of Pi",
     "genre": "Abenteuer",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Life-Pi-Schiffbruch-mit-Tiger/dp/B00HX0RKNU/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=life+of+pi&qid=1574011235&s=instant-video&sr=1-1",
     "img": "https://img.zeit.de/kultur/film/2012-12/life-of-pi-film-szene-1/life-of-pi-film-szene-1-540x304.jpg/imagegroup/wide__820x461__desktop",
     "imgGenre": "https://upload.wikimedia.org/wikipedia/en/5/57/Life_of_Pi_2012_Poster.jpg"
   },
@@ -572,7 +572,7 @@
     "title":"Jaws",
     "genre": "Thriller",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Wei%C3%9Fe-Hai-Carl-Gottlieb/dp/B00FZ3LPGU/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=jaws&qid=1574011254&s=instant-video&sr=1-1",
     "img": "https://www.portsmouthnh.com/wp-content/uploads/2018/07/Jaws-791x445.jpg",
     "imgGenre": "https://i.etsystatic.com/14804666/r/il/6bfdb7/1163666192/il_570xN.1163666192_renf.jpg"
   },
@@ -580,8 +580,8 @@
     "id":"65",
     "title":"Matrix",
     "genre": "Sci-Fi",
-    "netflix": "",
-    "amazon": "",
+    "netflix": "https://www.netflix.com/watch/20557937?trackId=13752289&tctx=0%2C0%2C3af9be5ed94edfa0580747113d386db574bfd3c0%3Ab3e3c7f71417fe2e7fd48e7c1b5ec418dd91507c%2C%2C",
+    "amazon": "https://www.amazon.de/Matrix-dt-OV-Belinda-Clory/dp/B00EQZOFKG/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=5X175WPNDRGN&keywords=matrix&qid=1574011297&s=instant-video&sprefix=matr%2Cinstant-video%2C205&sr=1-1",
     "img": "https://d1w8cc2yygc27j.cloudfront.net/313984592419467759/7436124055007480979.jpg",
     "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/51Q7Psa2ufL.jpg"
   },
@@ -590,7 +590,7 @@
     "title":"Guardians of the Galaxy",
     "genre": "Sci-Fi",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Guardians-Galaxy-dt-Chris-Pratt/dp/B00QM9FNJ6/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=119H0VGODFQ9E&keywords=guardians+of+the+galaxy&qid=1574011323&s=instant-video&sprefix=guardians%2Cinstant-video%2C-1&sr=1-1",
     "img": "https://ae01.alicdn.com/kf/HTB1GR89NFXXXXcyXVXXq6xXFXXXj/Benutzerdefinierte-wall-decor-wandbild-marvel-tapete-guardians-of-the-galaxy-movie-poster-kunstdruck-weihnachtsdekoration.jpg",
     "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/51T5sJngQLL.jpg"
   },
@@ -598,8 +598,8 @@
     "id":"67",
     "title":"Interstellar",
     "genre": "Sci-Fi",
-    "netflix": "",
-    "amazon": "",
+    "netflix": "https://www.netflix.com/watch/70305903?trackId=13752289&tctx=0%2C0%2Ca021d535f74513849179012c707171936c059743%3A8ade6ad00f9ceb4cdd4ea204d98d30d17d8dec73%2C%2C",
+    "amazon": "https://www.amazon.de/Interstellar-dt-OV-Matthew-McConaughey/dp/B00US3K62G/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2WKAGAOAC43M3&keywords=interstellar&qid=1574011373&s=instant-video&sprefix=interstellar%2Cinstant-video%2C152&sr=1-1",
     "img": "https://wallpaperstock.net/wallpapers/thumbs1/46588hd.jpg",
     "imgGenre": "https://www.arthipo.com/image/cache/catalog/genel-tasarim/all-posters/sinema-cinema-film-postersleri/yabanci-filmler/pfilm716-interstellar_a074ce1f-movie-film-posteri-1000x1000.jpg"
   },
@@ -608,7 +608,7 @@
     "title":"Fluch der Karibik",
     "genre": "Abenteuer",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Fluch-Karibik-Johnny-Depp/dp/B00EXHJMQY/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3FYQ8JA6X990D&keywords=fluch+der+karibik&qid=1574011398&s=instant-video&sprefix=fluch+der%2Cinstant-video%2C162&sr=1-1",
     "img": "https://i3-img.sat1.de/pis/ezone/36a0qgELB38wdEB-ZftQHfHFPn4ON1n0D0sNVdvuyQ07PgOtj8YtsJeGGXwtKYL9d_a4pIZBb4Apai0oXr2hrjT8Baf7C7igSmw/profile:mag-996x562",
     "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/51nfiEMEumL._SY450_.jpg"
   },
@@ -616,8 +616,8 @@
     "id":"69",
     "title":"Gravity",
     "genre": "Sci-Fi",
-    "netflix": "",
-    "amazon": "",
+    "netflix": "https://www.netflix.com/watch/70274337?trackId=13752289&tctx=0%2C1%2Cf356394fccb2fcd7beaf48431de9d5cf77c48b6b%3A408bf2ee1016766d08fe88f8f99f197d20c17387%2C%2C",
+    "amazon": "https://www.amazon.de/Gravity-dt-OV-Sandra-Bullock/dp/B00IH7G48A/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=gravity&qid=1574011458&s=instant-video&sr=1-1",
     "img": "https://pmcvariety.files.wordpress.com/2013/10/gravity-movie-7.jpg?w=1000",
     "imgGenre": "https://m.media-amazon.com/images/M/MV5BNjE5MzYwMzYxMF5BMl5BanBnXkFtZTcwOTk4MTk0OQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
   },
@@ -625,8 +625,8 @@
     "id":"70",
     "title":"Shrek",
     "genre": "Family",
-    "netflix": "",
-    "amazon": "",
+    "netflix": "https://www.netflix.com/watch/60020686?trackId=13752289&tctx=0%2C3%2C8e1dcf9a4c50134c38832f52c278be2de973ceb0%3A55229eb5ebdfa9a3c109d011223b5115b3cbe886%2C%2C",
+    "amazon": "https://www.amazon.de/Shrek-OV-Andrew-Adamson/dp/B07RTPCXYN/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=shrek&qid=1574011481&s=instant-video&sr=1-1",
     "img": "https://cdn.cinematerial.com/p/500x/7mwryntt/shrek-british-movie-poster.jpg?v=1456683190",
     "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/41mSRxM16mL.jpg"
   },
@@ -635,7 +635,7 @@
     "title":"Scream",
     "genre": "Horror",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Scream-Schrei-Neve-Campbell/dp/B07JDHF24P/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=scream&qid=1574011536&s=instant-video&sr=1-1",
     "img": "https://cdn2us.denofgeek.com/sites/denofgeekus/files/styles/main_wide/public/scream_2.jpg?itok=G6ZHZNOZ",
     "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/51cZ5AgzBPL.jpg"
   },
@@ -644,7 +644,7 @@
     "title":"Don't Breathe",
     "genre": "Horror",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Dont-Breathe-Jane-Levy/dp/B01LR0SRBK/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1VN3IIQ5W5Q4G&keywords=dont+breathe&qid=1574011561&s=instant-video&sprefix=dont+bre%2Cinstant-video%2C165&sr=1-1",
     "img": "https://media.newyorker.com/photos/59097a0a1c7a8e33fb38ff11/master/w_727,c_limit/Tolentino-Twisted-Appeal-of-Dont-Breathe.jpg",
     "imgGenre": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Don%27t_Breathe_%282016_film%29.png/220px-Don%27t_Breathe_%282016_film%29.png"
   },
@@ -653,7 +653,7 @@
     "title":"Shape of Water",
     "genre": "Drama",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Shape-Water-Das-Fl%C3%BCstern-Wassers/dp/B079SS6PV7/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=shape+of+water&qid=1574011597&s=instant-video&sr=1-1",
     "img": "https://cdn-static.denofgeek.com/sites/denofgeek/files/styles/main_wide/public/2018/02/shape-of-water.jpg?itok=zuI7FsZr",
     "imgGenre": "http://de.web.img3.acsta.net/c_215_290/pictures/17/12/13/11/13/2830051.jpg"
   },
@@ -662,7 +662,7 @@
     "title":"Die Schöne und das Biest",
     "genre": "Fantasy",
     "netflix": "",
-    "amazon": "",
+    "amazon": "https://www.amazon.de/Die-Sch%C3%B6ne-das-Biest-dt/dp/B06XPGT13F/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1K7I9W3LZE05G&keywords=die+sch%C3%B6ne+und+das+biest&qid=1574011617&s=instant-video&sprefix=die+sch%C3%B6ne%2Cinstant-video%2C173&sr=1-1",
     "img": "https://4001reviews.de/wp-content/uploads/2017/03/Titelbild-zur-Film-Kritik-an-Die-Scho%CC%88ne-und-das-Biest-mit-Emma-Watson.jpg",
     "imgGenre": "http://de.web.img3.acsta.net/c_215_290/pictures/17/01/16/11/39/352492.jpg"
   },
@@ -670,8 +670,8 @@
     "id":"75",
     "title":"Coco",
     "genre": "Familie",
-    "netflix": "",
-    "amazon": "",
+    "netflix": "https://www.netflix.com/watch/80189213?trackId=13752289&tctx=0%2C0%2C9e34aa0d29f0628ce0f4f2176ed8de0198d46da0%3Ad2e18566f307cebb810b4c42c3ddb0a4aa2fd283%2C%2C",
+    "amazon": "https://www.amazon.de/Coco-dt-OV-Anthony-Gonzalez/dp/B078C6ZNBX/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=coco&qid=1574011699&s=instant-video&sr=1-1",
     "img": "https://www.tagesspiegel.de/images/heprodimagesfotos86320171130coco_3695_1_20171129111355879-jpg/20648454/4-format6001.jpg?inIsFirst=true",
     "imgGenre": "https://upload.wikimedia.org/wikipedia/en/9/98/Coco_%282017_film%29_poster.jpg"
   }
