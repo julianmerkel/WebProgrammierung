@@ -37,7 +37,7 @@ class Start {
 
         let searchField = document.createElement("input");
         searchField.setAttribute("type","text");
-        searchField.setAttribute("placeholder","search");
+        searchField.setAttribute("placeholder","Suche einen Film...");
         searchField.setAttribute("style","color:aliceblue; background: rgba(255, 255, 255, 0.3)");
         searchField.setAttribute("class","form-control");
         searchForm.appendChild(searchField);
@@ -45,7 +45,7 @@ class Start {
         let searchButton = document.createElement("button");
         searchButton.setAttribute("style","color:blueviolet; background: rgba(0, 0, 0,0.7)");
         searchButton.setAttribute("class","btn");
-        searchButton.innerHTML="Search";
+        searchButton.innerHTML="Suchen";
         searchForm.appendChild(searchButton);
 
         //result
@@ -75,7 +75,7 @@ class Start {
 
             let resultHeader = document.createElement("h3");
             resultHeader.setAttribute("class", "p-3");
-            resultHeader.innerHTML="Result";
+            resultHeader.innerHTML="Ergebnis";
             resultContainer.appendChild(resultHeader);
 
 
@@ -355,7 +355,7 @@ class Start {
     }
 
     get title() {
-        return "Übersicht";
+        return "Start";
     }
 
 }

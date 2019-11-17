@@ -47,7 +47,7 @@ class Watchlist {
         let header = document.createElement("h3");
         header.setAttribute("id", "watchlistHeader");
         header.setAttribute("class", "text-center");
-        header.innerHTML="Watchlist";
+        header.innerHTML="Deine Watchlist";
         divcontainerHeader.appendChild(header);
         console.log(header.value);
 
@@ -71,13 +71,13 @@ class Watchlist {
 
         let searchField = document.createElement("input");
         searchField.setAttribute("type","text");
-        searchField.setAttribute("placeholder","Suche");
+        searchField.setAttribute("placeholder","Suche einen Film...");
         searchField.setAttribute("class","form-control");
         searchForm.appendChild(searchField);
 
         let searchButton = document.createElement("button");
         searchButton.setAttribute("class","btn btn-search");
-        searchButton.innerHTML="Search";
+        searchButton.innerHTML="Suchen";
         searchForm.appendChild(searchButton);
 
         //result
@@ -105,7 +105,7 @@ class Watchlist {
 
              let resultHeader = document.createElement("h3");
              resultHeader.setAttribute("class", "p-3");
-             resultHeader.innerHTML="Result";
+             resultHeader.innerHTML="Ergebnis";
              resultContainer.appendChild(resultHeader);
 
             let resultRow = document.createElement("div");
@@ -235,7 +235,7 @@ class Watchlist {
                                 deleteButton.setAttribute("id","bb"+arrayWatchlist[arrayWatchlist.length-1].id);
                                 deleteButton.setAttribute("name",arrayWatchlist[arrayWatchlist.length-1].id);
                                 deleteButton.setAttribute("class","btn btn-outline-danger");
-                                deleteButton.innerHTML="Delete";
+                                deleteButton.innerHTML="Löschen";
 
 
                                 contentCardBody.appendChild(deleteButton);
@@ -358,7 +358,7 @@ class Watchlist {
                 deleteButton.setAttribute("id","bb"+arrayWatchlist[i].id);
                 deleteButton.setAttribute("name",arrayWatchlist[i].id);
                 deleteButton.setAttribute("class","btn btn-outline-danger mt-auto");
-                deleteButton.innerHTML="Delete";
+                deleteButton.innerHTML="Löschen";
 
 
                 contentCardBody.appendChild(deleteButton);

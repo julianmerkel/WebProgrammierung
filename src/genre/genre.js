@@ -56,7 +56,7 @@ class Genre {
     }
 
     get title() {
-        return "Übersicht";
+        return "Genre";
     }
 
         // Abenteuerfilme hinzufügen

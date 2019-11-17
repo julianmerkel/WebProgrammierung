@@ -34,7 +34,7 @@ class Favorites {
   
           let header = document.createElement("h3");
           header.setAttribute("class", "text-center");
-          header.innerHTML = "Deine Favorite Movies";
+          header.innerHTML = "Deine Favoriten";
           divcontainerHeader.appendChild(header);
   
           let br2 = document.createElement("br");
@@ -58,13 +58,13 @@ class Favorites {
  
          let searchField = document.createElement("input");
          searchField.setAttribute("type","text");
-         searchField.setAttribute("placeholder","Suche");
+         searchField.setAttribute("placeholder","Suche einen Film...");
          searchField.setAttribute("class","form-control");
          searchForm.appendChild(searchField);
  
          let searchButton = document.createElement("button");
          searchButton.setAttribute("class","btn btn-search");
-         searchButton.innerHTML="Search";
+         searchButton.innerHTML="Suchen";
          searchForm.appendChild(searchButton);
  
          //Container für Suchergebnisse erzeugen
@@ -91,7 +91,7 @@ class Favorites {
  
              let resultHeader = document.createElement("h3");
              resultHeader.setAttribute("class", "p-3");
-             resultHeader.innerHTML="Result";
+             resultHeader.innerHTML="Ergebnis";
              resultContainer.appendChild(resultHeader);
 
  
@@ -203,7 +203,7 @@ class Favorites {
                                  deleteButton.setAttribute("id","bb"+arrayFavorites[arrayFavorites.length-1].id);
                                  deleteButton.setAttribute("name",arrayFavorites[arrayFavorites.length-1].id);
                                  deleteButton.setAttribute("class","mt-auto btn btn-outline-danger");
-                                 deleteButton.innerHTML="Delete";
+                                 deleteButton.innerHTML="Löschen";
          
                                  contentCardBody.appendChild(deleteButton);
          
@@ -302,7 +302,7 @@ class Favorites {
                  deleteButton.setAttribute("id","bb"+arrayFavorites[i].id);
                  deleteButton.setAttribute("name",arrayFavorites[i].id);
                  deleteButton.setAttribute("class","btn btn-outline-danger mt-auto");
-                 deleteButton.innerHTML="Delete";
+                 deleteButton.innerHTML="Löschen";
  
                  contentCardBody.appendChild(deleteButton);
  
