@@ -494,7 +494,188 @@
     "amazon": "https://www.netflix.com/de/title/80196789",
     "img": "https://imgix.bustle.com/uploads/image/2018/12/11/6b418191-32c5-4426-875e-0264fae7bf7e-24-bird-boxw1200h630.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70",
     "imgGenre": "http://de.web.img2.acsta.net/pictures/18/10/25/14/07/5095709.jpg"
+  },
+  {
+    "id":"56",
+    "title":"300",
+    "genre": "Action",
+    "netflix": "",
+    "amazon": "",
+    "img": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/thumbs/26582/sparta.jpg?crop=1xw:0.6666666666666666xh;center,top&resize=480:*",
+    "imgGenre": "https://d3tudoxwnizvk7.cloudfront.net/keyart-jpeg/300_keyart.jpg"
+  },
+  {
+    "id":"57",
+    "title":"Expendables",
+    "genre": "Action",
+    "netflix": "",
+    "amazon": "",
+    "img": "https://watchcharge.s3.amazonaws.com/uploads/2019/07/expendables.jpg",
+    "imgGenre": "https://resizing.flixster.com/Y5i6l_7LO8a-cGJO1QbWJa-Elyc=/206x305/v1.bTsxMTE3NDQ4ODtqOzE4MzA5OzEyMDA7ODQwOzEyMDA"
+  },
+  {
+    "id":"58",
+    "title":"John Wick",
+    "genre": "Action",
+    "netflix": "",
+    "amazon": "",
+    "img": "https://media1.fdncms.com/clevescene/imager/u/original/30502117/johnwick.jpg",
+    "imgGenre": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/John_Wick_TeaserPoster.jpg/220px-John_Wick_TeaserPoster.jpg"
+  },
+  {
+    "id":"59",
+    "title":"Spiderman Homecoming",
+    "genre": "Action",
+    "netflix": "",
+    "amazon": "",
+    "img": "https://3.bp.blogspot.com/-iGtJ71YQvhQ/WWE6WVu79kI/AAAAAAAASW0/Kd5hoBLWkCgm5FmGrHkJdW5mVGaWD7I3ACLcBGAs/s1600/Spiderman%2Bhomecoming%2Bmovie%2Bposter.jpg",
+    "imgGenre": "http://cdn.shopify.com/s/files/1/1402/3931/products/spidermanhomecoming_001de608-9d83-4ba7-9076-865f4e319cfa_1024x1024.jpg?v=1529625258"
+  },
+  {
+    "id":"60",
+    "title":"American Psycho",
+    "genre": "Thriller",
+    "netflix": "",
+    "amazon": "",
+    "img": "https://imgix.bustle.com/uploads/image/2018/10/22/138779d1-0cb7-4159-a31f-e178822fca02-79839-1536048524.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70",
+    "imgGenre": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/American_Psycho.png/220px-American_Psycho.png"
+  },
+  {
+    "id":"61",
+    "title":"Shutter Island",
+    "genre": "Thriller",
+    "netflix": "",
+    "amazon": "",
+    "img": "http://de.web.img3.acsta.net/r_640_360/newsv7/19/01/30/16/20/0295305.jpg",
+    "imgGenre": "https://bryantarchway.com/wp-content/uploads/2019/10/shutter-island.png"
+  },
+  {
+    "id":"62",
+    "title":"Coraline",
+    "genre": "Horror",
+    "netflix": "",
+    "amazon": "",
+    "img": "https://www.indiewire.com/wp-content/uploads/2017/11/coraline.jpg?w=780",
+    "imgGenre": "https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher_170w/public/product-images/csm-movie/coraline-poster.jpg?itok=VjZf7wJx"
+  },
+  {
+    "id":"63",
+    "title":"Life of Pi",
+    "genre": "Abenteuer",
+    "netflix": "",
+    "amazon": "",
+    "img": "https://img.zeit.de/kultur/film/2012-12/life-of-pi-film-szene-1/life-of-pi-film-szene-1-540x304.jpg/imagegroup/wide__820x461__desktop",
+    "imgGenre": "https://upload.wikimedia.org/wikipedia/en/5/57/Life_of_Pi_2012_Poster.jpg"
+  },
+  {
+    "id":"64",
+    "title":"Jaws",
+    "genre": "Thriller",
+    "netflix": "",
+    "amazon": "",
+    "img": "https://www.portsmouthnh.com/wp-content/uploads/2018/07/Jaws-791x445.jpg",
+    "imgGenre": "https://i.etsystatic.com/14804666/r/il/6bfdb7/1163666192/il_570xN.1163666192_renf.jpg"
+  },
+  {
+    "id":"65",
+    "title":"Matrix",
+    "genre": "Sci-Fi",
+    "netflix": "",
+    "amazon": "",
+    "img": "https://d1w8cc2yygc27j.cloudfront.net/313984592419467759/7436124055007480979.jpg",
+    "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/51Q7Psa2ufL.jpg"
+  },
+  {
+    "id":"66",
+    "title":"Guardians of the Galaxy",
+    "genre": "Sci-Fi",
+    "netflix": "",
+    "amazon": "",
+    "img": "https://ae01.alicdn.com/kf/HTB1GR89NFXXXXcyXVXXq6xXFXXXj/Benutzerdefinierte-wall-decor-wandbild-marvel-tapete-guardians-of-the-galaxy-movie-poster-kunstdruck-weihnachtsdekoration.jpg",
+    "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/51T5sJngQLL.jpg"
+  },
+  {
+    "id":"67",
+    "title":"Interstellar",
+    "genre": "Sci-Fi",
+    "netflix": "",
+    "amazon": "",
+    "img": "https://wallpaperstock.net/wallpapers/thumbs1/46588hd.jpg",
+    "imgGenre": "https://www.arthipo.com/image/cache/catalog/genel-tasarim/all-posters/sinema-cinema-film-postersleri/yabanci-filmler/pfilm716-interstellar_a074ce1f-movie-film-posteri-1000x1000.jpg"
+  },
+  {
+    "id":"68",
+    "title":"Fluch der Karibik",
+    "genre": "Abenteuer",
+    "netflix": "",
+    "amazon": "",
+    "img": "https://i3-img.sat1.de/pis/ezone/36a0qgELB38wdEB-ZftQHfHFPn4ON1n0D0sNVdvuyQ07PgOtj8YtsJeGGXwtKYL9d_a4pIZBb4Apai0oXr2hrjT8Baf7C7igSmw/profile:mag-996x562",
+    "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/51nfiEMEumL._SY450_.jpg"
+  },
+  {
+    "id":"69",
+    "title":"Gravity",
+    "genre": "Sci-Fi",
+    "netflix": "",
+    "amazon": "",
+    "img": "https://pmcvariety.files.wordpress.com/2013/10/gravity-movie-7.jpg?w=1000",
+    "imgGenre": "https://m.media-amazon.com/images/M/MV5BNjE5MzYwMzYxMF5BMl5BanBnXkFtZTcwOTk4MTk0OQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "id":"70",
+    "title":"Shrek",
+    "genre": "Family",
+    "netflix": "",
+    "amazon": "",
+    "img": "https://cdn.cinematerial.com/p/500x/7mwryntt/shrek-british-movie-poster.jpg?v=1456683190",
+    "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/41mSRxM16mL.jpg"
+  },
+  {
+    "id":"71",
+    "title":"Scream",
+    "genre": "Horror",
+    "netflix": "",
+    "amazon": "",
+    "img": "https://cdn2us.denofgeek.com/sites/denofgeekus/files/styles/main_wide/public/scream_2.jpg?itok=G6ZHZNOZ",
+    "imgGenre": "https://images-na.ssl-images-amazon.com/images/I/51cZ5AgzBPL.jpg"
+  },
+  {
+    "id":"72",
+    "title":"Don't Breathe",
+    "genre": "Horror",
+    "netflix": "",
+    "amazon": "",
+    "img": "https://media.newyorker.com/photos/59097a0a1c7a8e33fb38ff11/master/w_727,c_limit/Tolentino-Twisted-Appeal-of-Dont-Breathe.jpg",
+    "imgGenre": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Don%27t_Breathe_%282016_film%29.png/220px-Don%27t_Breathe_%282016_film%29.png"
+  },
+  {
+    "id":"73",
+    "title":"Shape of Water",
+    "genre": "Drama",
+    "netflix": "",
+    "amazon": "",
+    "img": "https://cdn-static.denofgeek.com/sites/denofgeek/files/styles/main_wide/public/2018/02/shape-of-water.jpg?itok=zuI7FsZr",
+    "imgGenre": "http://de.web.img3.acsta.net/c_215_290/pictures/17/12/13/11/13/2830051.jpg"
+  },
+  {
+    "id":"74",
+    "title":"Die Schöne und das Biest",
+    "genre": "Fantasy",
+    "netflix": "",
+    "amazon": "",
+    "img": "https://4001reviews.de/wp-content/uploads/2017/03/Titelbild-zur-Film-Kritik-an-Die-Scho%CC%88ne-und-das-Biest-mit-Emma-Watson.jpg",
+    "imgGenre": "http://de.web.img3.acsta.net/c_215_290/pictures/17/01/16/11/39/352492.jpg"
+  },
+  {
+    "id":"75",
+    "title":"Coco",
+    "genre": "Familie",
+    "netflix": "",
+    "amazon": "",
+    "img": "https://www.tagesspiegel.de/images/heprodimagesfotos86320171130coco_3695_1_20171129111355879-jpg/20648454/4-format6001.jpg?inIsFirst=true",
+    "imgGenre": "https://upload.wikimedia.org/wikipedia/en/9/98/Coco_%282017_film%29_poster.jpg"
   }
+  
 
 
 ]
