@@ -13,21 +13,6 @@ class Watchlist {
 
         onShow() {
 
-       /*let test=[
-           {
-               "id":"1",
-               "name":"Name"
-           },
-           {
-               "id":"2",
-               "name":"namee"
-           }
-       ]
-
-            var str = JSON.stringify(test);
-            console.log("stringified: "+str);
-            var parsed=JSON.parse(str);
-            console.log("parsed: "+parsed[1].id);*/
 
         let container = document.createElement("div");
         container.innerHTML = watchlist.trim();
@@ -374,16 +359,7 @@ class Watchlist {
                     var movieId = e.target.name;
                     for (var i = 0; i < movies.length; i++) {
                         if (movies[i].id == movieId) {
-                            console.log(i);
-                            //arrayWatchlist.push(movies[i].title);//§ hier ohne title
-                            //localStorage.setItem("items2", JSON.stringify(arrayWatchlist));
-                            //console.log(arrayWatchlist);
-                            //console.log("delete: "+movies[i].title);
-                            //console.log("deleteELEMENT: "+currentDelB.parentNode.parentNode.parentNode);
-                            console.log("e.target.name= "+e.target.name);
-                            console.log("arrayWatchlist[i].id= "+arrayWatchlist);
 
-                            console.log("kakakakaakaakak");
                             contentRow.removeChild(e.target.parentNode.parentNode);
 
                             for (var i=0; i<arrayWatchlist.length;i++){

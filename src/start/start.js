@@ -102,10 +102,6 @@ class Start {
 
 
 
-                    /* let resCol= document.createElement("div");
-                    resCol.setAttribute("class","col");
-                    resultRow.appendChild(resCol); */
-
                     let resCard = document.createElement("div");
                     resCard.setAttribute("class","card");
                     resCard.setAttribute("style","width: 15rem; background: rgba(0,0,0, 0.5)");
