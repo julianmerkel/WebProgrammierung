@@ -86,6 +86,15 @@ footer {
     border-color: black;
 }
 
+.start .input-group {
+    width: 100%;   
+ }
+
+.start .form-control {
+    color:aliceblue; 
+    background: rgba(255, 255, 255, 0.4);
+ }
+
 .start .form-control::-webkit-input-placeholder { color: black; }  /* WebKit, Blink, Edge */
 .start .form-control:-moz-placeholder { color: black; }  /* Mozilla Firefox 4 to 18 */
 .start .form-control::-moz-placeholder { color: black; }  /* Mozilla Firefox 19+ */

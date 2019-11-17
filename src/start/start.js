@@ -38,7 +38,6 @@ class Start {
         let searchField = document.createElement("input");
         searchField.setAttribute("type","text");
         searchField.setAttribute("placeholder","Suche einen Film...");
-        searchField.setAttribute("style","color:aliceblue; background: rgba(255, 255, 255, 0.3)");
         searchField.setAttribute("class","form-control");
         searchForm.appendChild(searchField);
 
