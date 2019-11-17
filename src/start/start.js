@@ -91,7 +91,7 @@ class Start {
             var foundone=false;
 
             for (var i =0; i<movies.length; i++){
-                if(movies[i].title.includes(resultMovie)&&resultMovie!=""){
+                if(movies[i].title.toUpperCase().includes(resultMovie.toUpperCase())&&resultMovie!=""){
                     foundone=true;
                     console.log("if");
                     console.log("icludes!");
