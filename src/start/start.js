@@ -25,127 +25,6 @@ class Start {
         this._quiz = section.querySelector("#start > main > div> #roundedCont > #carouselExampleIndicators > #inner > #quiz");
 
 
-
-        //Carousell
-        /*
-        let carouselSlide = document.createElement("div");
-        carouselSlide.setAttribute("id","carouselExampleIndicators");
-        carouselSlide.setAttribute("class","carousel slide");
-        carouselSlide.setAttribute("data-ride","carousel");
-        this._start.appendChild(carouselSlide);
-
-        let carouselIndicators = document.createElement("ol");
-        carouselIndicators.setAttribute("class","carousel-indicators");
-        carouselSlide.appendChild(carouselIndicators);
-
-        let li1 = document.createElement("li");
-        li1.setAttribute("data-target","#carouselExampleIndicators");
-        li1.setAttribute("data-slide-to","0");
-        li1.setAttribute("class","active");
-
-        let li2 = document.createElement("li");
-        li2.setAttribute("data-target","#carouselExampleIndicators");
-        li2.setAttribute("data-slide-to","1");
-
-        let li3 = document.createElement("li");
-        li3.setAttribute("data-target","#carouselExampleIndicators");
-        li3.setAttribute("data-slide-to","2");
-
-        carouselIndicators.appendChild(li1);
-        carouselIndicators.appendChild(li2);
-        carouselIndicators.appendChild(li3);
-
-        let carouselInner = document.createElement("div");
-        carouselInner.setAttribute("class","carousel-inner");
-        carouselSlide.appendChild(carouselInner);
-
-        let carouselItemActive = document.createElement("div");
-        carouselItemActive.setAttribute("class","carousel-item active");
-        carouselInner.appendChild(carouselItemActive);
-
-        let img1 = document.createElement("img");
-        img1.setAttribute("class","d-block w-100");
-        img1.setAttribute("src","../../img/a4.jpg");
-        img1.setAttribute("style","height: 290px; filter:brightness(60%)");
-        img1.setAttribute("alt","Schau dir deine Lieblingsfilme an");
-        carouselItemActive.appendChild(img1);
-
-        let carouselCaption1 = document.createElement("div");
-        carouselCaption1.setAttribute("class","carousel-caption d-none d-md-block");
-        carouselItemActive.appendChild(carouselCaption1);
-
-        let h_1 = document.createElement("h3");
-        h_1.innerHTML="Schau dir einen Deiner Lieblingsfilme an.";
-        carouselCaption1.appendChild(h_1);
-
-        let carouselItem2 = document.createElement("div");
-        carouselItemActive.setAttribute("class","carousel-item");
-        carouselInner.appendChild(carouselItem2);
-
-        let img2 = document.createElement("img");
-        img2.setAttribute("class","d-block w-100");
-        img2.setAttribute("src","../../img/a4.jpg");
-        img2.setAttribute("style","height: 290px; filter:brightness(60%)");
-        img2.setAttribute("alt","Schau dir einen Film von Deiner Watchlist an.");
-        carouselItem2.appendChild(img2);
-
-        let carouselCaption2 = document.createElement("div");
-        carouselCaption2.setAttribute("class","carousel-caption d-none d-md-block");
-        carouselItem2.appendChild(carouselCaption2);
-
-        let h_2 = document.createElement("h3");
-        h_2.innerHTML="Schau dir einen Film von Deiner Watchlist an.";
-        carouselCaption2.appendChild(h_2);
-
-        let carouselItem3 = document.createElement("div");
-        carouselItem3.setAttribute("class","carousel-item");
-        carouselInner.appendChild(carouselItem3);
-
-        let img3 = document.createElement("img");
-        img3.setAttribute("class","d-block w-100");
-        img3.setAttribute("src","../../img/a4.jpg");
-        img3.setAttribute("style","height: 290px; filter:brightness(60%)");
-        img3.setAttribute("alt","Mach ein Quiz.");
-        carouselItem3.appendChild(img3);
-
-        let carouselCaption3 = document.createElement("div");
-        carouselCaption3.setAttribute("class","carousel-caption d-none d-md-block");
-        carouselItem3.appendChild(carouselCaption3);
-
-        let h_3 = document.createElement("h3");
-        h_3.innerHTML="Mach ein Quiz.";
-        carouselCaption3.appendChild(h_3);
-
-        let aPrev = document.createElement("a");
-        aPrev.setAttribute("class","carousel-control-prev");
-        aPrev.setAttribute("href","#carouselExampleIndicators");
-        aPrev.setAttribute("role","button");
-        aPrev.setAttribute("data-slide","prev");
-        carouselInner.appendChild(aPrev);
-        let prevSpan1= document.createElement("span");
-        prevSpan1.setAttribute("class","carousel-control-prev-icon");
-        prevSpan1.setAttribute("aria-hidden","true");
-        aPrev.appendChild(prevSpan1);
-        let prevSpan2 = document.createElement("span");
-        prevSpan2.setAttribute("class","sr-only");
-        prevSpan2.innerHTML="Previous";
-        aPrev.appendChild(prevSpan2);
-
-        let aNext = document.createElement("a");
-        aNext.setAttribute("class","carousel-control-next");
-        aNext.setAttribute("href","#carouselExampleIndicators");
-        aNext.setAttribute("role","button");
-        aNext.setAttribute("data-slide","next");
-        carouselInner.appendChild(aNext);
-        let nextSpan1= document.createElement("span");
-        nextSpan1.setAttribute("class","carousel-control-next-icon");
-        nextSpan1.setAttribute("aria-hidden","true");
-        aNext.appendChild(nextSpan1);
-        let nextSpan2 = document.createElement("span");
-        nextSpan2.setAttribute("class","sr-only");
-        nextSpan2.innerHTML="Next";
-        aNext.appendChild(nextSpan2);*/
-
         //Search
         let divcontainerSearch = document.createElement("div");
         divcontainerSearch.setAttribute("class","p-2 rounded container");
@@ -409,11 +288,25 @@ class Start {
 
 
 
-        var randomF = Math.floor(Math.random() * arrayFavorites.length);
-        var randomW = Math.floor(Math.random() * arrayWatchlist.length);
 
-        var iFavorite = arrayFavorites[randomF].img;
-        var iWatchlist = arrayWatchlist[randomW].img;
+
+
+        if(arrayWatchlist.length<1){
+            var iWatchlist = "https://alltimelists.com/wp-content/uploads/2019/09/Background-of-Every-Movie-812x464.jpg";
+        }else{
+            var randomW = Math.floor(Math.random() * arrayWatchlist.length);
+            var iWatchlist = arrayWatchlist[randomW].img;
+        }
+
+        if(arrayFavorites.length<1){
+            var iFavorite ="https://alltimelists.com/wp-content/uploads/2019/09/Background-of-Every-Movie-812x464.jpg";
+        }else{
+            var randomF = Math.floor(Math.random() * arrayFavorites.length);
+            var iFavorite = arrayFavorites[randomF].img;
+        }
+
+
+
         var iQuiz="https://www.hamburg-zwei.de/var/ezflow_site/storage/images/media/images/quiz-time/58572582-2-ger-DE/Quiz-Time_slider_rs.jpg";
 
 
