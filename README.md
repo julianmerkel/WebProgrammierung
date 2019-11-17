@@ -1,5 +1,3 @@
-# test-project
+# Movietracker
 
-## Beschreibung
-
-das ist ein test
+Wenn die Seite nicht richtig geladen wird: Hard Reload durchführen.
