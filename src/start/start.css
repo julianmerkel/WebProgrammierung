@@ -85,3 +85,9 @@ footer {
     text-align: center;
     border-color: black;
 }
+
+.start .form-control::-webkit-input-placeholder { color: black; }  /* WebKit, Blink, Edge */
+.start .form-control:-moz-placeholder { color: black; }  /* Mozilla Firefox 4 to 18 */
+.start .form-control::-moz-placeholder { color: black; }  /* Mozilla Firefox 19+ */
+.start .form-control:-ms-input-placeholder { color: black; }  /* Internet Explorer 10-11 */
+.start .form-control::-ms-input-placeholder { color: black; }  /* Microsoft Edge */
