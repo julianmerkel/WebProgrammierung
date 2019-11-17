@@ -86,13 +86,16 @@ class Detail {
         let resultAmazon = document.createElement("a");
         resultAmazon.setAttribute("class", "h5");
         resultAmazon.setAttribute("href", filmObject.amazon);
+        resultAmazon.setAttribute("target","_blank");
         resultAmazon.innerHTML = "Amazon:     Unter diesem Link verfügbar";
+        resultAmazon.setAttribute("style","background-color: rgb(138, 43, 226,0.4)");
         resultInformation.appendChild(resultAmazon);
 
         
             if(filmObject.amazon == ""){
                 resultAmazon.setAttribute("class", "h5 disable");
                 resultAmazon.innerHTML = "Amazon:   Leider nicht verfügbar";
+                resultAmazon.setAttribute("style","color:grey");
             }
 
             
@@ -106,13 +109,16 @@ class Detail {
         let resultNetflix = document.createElement("a");
         resultNetflix.setAttribute("class", "h5");
         resultNetflix.setAttribute("href", filmObject.netflix);
+        resultNetflix.setAttribute("target","_blank");
         resultNetflix.innerHTML = "Netflix:     Unter diesem Link verfügbar";
+        resultNetflix.setAttribute("style","background-color: rgb(138, 43, 226,0.4)");
         resultInformation.appendChild(resultNetflix);
     
             
         if(filmObject.netflix == ""){
             resultNetflix.setAttribute("class", "h5 disable");
             resultNetflix.innerHTML = "Netflix:   Leider nicht verfügbar";
+            resultNetflix.setAttribute("style","color:grey");
         }
          
 
